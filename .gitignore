@@ -1,0 +1,3 @@
+venv
+# Ignore copies of older runs cvreated by renode
+*.[0-9]
