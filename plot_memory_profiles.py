@@ -60,34 +60,61 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
 
     # Plot for Bytes in Use
     axs[0].plot(best_bytes_requested, best_bytes_in_use, label="Best Fit - Bytes in Use", marker=',', color='blue')
-    axs[0].plot(next_bytes_requested, next_bytes_in_use, label="Next Fit - Bytes in Use", marker=',', color='blue', linestyle="dotted")
+    if args.separate_axis:
+        ax2 = axs[0].twinx()
+        color="tab:blue"
+        ax2.tick_params(axis="y", labelcolor=color)
+        ax2.set_ylabel('Next Fit - Bytes in Use')
+        ax2.plot(next_bytes_requested, next_bytes_in_use, label="Next Fit - Bytes in Use", marker=',', color='blue', linestyle="dotted")
+        axs[0].set_ylabel('Best Fit - Bytes in Use')
+    else:
+        axs[0].plot(next_bytes_requested, next_bytes_in_use, label="Next Fit - Bytes in Use", marker=',', color='blue', linestyle="dotted")
+        axs[0].set_ylabel('Bytes in Use')
     axs[0].set_xlabel('Bytes Requested')
-    axs[0].set_ylabel('Bytes in Use')
     axs[0].set_title('Bytes in Use vs. Bytes Requested')
     axs[0].grid(True)
     axs[0].legend()
 
     # Plot for LHS Fragmentation
     axs[1].plot(best_bytes_requested, best_lhs_fragmentation, label="Best Fit - LHS Fragmentation", marker=',', color='red')
-    axs[1].plot(next_bytes_requested, next_lhs_fragmentation, label="Next Fit - LHS Fragmentation", marker=',', color='red', linestyle="dotted")
+    if args.separate_axis:
+        ax2 = axs[1].twinx()
+        color="tab:blue"
+        ax2.tick_params(axis="y", labelcolor=color)
+        ax2.set_ylabel('Next Fit - LHS Fragmentation')
+        ax2.plot(next_bytes_requested, next_lhs_fragmentation, label="Next Fit - LHS Fragmentation", marker=',', color='red', linestyle="dotted")
+        axs[1].set_ylabel('Best Fit - LHS Fragmentation')
+    else:
+        axs[1].plot(next_bytes_requested, next_lhs_fragmentation, label="Next Fit - LHS Fragmentation", marker=',', color='red', linestyle="dotted")
+        axs[1].set_ylabel('LHS Fragmentation')
     axs[1].set_xlabel('Bytes Requested')
-    axs[1].set_ylabel('LHS Fragmentation')
     axs[1].set_title('LHS Fragmentation vs. Bytes Requested')
     axs[1].grid(True)
     axs[1].legend()
 
     # Plot for In-Between Fragmentation
     axs[2].plot(best_bytes_requested, best_in_between_fragmentation, label="Best Fit - In-Between Fragmentation", marker=',', color='green')
-    axs[2].plot(next_bytes_requested, next_in_between_fragmentation, label="Next Fit - In-Between Fragmentation", marker=',', color='green', linestyle="dotted")
+    if args.separate_axis:
+        ax2 = axs[2].twinx()
+        color="tab:blue"
+        ax2.tick_params(axis="y", labelcolor=color)
+        ax2.set_ylabel('Next Fit - In-Between Fragmentation')
+        ax2.plot(next_bytes_requested, next_in_between_fragmentation, label="Next Fit - In-Between Fragmentation", marker=',', color='green', linestyle="dotted")
+        axs[2].set_ylabel('Best Fit - In-Between Fragmentation')
+    else:
+        axs[2].plot(next_bytes_requested, next_in_between_fragmentation, label="Next Fit - In-Between Fragmentation", marker=',', color='green', linestyle="dotted")
+        axs[2].set_ylabel('In-Between Fragmentation')
     axs[2].set_xlabel('Bytes Requested')
-    axs[2].set_ylabel('In-Between Fragmentation')
     axs[2].set_title('In-Between Fragmentation vs. Bytes Requested')
     axs[2].grid(True)
     axs[2].legend()
 
     plt.tight_layout()
     makedirs(args.output_dir, exist_ok=True)
-    plt.savefig(Path(args.output_dir) / Path(f"{Path(args.best_fit_log_file).name.split('.')[-2]}.png"))
+    if args.separate_axis:
+        plt.savefig(Path(args.output_dir) / Path(f"SEP_{Path(args.best_fit_log_file).name.split('.')[-2]}.png"))
+    else:
+        plt.savefig(Path(args.output_dir) / Path(f"{Path(args.best_fit_log_file).name.split('.')[-2]}.png"))
     plt.show()
 
 def parse_args() -> argparse.Namespace:
@@ -113,6 +140,11 @@ def parse_args() -> argparse.Namespace:
             type=str,
             default="./plots/memory_profiles",
             help="Path pointing to dir in which the resulting plot will be saved.",
+            )
+    parser.add_argument(
+            "--separate_axis",
+            action="store_true",
+            help="If set, will plot LHS and in-between fragmentation on separate axis, to see both Best fit and Next fit patterns if scale is too large.",
             )
 
     args = parser.parse_args()
