@@ -60,16 +60,8 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
 
     # Plot for Bytes in Use
     axs[0].plot(best_bytes_requested, best_bytes_in_use, label="Best Fit - Bytes in Use", marker=',', color='blue')
-    if args.separate_axis:
-        ax2 = axs[0].twinx()
-        color="tab:blue"
-        ax2.tick_params(axis="y", labelcolor=color)
-        ax2.set_ylabel('Next Fit - Bytes in Use')
-        ax2.plot(next_bytes_requested, next_bytes_in_use, label="Next Fit - Bytes in Use", marker=',', color='blue', linestyle="dotted")
-        axs[0].set_ylabel('Best Fit - Bytes in Use')
-    else:
-        axs[0].plot(next_bytes_requested, next_bytes_in_use, label="Next Fit - Bytes in Use", marker=',', color='blue', linestyle="dotted")
-        axs[0].set_ylabel('Bytes in Use')
+    axs[0].plot(next_bytes_requested, next_bytes_in_use, label="Next Fit - Bytes in Use", marker=',', color='blue', linestyle="dotted")
+    axs[0].set_ylabel('Bytes in Use')
     axs[0].set_xlabel('Bytes Requested')
     axs[0].set_title('Bytes in Use vs. Bytes Requested')
     axs[0].grid(True)
