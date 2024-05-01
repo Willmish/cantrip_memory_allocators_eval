@@ -3,6 +3,7 @@ import numpy as np
 import json
 import argparse
 from pathlib import Path
+from os import makedirs
 
 def process_lines_from_file(file_path: str):
     with open(file_path, 'r') as file:
@@ -74,7 +75,8 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
         print(f"Best fit: No. failed UntypedRetype invocations: {best_data[i]['untyped_too_small']}, Out of Memory thrown: {best_data[i]['oom']}")
         print(f"Next fit: No. failed UntypedRetype invocations: {next_data[i]['untyped_too_small']}, Out of Memory thrown: {next_data[i]['oom']}")
     plt.tight_layout()
-    plt.savefig(f"{Path(args.best_fit_log_file).name.split('.')[-2]}.png")
+    makedirs(args.output_dir, exist_ok=True)
+    plt.savefig(Path(args.output_dir) / Path(f"{Path(args.best_fit_log_file).name.split('.')[-2]}.png"))
     plt.show()
 
 def parse_args() -> argparse.Namespace:
@@ -95,6 +97,12 @@ def parse_args() -> argparse.Namespace:
             required=True,
             help="Path to the log file produced by the robot script, running the workload on CantripOS using Next Fit allocation strategy.",
             )
+    parser.add_argument(
+            "--output_dir",
+            type=str,
+            default="./plots/memory_stats",
+            help="Path pointing to dir in which the resulting plot will be saved.",
+            )
     args = parser.parse_args()
 
     return args
@@ -108,5 +116,5 @@ if __name__ == "__main__":
     best_data = process_lines_from_file(file_path_best_fit)
     next_data = process_lines_from_file(file_path_next_fit)
     print("plotting...")
-    plot_metrics(best_data, next_data, args)
+    plot_metrics(best_data=best_data, next_data=next_data, args=args)
 
