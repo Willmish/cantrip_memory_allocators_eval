@@ -40,29 +40,39 @@ def process_lines_from_file(file_path: str):
 
     return data
 
-def plot_metrics(data, args: argparse.Namespace):
+def plot_metrics(best_data, next_data, args: argparse.Namespace):
     # Plotting
     fig, axs = plt.subplots(4, figsize=(10, 15))
 
-    bar_width = 0.5
-    index = np.arange(len(data[0]["lhs_fragmentation_per_slab"]))
+    bar_width = 0.4
+    patterns = ['/', '\\']
+    index = np.arange(len(best_data[0]["lhs_fragmentation_per_slab"]))
 
-    for i, row in enumerate(data):
-        (lhs, in_between, occupied, available) = row["lhs_fragmentation_per_slab"], row["in_between_fragmentation_per_slab"], row["occupied_memory_per_slab"], row["available_space_per_slab"]
-        axs[i].bar(index, available, width=bar_width, label='available_space', color='tab:brown')
-        axs[i].bar(index, occupied, width=bar_width, label='occupied_memory', color='tab:blue')
-        axs[i].bar(index, lhs, width=bar_width, label='lhs_fragmentation', color='tab:red')
-        axs[i].bar(index, in_between, bottom=lhs, width=bar_width, label='in_between_fragmentation', color='tab:orange')
+    for i in range(4):
+        row_best, row_next = best_data[i], next_data[i]
+        (best_lhs, best_in_between, best_occupied, best_available) = row_best["lhs_fragmentation_per_slab"], row_best["in_between_fragmentation_per_slab"], row_best["occupied_memory_per_slab"], row_best["available_space_per_slab"]
+        (next_lhs, next_in_between, next_occupied, next_available) = row_next["lhs_fragmentation_per_slab"], row_next["in_between_fragmentation_per_slab"], row_next["occupied_memory_per_slab"], row_next["available_space_per_slab"]
+        
+        axs[i].bar(index-bar_width/2, best_available, width=bar_width, label='Best Fit - available space', color='tab:brown', hatch=patterns[0])
+        axs[i].bar(index-bar_width/2, best_occupied, width=bar_width, label='Best Fit - occupied_memory', color='tab:blue', hatch=patterns[0])
+        axs[i].bar(index-bar_width/2, best_lhs, width=bar_width, label='Best Fit - lhs_fragmentation', color='tab:red',hatch=patterns[0])
+        axs[i].bar(index-bar_width/2, best_in_between, bottom=best_lhs, width=bar_width, label='Best Fit - in_between_fragmentation', color='tab:orange', hatch=patterns[0])
 
-        axs[i].set_title(f"Memory slab status after {data[i]['idx']} alloc/dealloc operations")
+        axs[i].bar(index+bar_width/2, next_available, width=bar_width, label='Next Fit - available space', color='tab:brown', hatch=patterns[1])
+        axs[i].bar(index+bar_width/2, next_occupied, width=bar_width, label='Next Fit - occupied_memory', color='tab:blue', hatch=patterns[1])
+        axs[i].bar(index+bar_width/2, next_lhs, width=bar_width, label='Next Fit - lhs_fragmentation', color='tab:red',hatch=patterns[1])
+        axs[i].bar(index+bar_width/2, next_in_between, bottom=next_lhs, width=bar_width, label='Next Fit - in_between_fragmentation', color='tab:orange', hatch=patterns[1])
+        axs[i].set_title(f"Memory slab status after {best_data[i]['idx']} alloc/dealloc operations")
         axs[i].set_xlabel("Slab")
         axs[i].set_ylabel("Memory")
         axs[i].legend()
 
         axs[i].set_yscale('log', base=2)
         axs[i].set_xticks(index)
-        axs[i].set_xticklabels(range(1, len(lhs)+1))
-        print(f"Best fit: No. failed UntypedRetype invocations: {data[i]['untyped_too_small']}, Out of Memory thrown: {data[i]['oom']}")
+        axs[i].set_xticklabels(range(1, len(best_lhs)+1))
+
+        print(f"Best fit: No. failed UntypedRetype invocations: {best_data[i]['untyped_too_small']}, Out of Memory thrown: {best_data[i]['oom']}")
+        print(f"Next fit: No. failed UntypedRetype invocations: {next_data[i]['untyped_too_small']}, Out of Memory thrown: {next_data[i]['oom']}")
     plt.tight_layout()
     plt.savefig(f"{Path(args.best_fit_log_file).name.split('.')[-2]}.png")
     plt.show()
@@ -95,7 +105,8 @@ if __name__ == "__main__":
     file_path_next_fit = args.next_fit_log_file
 
     # TODO: also plot for next fit, next to best fit
-    data = process_lines_from_file(file_path_best_fit)
+    best_data = process_lines_from_file(file_path_best_fit)
+    next_data = process_lines_from_file(file_path_next_fit)
     print("plotting...")
-    plot_metrics(data, args)
+    plot_metrics(best_data, next_data, args)
 
