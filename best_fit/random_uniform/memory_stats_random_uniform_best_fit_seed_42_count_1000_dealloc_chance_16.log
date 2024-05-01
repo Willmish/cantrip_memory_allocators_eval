@@ -1,0 +1,646 @@
+00:02:40.8004 [INFO] uart5: [output] CANTRIP> [scantrip_memory_manager::memory_manager::Untyped describe: seL4_Untyped_Describe { error: 2, remainingBytes: 229376, sizeBits: 19 }
+00:02:40.8005 [INFO] uart5: [virt:  2.01s (+0.7ms)] CANTRIP> [scantrip_memory_manager::memory_manager::Untyped describe: seL4_Untyped_Describe { error: 2, remainingBytes: 229376, sizeBits: 19 }
+00:02:40.8030 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::find_best_slab: remaining: 229376, ut sizebits: 19, ut size: 524288. size_bits 18
+00:02:40.8031 [INFO] uart5: [virt:  2.02s (+0.3ms)] cantrip_memory_manager::memory_manager::find_best_slab: remaining: 229376, ut sizebits: 19, ut size: 524288. size_bits 18
+00:02:40.8046 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Alignment: 32768
+00:02:40.8046 [INFO] uart5: [virt:  2.02s (+0.2ms)] cantrip_memory_manager::memory_manager::Alignment: 32768
+00:02:40.8173 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Best slab, free_index 294912, aligned_free_index 294912, slab_size: 32768 best_bits: 15
+00:02:40.8174 [INFO] uart5: [virt:  2.02s (+0.4ms)] cantrip_memory_manager::memory_manager::Best slab, free_index 294912, aligned_free_index 294912, slab_size: 32768 best_bits: 15
+00:02:40.8230 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Align slab split! cptr: 78 paddr base: 672956416 paddr top: 672989184
+00:02:40.8231 [INFO] uart5: [virt:  2.02s (+0.3ms)] cantrip_memory_manager::memory_manager::Align slab split! cptr: 78 paddr base: 672956416 paddr top: 672989184
+00:02:40.8249 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::find_best_slab: remaining: 196608, ut sizebits: 19, ut size: 524288. size_bits 18
+00:02:40.8249 [INFO] uart5: [virt:  2.02s (+0.3ms)] cantrip_memory_manager::memory_manager::find_best_slab: remaining: 196608, ut sizebits: 19, ut size: 524288. size_bits 18
+00:02:40.8264 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Alignment: 65536
+00:02:40.8265 [INFO] uart5: [virt:  2.02s (+0.3ms)] cantrip_memory_manager::memory_manager::Alignment: 65536
+00:02:40.8284 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Best slab, free_index 327680, aligned_free_index 327680, slab_size: 65536 best_bits: 16
+00:02:40.8285 [INFO] uart5: [virt:  2.02s (+0.3ms)] cantrip_memory_manager::memory_manager::Best slab, free_index 327680, aligned_free_index 327680, slab_size: 65536 best_bits: 16
+00:02:40.8338 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Align slab split! cptr: 79 paddr base: 672989184 paddr top: 673054720
+00:02:40.8338 [INFO] uart5: [virt:  2.02s (+0.3ms)] cantrip_memory_manager::memory_manager::Align slab split! cptr: 79 paddr base: 672989184 paddr top: 673054720
+00:02:40.8358 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::find_best_slab: remaining: 131072, ut sizebits: 19, ut size: 524288. size_bits 18
+00:02:40.8359 [INFO] uart5: [virt:  2.02s (+0.4ms)] cantrip_memory_manager::memory_manager::find_best_slab: remaining: 131072, ut sizebits: 19, ut size: 524288. size_bits 18
+00:02:40.8373 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Alignment: 131072
+00:02:40.8398 [INFO] uart5: [virt:  2.02s (+0.2ms)] cantrip_memory_manager::memory_manager::Alignment: 131072
+00:02:40.8425 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Best slab, free_index 393216, aligned_free_index 393216, slab_size: 131072 best_bits: 17
+00:02:40.8426 [INFO] uart5: [virt:  2.02s (+0.4ms)] cantrip_memory_manager::memory_manager::Best slab, free_index 393216, aligned_free_index 393216, slab_size: 131072 best_bits: 17
+00:02:40.8445 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Align slab split! cptr: 80 paddr base: 673054720 paddr top: 673185792
+00:02:40.8445 [INFO] uart5: [virt:  2.02s (+0.3ms)] cantrip_memory_manager::memory_manager::Align slab split! cptr: 80 paddr base: 673054720 paddr top: 673185792
+00:02:40.8465 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::find_best_slab: remaining: 0, ut sizebits: 19, ut size: 524288. size_bits 18
+00:02:40.8492 [INFO] uart5: [virt:  2.02s (+0.3ms)] cantrip_memory_manager::memory_manager::find_best_slab: remaining: 0, ut sizebits: 19, ut size: 524288. size_bits 18
+00:02:40.8527 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Untyped slab after filling: seL4_Untyped_Describe { error: 2, remainingBytes: 0, sizeBits: 19 }
+00:02:40.8528 [INFO] uart5: [virt:  2.02s (+0.4ms)] cantrip_memory_manager::memory_manager::Untyped slab after filling: seL4_Untyped_Describe { error: 2, remainingBytes: 0, sizeBits: 19 }
+00:02:40.8699 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 58 Base pptr: 671612928 top pptr: 672137216
+00:02:40.8700 [INFO] uart5: [virt:  2.03s (+6.1ms)] cantrip_memory_manager::memory_manager::Slab: 58 Base pptr: 671612928 top pptr: 672137216
+00:02:40.8732 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 65 Base pptr: 674234368 top pptr: 674758656
+00:02:40.8733 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 65 Base pptr: 674234368 top pptr: 674758656
+00:02:40.8762 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 57 Base pptr: 671350784 top pptr: 671612928
+00:02:40.8763 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 57 Base pptr: 671350784 top pptr: 671612928
+00:02:40.8813 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 66 Base pptr: 674758656 top pptr: 675020800
+00:02:40.8814 [INFO] uart5: [virt:  2.03s (+0.2ms)] cantrip_memory_manager::memory_manager::Slab: 66 Base pptr: 674758656 top pptr: 675020800
+00:02:40.8831 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 62 Base pptr: 672399360 top pptr: 672661504
+00:02:40.8831 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 62 Base pptr: 672399360 top pptr: 672661504
+00:02:40.8848 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 80 Base pptr: 673054720 top pptr: 673185792
+00:02:40.8848 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 80 Base pptr: 673054720 top pptr: 673185792
+00:02:40.8865 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 56 Base pptr: 671219712 top pptr: 671350784
+00:02:40.8866 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 56 Base pptr: 671219712 top pptr: 671350784
+00:02:40.8892 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 67 Base pptr: 675020800 top pptr: 675151872
+00:02:40.8893 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 67 Base pptr: 675020800 top pptr: 675151872
+00:02:40.8962 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 61 Base pptr: 672268288 top pptr: 672399360
+00:02:40.8964 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 61 Base pptr: 672268288 top pptr: 672399360
+00:02:40.8995 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 60 Base pptr: 672202752 top pptr: 672268288
+00:02:40.8997 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 60 Base pptr: 672202752 top pptr: 672268288
+00:02:40.9063 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 79 Base pptr: 672989184 top pptr: 673054720
+00:02:40.9064 [INFO] uart5: [virt:  2.03s (+0.2ms)] cantrip_memory_manager::memory_manager::Slab: 79 Base pptr: 672989184 top pptr: 673054720
+00:02:40.9098 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 59 Base pptr: 672137216 top pptr: 672202752
+00:02:40.9099 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 59 Base pptr: 672137216 top pptr: 672202752
+00:02:40.9133 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 68 Base pptr: 675151872 top pptr: 675217408
+00:02:40.9134 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 68 Base pptr: 675151872 top pptr: 675217408
+00:02:40.9202 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 78 Base pptr: 672956416 top pptr: 672989184
+00:02:40.9204 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 78 Base pptr: 672956416 top pptr: 672989184
+00:02:40.9239 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 75 Base pptr: 675217408 top pptr: 675250176
+00:02:40.9240 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 75 Base pptr: 675217408 top pptr: 675250176
+00:02:40.9301 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 74 Base pptr: 675266560 top pptr: 675282944
+00:02:40.9302 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 74 Base pptr: 675266560 top pptr: 675282944
+00:02:40.9335 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 76 Base pptr: 671088640 top pptr: 671096832
+00:02:40.9336 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 76 Base pptr: 671088640 top pptr: 671096832
+00:02:40.9370 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 55 Base pptr: 671215616 top pptr: 671219712
+00:02:40.9372 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 55 Base pptr: 671215616 top pptr: 671219712
+00:02:40.9439 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 73 Base pptr: 675262464 top pptr: 675266560
+00:02:40.9440 [INFO] uart5: [virt:  2.03s (+0.2ms)] cantrip_memory_manager::memory_manager::Slab: 73 Base pptr: 675262464 top pptr: 675266560
+00:02:40.9471 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 72 Base pptr: 675260416 top pptr: 675262464
+00:02:40.9472 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 72 Base pptr: 675260416 top pptr: 675262464
+00:02:40.9506 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 71 Base pptr: 675259392 top pptr: 675260416
+00:02:40.9507 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 71 Base pptr: 675259392 top pptr: 675260416
+00:02:40.9572 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Slab: 70 Base pptr: 675258880 top pptr: 675259392
+00:02:40.9573 [INFO] uart5: [virt:  2.03s (+0.3ms)] cantrip_memory_manager::memory_manager::Slab: 70 Base pptr: 675258880 top pptr: 675259392
+00:02:40.9603 [INFO] uart5: [output] cantrip_memory_manager::Global memory: 0 allocated 2723584 free, reserved: 114688 kernel 1343488 user
+00:02:40.9604 [INFO] uart5: [virt:  2.03s (+0.4ms)] cantrip_memory_manager::Global memory: 0 allocated 2723584 free, reserved: 114688 kernel 1343488 user
+00:02:40.9870 [INFO] uart5: [output] synthetic_random_alloc 42 1000 16 true best_fit
+00:02:40.9871 [INFO] uart5: [virt:  2.03s (+2.6ms)] synthetic_random_alloc 42 1000 16 true best_fit
+00:02:40.9929 [INFO] uart5: [output] Begin synthetic workload!
+00:02:40.9930 [INFO] uart5: [virt:  2.03s (+0.2ms)] Begin synthetic workload!
+00:02:41.0558 [INFO] uart5: [output] {'idx': 0, 'untyped_too_small': 0, 'oom': 0, 'lhs_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'in_between_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'occupied_memory_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16384, 0, 0, 0, 0, 0, 0], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512]}
+00:02:41.0560 [INFO] uart5: [virt:    2.04s (+9ms)] {'idx': 0, 'untyped_too_small': 0, 'oom': 0, 'lhs_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'in_between_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'occupied_memory_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16384, 0, 0, 0, 0, 0, 0], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512]}
+00:02:41.3020 [INFO] uart5: [output] {'idx': 250, 'untyped_too_small': 0, 'oom': 0, 'lhs_fragmentation_per_slab': [0, 0, 0, 0, 0, 36880, 20512, 4096, 0, 42112, 3120, 288, 512, 16, 0, 4656, 1024, 0, 608, 1552, 528, 0], 'in_between_fragmentation_per_slab': [0, 0, 0, 0, 0, 5840, 10704, 11728, 0, 8784, 25232, 9216, 10176, 3920, 0, 6608, 1936, 0, 1424, 304, 464, 0], 'occupied_memory_per_slab': [0, 0, 24576, 0, 0, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 32], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512]}
+00:02:41.3021 [INFO] uart5: [virt:  2.1s (+60.3ms)] {'idx': 250, 'untyped_too_small': 0, 'oom': 0, 'lhs_fragmentation_per_slab': [0, 0, 0, 0, 0, 36880, 20512, 4096, 0, 42112, 3120, 288, 512, 16, 0, 4656, 1024, 0, 608, 1552, 528, 0], 'in_between_fragmentation_per_slab': [0, 0, 0, 0, 0, 5840, 10704, 11728, 0, 8784, 25232, 9216, 10176, 3920, 0, 6608, 1936, 0, 1424, 304, 464, 0], 'occupied_memory_per_slab': [0, 0, 24576, 0, 0, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 32], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512]}
+00:02:41.5348 [INFO] uart5: [output] {'idx': 500, 'untyped_too_small': 0, 'oom': 0, 'lhs_fragmentation_per_slab': [0, 0, 47664, 35328, 0, 36896, 20672, 8496, 4096, 42880, 29824, 848, 512, 48, 13376, 4656, 1024, 0, 608, 1552, 528, 0], 'in_between_fragmentation_per_slab': [0, 0, 30416, 42768, 45280, 5840, 10704, 11728, 0, 8784, 25232, 9216, 10176, 3920, 2144, 6608, 1936, 0, 1424, 304, 464, 32], 'occupied_memory_per_slab': [0, 0, 262144, 262144, 246272, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512]}
+00:02:41.5349 [INFO] uart5: [virt: 2.16s (+58.4ms)] {'idx': 500, 'untyped_too_small': 0, 'oom': 0, 'lhs_fragmentation_per_slab': [0, 0, 47664, 35328, 0, 36896, 20672, 8496, 4096, 42880, 29824, 848, 512, 48, 13376, 4656, 1024, 0, 608, 1552, 528, 0], 'in_between_fragmentation_per_slab': [0, 0, 30416, 42768, 45280, 5840, 10704, 11728, 0, 8784, 25232, 9216, 10176, 3920, 2144, 6608, 1936, 0, 1424, 304, 464, 32], 'occupied_memory_per_slab': [0, 0, 262144, 262144, 246272, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512]}
+00:02:41.7607 [INFO] uart5: [output] {'idx': 750, 'untyped_too_small': 0, 'oom': 0, 'lhs_fragmentation_per_slab': [1072, 0, 48192, 44096, 29200, 36896, 21264, 9040, 4096, 42912, 33952, 9040, 512, 48, 13424, 4656, 5120, 0, 608, 1552, 16, 48], 'in_between_fragmentation_per_slab': [79152, 46064, 30416, 42768, 50832, 5840, 10704, 11728, 0, 8784, 25232, 9216, 10176, 3920, 2144, 6608, 1936, 0, 1424, 304, 480, 32], 'occupied_memory_per_slab': [524288, 266816, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512]}
+00:02:41.7609 [INFO] uart5: [virt: 2.22s (+56.7ms)] {'idx': 750, 'untyped_too_small': 0, 'oom': 0, 'lhs_fragmentation_per_slab': [1072, 0, 48192, 44096, 29200, 36896, 21264, 9040, 4096, 42912, 33952, 9040, 512, 48, 13424, 4656, 5120, 0, 608, 1552, 16, 48], 'in_between_fragmentation_per_slab': [79152, 46064, 30416, 42768, 50832, 5840, 10704, 11728, 0, 8784, 25232, 9216, 10176, 3920, 2144, 6608, 1936, 0, 1424, 304, 480, 32], 'occupied_memory_per_slab': [524288, 266816, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512]}
+00:02:41.8284 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:41.8284 [INFO] uart5: [virt: 2.24s (+18.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:41.8303 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.8304 [INFO] uart5: [virt:  2.24s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.8360 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (7 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:41.8361 [INFO] uart5: [virt:  2.24s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (7 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:41.8379 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.8380 [INFO] uart5: [virt:  2.24s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.8471 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:41.8472 [INFO] uart5: [virt:  2.24s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:41.8489 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.8490 [INFO] uart5: [virt:  2.24s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.8579 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:41.8580 [INFO] uart5: [virt:  2.24s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:41.8597 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.8597 [INFO] uart5: [virt:  2.24s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.8659 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:41.8660 [INFO] uart5: [virt:  2.24s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:41.8704 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.8706 [INFO] uart5: [virt:  2.24s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.8771 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16384 bytes needed, 0 bytes available).>>[0m
+00:02:41.8773 [INFO] uart5: [virt:  2.24s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16384 bytes needed, 0 bytes available).>>[0m
+00:02:41.8793 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.8794 [INFO] uart5: [virt:  2.24s (+0.3ms)] malloc failed: AllocFailed
+00:02:41.8887 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 2048 bytes needed, 0 bytes available).>>[0m
+00:02:41.8888 [INFO] uart5: [virt:  2.24s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 2048 bytes needed, 0 bytes available).>>[0m
+00:02:41.8906 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.8907 [INFO] uart5: [virt:  2.24s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.9010 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:41.9011 [INFO] uart5: [virt:  2.24s (+0.6ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:41.9032 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.9033 [INFO] uart5: [virt:  2.24s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.9093 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:41.9095 [INFO] uart5: [virt:  2.24s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:41.9146 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.9147 [INFO] uart5: [virt:  2.24s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.9189 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 8192 bytes needed, 0 bytes available).>>[0m
+00:02:41.9190 [INFO] uart5: [virt:  2.24s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 8192 bytes needed, 0 bytes available).>>[0m
+00:02:41.9202 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.9203 [INFO] uart5: [virt:  2.24s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.9246 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:41.9247 [INFO] uart5: [virt:  2.24s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:41.9285 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.9285 [INFO] uart5: [virt:  2.24s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.9329 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 2048 bytes needed, 0 bytes available).>>[0m
+00:02:41.9329 [INFO] uart5: [virt:  2.24s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 2048 bytes needed, 0 bytes available).>>[0m
+00:02:41.9341 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.9342 [INFO] uart5: [virt:  2.24s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.9388 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 128 bytes needed, 0 bytes available).>>[0m
+00:02:41.9389 [INFO] uart5: [virt:  2.24s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 128 bytes needed, 0 bytes available).>>[0m
+00:02:41.9436 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.9437 [INFO] uart5: [virt:  2.24s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.9483 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:41.9484 [INFO] uart5: [virt:  2.24s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:41.9496 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.9497 [INFO] uart5: [virt:  2.24s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.9544 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:41.9545 [INFO] uart5: [virt:  2.24s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:41.9595 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.9595 [INFO] uart5: [virt:  2.24s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.9643 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:41.9645 [INFO] uart5: [virt:  2.25s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:41.9659 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.9660 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.9751 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:41.9752 [INFO] uart5: [virt:  2.25s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:41.9770 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.9771 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.9841 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:41.9842 [INFO] uart5: [virt:  2.25s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:41.9886 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.9887 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:41.9937 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:41.9938 [INFO] uart5: [virt:  2.25s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:41.9952 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:41.9953 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.0041 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.0041 [INFO] uart5: [virt:  2.25s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.0060 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.0061 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.0120 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.0121 [INFO] uart5: [virt:  2.25s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.0134 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.0135 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.0230 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 2048 bytes needed, 0 bytes available).>>[0m
+00:02:42.0230 [INFO] uart5: [virt:  2.25s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 2048 bytes needed, 0 bytes available).>>[0m
+00:02:42.0248 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.0249 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.0313 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.0314 [INFO] uart5: [virt:  2.25s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.0366 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.0367 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.0431 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.0432 [INFO] uart5: [virt:  2.25s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.0445 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.0446 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.0548 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.0549 [INFO] uart5: [virt:  2.25s (+0.5ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.0566 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.0567 [INFO] uart5: [virt:  2.25s (+0.1ms)] malloc failed: AllocFailed
+00:02:42.0649 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 64 bytes needed, 0 bytes available).>>[0m
+00:02:42.0650 [INFO] uart5: [virt:  2.25s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 64 bytes needed, 0 bytes available).>>[0m
+00:02:42.0662 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.0663 [INFO] uart5: [virt:  2.25s (+0.1ms)] malloc failed: AllocFailed
+00:02:42.0766 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.0767 [INFO] uart5: [virt:  2.25s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.0785 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.0786 [INFO] uart5: [virt:  2.25s (+0.1ms)] malloc failed: AllocFailed
+00:02:42.0905 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.0906 [INFO] uart5: [virt:  2.25s (+0.5ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.0926 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.0927 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.1041 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 128 bytes needed, 0 bytes available).>>[0m
+00:02:42.1042 [INFO] uart5: [virt:  2.25s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 128 bytes needed, 0 bytes available).>>[0m
+00:02:42.1062 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.1063 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.1174 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.1175 [INFO] uart5: [virt:  2.25s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.1195 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.1195 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.1273 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.1274 [INFO] uart5: [virt:  2.25s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.1330 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.1330 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.1421 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.1422 [INFO] uart5: [virt:  2.25s (+0.5ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.1442 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.1478 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.1556 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.1557 [INFO] uart5: [virt:  2.25s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.1578 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.1579 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.1695 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.1697 [INFO] uart5: [virt:  2.25s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.1718 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.1719 [INFO] uart5: [virt:  2.25s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.1835 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.1838 [INFO] uart5: [virt:  2.26s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.1860 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.1861 [INFO] uart5: [virt:  2.26s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.1977 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.1978 [INFO] uart5: [virt:  2.26s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.1999 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.2000 [INFO] uart5: [virt:  2.26s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.2126 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.2127 [INFO] uart5: [virt:  2.26s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.2149 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.2149 [INFO] uart5: [virt:  2.26s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.2269 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.2271 [INFO] uart5: [virt:  2.26s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.2292 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.2293 [INFO] uart5: [virt:  2.26s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.2378 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.2379 [INFO] uart5: [virt:  2.26s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.2436 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.2437 [INFO] uart5: [virt:  2.26s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.2520 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.2521 [INFO] uart5: [virt:  2.26s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.2577 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.2578 [INFO] uart5: [virt:  2.26s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.2664 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 128 bytes needed, 0 bytes available).>>[0m
+00:02:42.2666 [INFO] uart5: [virt:  2.26s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 128 bytes needed, 0 bytes available).>>[0m
+00:02:42.2686 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.2687 [INFO] uart5: [virt:  2.26s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.2805 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.2806 [INFO] uart5: [virt:  2.26s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.2824 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.2825 [INFO] uart5: [virt:  2.26s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.2942 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.2943 [INFO] uart5: [virt:  2.26s (+0.5ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.2990 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.2992 [INFO] uart5: [virt:  2.26s (+0.1ms)] malloc failed: AllocFailed
+00:02:42.3096 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.3098 [INFO] uart5: [virt:  2.26s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.3112 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.3113 [INFO] uart5: [virt:  2.26s (+0.1ms)] malloc failed: AllocFailed
+00:02:42.3213 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.3215 [INFO] uart5: [virt:  2.26s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.3228 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.3229 [INFO] uart5: [virt:  2.26s (+0.1ms)] malloc failed: AllocFailed
+00:02:42.3328 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.3329 [INFO] uart5: [virt:  2.26s (+0.5ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.3488 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.3488 [INFO] uart5: [virt:   2.27s (+10ms)] malloc failed: AllocFailed
+00:02:42.3554 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.3555 [INFO] uart5: [virt:  2.27s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.3601 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.3602 [INFO] uart5: [virt:  2.27s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.3696 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.3697 [INFO] uart5: [virt:  2.27s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.3712 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.3713 [INFO] uart5: [virt:  2.27s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.3806 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.3807 [INFO] uart5: [virt:  2.27s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.3823 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.3824 [INFO] uart5: [virt:  2.27s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.3915 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.3916 [INFO] uart5: [virt:  2.27s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.3933 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.3934 [INFO] uart5: [virt:  2.27s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.4036 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.4038 [INFO] uart5: [virt:  2.27s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.4083 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.4084 [INFO] uart5: [virt:  2.27s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.4179 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 256 bytes needed, 0 bytes available).>>[0m
+00:02:42.4180 [INFO] uart5: [virt:  2.27s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 256 bytes needed, 0 bytes available).>>[0m
+00:02:42.4194 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.4195 [INFO] uart5: [virt:  2.27s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.4288 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.4288 [INFO] uart5: [virt:  2.27s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.4303 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.4303 [INFO] uart5: [virt:  2.27s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.4398 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.4399 [INFO] uart5: [virt:  2.27s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.4416 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.4416 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.4512 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.4513 [INFO] uart5: [virt:  2.28s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.4530 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.4531 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.4629 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.4630 [INFO] uart5: [virt:  2.28s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.4647 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.4647 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.4751 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.4752 [INFO] uart5: [virt:  2.28s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.4769 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.4769 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.4873 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.4874 [INFO] uart5: [virt:  2.28s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.4891 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.4892 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.5002 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.5003 [INFO] uart5: [virt:  2.28s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.5047 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.5047 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.5148 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.5149 [INFO] uart5: [virt:  2.28s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.5165 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.5166 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.5274 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.5275 [INFO] uart5: [virt:  2.28s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.5292 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.5293 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.5395 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.5396 [INFO] uart5: [virt:  2.28s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:42.5441 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.5442 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.5552 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.5554 [INFO] uart5: [virt:  2.28s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.5578 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.5579 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.5709 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 256 bytes needed, 0 bytes available).>>[0m
+00:02:42.5710 [INFO] uart5: [virt:  2.28s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 256 bytes needed, 0 bytes available).>>[0m
+00:02:42.5760 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.5762 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.5894 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.5897 [INFO] uart5: [virt:  2.28s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.5953 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.5954 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.6033 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.6034 [INFO] uart5: [virt:  2.28s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.6051 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.6052 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.6208 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.6209 [INFO] uart5: [virt:  2.28s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.6226 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.6226 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.6343 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.6344 [INFO] uart5: [virt:  2.28s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.6368 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.6369 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.6520 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.6521 [INFO] uart5: [virt:  2.28s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.6575 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.6575 [INFO] uart5: [virt:  2.28s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.6719 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.6721 [INFO] uart5: [virt:  2.28s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.6744 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.6769 [INFO] uart5: [virt:  2.28s (+0.1ms)] malloc failed: AllocFailed
+00:02:42.6853 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.6854 [INFO] uart5: [virt:  2.28s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.6871 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.6872 [INFO] uart5: [virt:  2.28s (+0.1ms)] malloc failed: AllocFailed
+00:02:42.6993 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.6995 [INFO] uart5: [virt:  2.28s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.7012 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.7012 [INFO] uart5: [virt:  2.28s (+0.1ms)] malloc failed: AllocFailed
+00:02:42.7133 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.7134 [INFO] uart5: [virt:  2.28s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.7150 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.7150 [INFO] uart5: [virt:  2.28s (+0.1ms)] malloc failed: AllocFailed
+00:02:42.7259 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.7259 [INFO] uart5: [virt:  2.28s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.7276 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.7277 [INFO] uart5: [virt:  2.29s (+0.1ms)] malloc failed: AllocFailed
+00:02:42.7426 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.7427 [INFO] uart5: [virt:  2.29s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.7443 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.7443 [INFO] uart5: [virt:  2.29s (+0.1ms)] malloc failed: AllocFailed
+00:02:42.7561 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (3 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.7561 [INFO] uart5: [virt:  2.29s (+0.5ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (3 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.7581 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.7581 [INFO] uart5: [virt:  2.29s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.7691 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.7692 [INFO] uart5: [virt:  2.29s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.7742 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.7743 [INFO] uart5: [virt:  2.29s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.7864 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.7865 [INFO] uart5: [virt:  2.29s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.7890 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.7891 [INFO] uart5: [virt:  2.29s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.8041 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.8043 [INFO] uart5: [virt:  2.29s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.8070 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.8071 [INFO] uart5: [virt:  2.29s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.8210 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.8211 [INFO] uart5: [virt:  2.29s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.8231 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.8232 [INFO] uart5: [virt:  2.29s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.8354 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.8355 [INFO] uart5: [virt:  2.29s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.8379 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.8380 [INFO] uart5: [virt:  2.29s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.8531 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 256 bytes needed, 0 bytes available).>>[0m
+00:02:42.8533 [INFO] uart5: [virt:  2.29s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 256 bytes needed, 0 bytes available).>>[0m
+00:02:42.8561 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.8562 [INFO] uart5: [virt:  2.29s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.8711 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 64 bytes needed, 0 bytes available).>>[0m
+00:02:42.8713 [INFO] uart5: [virt:  2.29s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 64 bytes needed, 0 bytes available).>>[0m
+00:02:42.8741 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.8742 [INFO] uart5: [virt:  2.29s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.8865 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.8866 [INFO] uart5: [virt:  2.29s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.8890 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.8891 [INFO] uart5: [virt:  2.29s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.9073 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.9074 [INFO] uart5: [virt:  2.29s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.9127 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.9128 [INFO] uart5: [virt:  2.29s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.9261 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.9263 [INFO] uart5: [virt:  2.29s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:42.9282 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.9283 [INFO] uart5: [virt:  2.29s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.9459 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.9460 [INFO] uart5: [virt:  2.29s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:42.9513 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.9513 [INFO] uart5: [virt:  2.29s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.9636 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.9637 [INFO] uart5: [virt:  2.29s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:42.9655 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.9655 [INFO] uart5: [virt:  2.29s (+0.2ms)] malloc failed: AllocFailed
+00:02:42.9829 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (10 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.9831 [INFO] uart5: [virt:  2.29s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (10 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:42.9857 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:42.9857 [INFO] uart5: [virt:  2.29s (+0.1ms)] malloc failed: AllocFailed
+00:02:43.0037 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:43.0038 [INFO] uart5: [virt:  2.29s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:43.0055 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.0055 [INFO] uart5: [virt:  2.29s (+0.1ms)] malloc failed: AllocFailed
+00:02:43.0168 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:43.0169 [INFO] uart5: [virt:  2.29s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:43.0212 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.0213 [INFO] uart5: [virt:  2.29s (+0.1ms)] malloc failed: AllocFailed
+00:02:43.0357 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.0357 [INFO] uart5: [virt:  2.29s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.0375 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.0375 [INFO] uart5: [virt:  2.29s (+0.1ms)] malloc failed: AllocFailed
+00:02:43.0496 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.0497 [INFO] uart5: [virt:   2.3s (+0.5ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.0547 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.0548 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.0711 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:43.0712 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:43.0739 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.0740 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.0906 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 256 bytes needed, 0 bytes available).>>[0m
+00:02:43.0907 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 256 bytes needed, 0 bytes available).>>[0m
+00:02:43.0935 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.0935 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.1101 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.1103 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.1156 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.1157 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.1254 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.1255 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.1275 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.1276 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.1397 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.1399 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.1420 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.1421 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.1602 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 64 bytes needed, 0 bytes available).>>[0m
+00:02:43.1603 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 64 bytes needed, 0 bytes available).>>[0m
+00:02:43.1666 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.1667 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.1859 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:43.1860 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:43.1893 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.1894 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.2077 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:43.2078 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:43.2108 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.2109 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.2295 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:43.2297 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:43.2327 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.2329 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.2490 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.2491 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.2546 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.2547 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.2735 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:43.2736 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:43.2766 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.2767 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.2958 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 128 bytes needed, 0 bytes available).>>[0m
+00:02:43.2959 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 128 bytes needed, 0 bytes available).>>[0m
+00:02:43.2988 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.2990 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.3126 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (9 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.3127 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (9 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.3173 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.3173 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.3295 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:43.3296 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:43.3315 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.3316 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.3441 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:43.3442 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:43.3496 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.3496 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.3631 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.3632 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.3652 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.3653 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.3814 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:43.3815 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:43.3835 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.3835 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.3998 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:43.3999 [INFO] uart5: [virt:   2.3s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:43.4020 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.4021 [INFO] uart5: [virt:   2.3s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.4154 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.4155 [INFO] uart5: [virt:   2.3s (+0.4ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.4211 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.4213 [INFO] uart5: [virt:   2.3s (+0.1ms)] malloc failed: AllocFailed
+00:02:43.4380 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:43.4381 [INFO] uart5: [virt:  2.31s (+0.5ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:43.4401 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.4403 [INFO] uart5: [virt:  2.31s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.4561 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16384 bytes needed, 0 bytes available).>>[0m
+00:02:43.4563 [INFO] uart5: [virt:  2.31s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16384 bytes needed, 0 bytes available).>>[0m
+00:02:43.4586 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.4586 [INFO] uart5: [virt:  2.31s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.4750 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:43.4751 [INFO] uart5: [virt:  2.31s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 512 bytes needed, 0 bytes available).>>[0m
+00:02:43.4782 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.4783 [INFO] uart5: [virt:  2.31s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.4982 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:43.4984 [INFO] uart5: [virt:  2.31s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 1024 bytes needed, 0 bytes available).>>[0m
+00:02:43.5007 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.5008 [INFO] uart5: [virt:  2.31s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.5152 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:43.5152 [INFO] uart5: [virt:  2.31s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:43.5209 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.5209 [INFO] uart5: [virt:  2.31s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.5392 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.5393 [INFO] uart5: [virt:  2.31s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.5416 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.5417 [INFO] uart5: [virt:  2.31s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.5571 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:43.5572 [INFO] uart5: [virt:  2.31s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:43.5593 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.5594 [INFO] uart5: [virt:  2.31s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.5733 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (7 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.5734 [INFO] uart5: [virt:  2.31s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (7 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.5783 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.5784 [INFO] uart5: [virt:  2.31s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.5916 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:43.5917 [INFO] uart5: [virt:  2.31s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 16 bytes needed, 0 bytes available).>>[0m
+00:02:43.5965 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.5966 [INFO] uart5: [virt:  2.31s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.6116 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 256 bytes needed, 0 bytes available).>>[0m
+00:02:43.6117 [INFO] uart5: [virt:  2.31s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 256 bytes needed, 0 bytes available).>>[0m
+00:02:43.6172 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.6172 [INFO] uart5: [virt:  2.31s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.6360 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:43.6361 [INFO] uart5: [virt:  2.31s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 32 bytes needed, 0 bytes available).>>[0m
+00:02:43.6392 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.6393 [INFO] uart5: [virt:  2.31s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.6596 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.6598 [INFO] uart5: [virt:  2.31s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+00:02:43.6661 [INFO] uart5: [output] malloc failed: AllocFailed
+00:02:43.6662 [INFO] uart5: [virt:  2.31s (+0.2ms)] malloc failed: AllocFailed
+00:02:43.8033 [INFO] uart5: [output] {'idx': 1000, 'untyped_too_small': 0, 'oom': 124, 'lhs_fragmentation_per_slab': [43840, 4464, 52304, 65600, 37424, 114720, 26448, 9040, 4096, 42912, 35232, 9040, 512, 48, 13456, 4656, 5120, 0, 608, 1552, 16, 80], 'in_between_fragmentation_per_slab': [79152, 119952, 30416, 42768, 50832, 5840, 10704, 11728, 0, 8784, 25232, 9216, 10176, 3920, 2144, 6608, 1936, 0, 1424, 304, 480, 32], 'occupied_memory_per_slab': [524288, 524288, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512]}
+00:02:43.8036 [INFO] uart5: [virt:  2.32s (+9.1ms)] {'idx': 1000, 'untyped_too_small': 0, 'oom': 124, 'lhs_fragmentation_per_slab': [43840, 4464, 52304, 65600, 37424, 114720, 26448, 9040, 4096, 42912, 35232, 9040, 512, 48, 13456, 4656, 5120, 0, 608, 1552, 16, 80], 'in_between_fragmentation_per_slab': [79152, 119952, 30416, 42768, 50832, 5840, 10704, 11728, 0, 8784, 25232, 9216, 10176, 3920, 2144, 6608, 1936, 0, 1424, 304, 480, 32], 'occupied_memory_per_slab': [524288, 524288, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512]}
+00:02:44.1838 [INFO] uart5: [output] Done :)
+00:02:44.1838 [INFO] uart5: [virt: 2.41s (+94.1ms)] Done :)
+00:02:44.1939 [INFO] uart5: [output] CANTRIP> [smstats
+00:02:44.1940 [INFO] uart5: [virt:  2.42s (+3.6ms)] CANTRIP> [smstats
+00:02:44.1986 [INFO] uart5: [output] 0 bytes in-use, 2723584 bytes free, 2376752 bytes requested, 1343488 overhead
+00:02:44.1988 [INFO] uart5: [virt:  2.42s (+0.8ms)] 0 bytes in-use, 2723584 bytes free, 2376752 bytes requested, 1343488 overhead
+00:02:44.2034 [INFO] uart5: [output] 0 lhs fragmentation, 0 in-between fragmentation
+00:02:44.2035 [INFO] uart5: [virt:  2.42s (+0.2ms)] 0 lhs fragmentation, 0 in-between fragmentation
+00:02:44.2054 [INFO] uart5: [output] 0 objs in-use, 1059 objs requested
+00:02:44.2055 [INFO] uart5: [virt:  2.42s (+0.2ms)] 0 objs in-use, 1059 objs requested
+00:02:44.2097 [INFO] uart5: [output] CANTRIP> [smdebug
+00:02:44.2098 [INFO] uart5: [virt:  2.42s (+0.6ms)] CANTRIP> [smdebug
+00:02:44.2169 [INFO] uart5: [output] *::[58, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2170 [INFO] uart5: [virt:  2.42s (+0.3ms)] *::[58, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2188 [INFO] uart5: [output]  ::[65, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2189 [INFO] uart5: [virt:  2.42s (+0.4ms)]  ::[65, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2205 [INFO] uart5: [output]  ::[57, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2206 [INFO] uart5: [virt:  2.42s (+0.3ms)]  ::[57, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2224 [INFO] uart5: [output]  ::[66, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2224 [INFO] uart5: [virt:  2.42s (+0.4ms)]  ::[66, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2243 [INFO] uart5: [output]  ::[62, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2244 [INFO] uart5: [virt:  2.42s (+0.4ms)]  ::[62, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2288 [INFO] uart5: [output]  ::[80, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2289 [INFO] uart5: [virt:  2.42s (+0.3ms)]  ::[80, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2307 [INFO] uart5: [output]  ::[56, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2308 [INFO] uart5: [virt:  2.42s (+0.4ms)]  ::[56, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2327 [INFO] uart5: [output]  ::[67, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2327 [INFO] uart5: [virt:  2.42s (+0.4ms)]  ::[67, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2378 [INFO] uart5: [output]  ::[61, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2379 [INFO] uart5: [virt:  2.42s (+0.3ms)]  ::[61, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2399 [INFO] uart5: [output]  ::[60, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2399 [INFO] uart5: [virt:  2.42s (+0.4ms)]  ::[60, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2445 [INFO] uart5: [output]  ::[79, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2446 [INFO] uart5: [virt:  2.42s (+0.3ms)]  ::[79, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2476 [INFO] uart5: [output]  ::[59, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2477 [INFO] uart5: [virt:  2.42s (+0.4ms)]  ::[59, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2537 [INFO] uart5: [output]  ::[68, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2538 [INFO] uart5: [virt:  2.42s (+0.3ms)]  ::[68, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2576 [INFO] uart5: [output]  ::[78, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2577 [INFO] uart5: [virt:  2.42s (+0.4ms)]  ::[78, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2642 [INFO] uart5: [output]  ::[75, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2644 [INFO] uart5: [virt:  2.42s (+0.4ms)]  ::[75, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2717 [INFO] uart5: [output]  ::[74, bits 14] watermark        0 available 16384, max_size_bytes 16384, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2717 [INFO] uart5: [virt:  2.43s (+0.3ms)]  ::[74, bits 14] watermark        0 available 16384, max_size_bytes 16384, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2756 [INFO] uart5: [output]  ::[76, bits 13] watermark        0 available 8192, max_size_bytes 8192, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2757 [INFO] uart5: [virt:  2.43s (+0.4ms)]  ::[76, bits 13] watermark        0 available 8192, max_size_bytes 8192, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2816 [INFO] uart5: [output]  ::[55, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2817 [INFO] uart5: [virt:  2.43s (+0.3ms)]  ::[55, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2837 [INFO] uart5: [output]  ::[73, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2838 [INFO] uart5: [virt:  2.43s (+0.4ms)]  ::[73, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2857 [INFO] uart5: [output]  ::[72, bits 11] watermark        0 available 2048, max_size_bytes 2048, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2858 [INFO] uart5: [virt:  2.43s (+0.3ms)]  ::[72, bits 11] watermark        0 available 2048, max_size_bytes 2048, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2880 [INFO] uart5: [output]  ::[71, bits 10] watermark        0 available 1024, max_size_bytes 1024, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2880 [INFO] uart5: [virt:  2.43s (+0.4ms)]  ::[71, bits 10] watermark        0 available 1024, max_size_bytes 1024, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2934 [INFO] uart5: [output]  ::[70, bits  9] watermark        0 available 512, max_size_bytes 512, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2934 [INFO] uart5: [virt:  2.43s (+0.3ms)]  ::[70, bits  9] watermark        0 available 512, max_size_bytes 512, allocated_bytes: 0, allocated_objects: 0
+00:02:44.2951 [INFO] uart5: [output] !::[69, bits  8] watermark       32 available 224
+00:02:44.2952 [INFO] uart5: [virt:  2.43s (+0.3ms)] !::[69, bits  8] watermark       32 available 224
+00:02:44.2975 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Allocation failed on a slab: 0 times. Out of memory thrown 124 times.
+00:02:44.2976 [INFO] uart5: [virt:  2.43s (+0.3ms)] cantrip_memory_manager::memory_manager::Allocation failed on a slab: 0 times. Out of memory thrown 124 times.

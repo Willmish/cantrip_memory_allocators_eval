@@ -1,64 +1,102 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import json
+import argparse
+from pathlib import Path
 
-# JSON data
-data = [{'idx': 250, 'lhs_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4096, 0, 1024, 0, 0, 0, 0, 320], 'in_between_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3072, 0, 0, 0, 0, 176], 'occupied_memory_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16384, 0, 8192, 0, 512, 512, 528, 512], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 262144, 131072, 131072, 131072, 65536, 65536, 65536, 32768, 16384, 8192, 8192, 4096, 4096, 2048, 1024, 512]},
-{'idx': 500, 'lhs_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12288, 4096, 0, 0, 2864, 1024, 512, 0], 'in_between_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 736, 512, 0, 0], 'occupied_memory_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 53248, 0, 0, 32768, 16384, 8192, 8192, 4096, 3664, 2048, 1024, 512], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 262144, 131072, 131072, 131072, 65536, 65536, 65536, 32768, 16384, 8192, 8192, 4096, 4096, 2048, 1024, 512]},
-{'idx': 750, 'lhs_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 57344, 0, 0, 32128, 0, 61440, 8192, 12288, 4096, 4096, 0, 496, 512, 704, 400], 'in_between_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 3072, 0, 0, 624, 0, 0, 4064, 0, 0, 0, 0, 1232, 240, 160, 48], 'occupied_memory_per_slab': [0, 0, 0, 0, 0, 0, 126976, 0, 0, 65536, 0, 65536, 32768, 16384, 8192, 8192, 4096, 4096, 1440, 1024, 512], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 262144, 131072, 131072, 131072, 65536, 65536, 65536, 32768, 16384, 8192, 8192, 4096, 4096, 2048, 1024, 512]},
-{'idx': 1000, 'lhs_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 122512, 95744, 50992, 0, 8208, 63504, 0, 12112, 512, 0, 0, 592, 1488, 624, 416], 'in_between_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 4464, 13824, 13488, 0, 9632, 1504, 0, 3248, 3584, 0, 0, 1424, 304, 128, 48], 'occupied_memory_per_slab': [0, 0, 0, 0, 0, 0, 131072, 131072, 131072, 0, 49152, 65536, 32768, 16384, 8192, 8192, 128, 4096, 2048, 1024, 512], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 262144, 131072, 131072, 131072, 65536, 65536, 65536, 32768, 16384, 8192, 8192, 4096, 4096, 2048, 1024, 512]}]
-# Extracting data for plotting
-idxs = []
-lhs_fragmentation = []
-in_between_fragmentation = []
-occupied_memory = []
-available_space = []
+def process_lines_from_file(file_path: str):
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+    begin_line_index = next(i for i, line in enumerate(lines) if "Begin synthetic workload!" in line)
+    
+    # Process lines after the synthetic workload begins, ignoring all duplicate lines containing "[virt:", and memory failures
+    data = []
+    for line in lines[begin_line_index + 1:]:
+        if "[virt:" in line or "malloc failed: AllocFailed" in line or "Untyped Retype: Insufficient memory" in line:
+            continue
+        if "Done :)" in line:
+            break  # Stop processing after this line
+        try:
+            json_str = line[line.index('{'):line.rindex('}')+1]
+            json_str_corrected = json_str.replace("'", '"')  # Correcting for single-quote JSON-like format
+            json_data = json.loads(json_str_corrected)
 
-for i, d in enumerate(data):
-    idxs.append(d['idx'])
-    lhs_fragmentation.append(d['lhs_fragmentation_per_slab'])
-    print(len(d['lhs_fragmentation_per_slab']))
-    in_between_fragmentation.append(d['in_between_fragmentation_per_slab'])
-    print(len(d['in_between_fragmentation_per_slab']))
-    occupied_memory.append(d['occupied_memory_per_slab'])
-    print(len(d['occupied_memory_per_slab']))
-    available_space.append(d['available_space_per_slab'])
-    print(len(d['available_space_per_slab']))
+            if all(key in json_data for key in ["idx", "untyped_too_small", "oom", "lhs_fragmentation_per_slab", "in_between_fragmentation_per_slab", "occupied_memory_per_slab", "available_space_per_slab"]):
+                print(json_data["idx"])
+                if json_data['idx'] == 0:
+                    # skip state for idx 0 - not interesting
+                    continue
+                data.append({
+                    "idx": json_data["idx"],
+                    "untyped_too_small": json_data["untyped_too_small"],
+                    "oom": json_data["oom"],
+                    "lhs_fragmentation_per_slab": json_data["lhs_fragmentation_per_slab"],
+                    "in_between_fragmentation_per_slab": json_data["in_between_fragmentation_per_slab"],
+                    "occupied_memory_per_slab": json_data["occupied_memory_per_slab"],
+                    "available_space_per_slab": json_data["available_space_per_slab"],
+                })
+        except Exception as e:
+            continue  # Skip lines that do not contain valid JSON data or have other issues
 
-# Plotting
-fig, axs = plt.subplots(4, figsize=(10, 15))
+    return data
 
-bar_width = 0.2
-index = np.arange(len(lhs_fragmentation[0]))
+def plot_metrics(data, args: argparse.Namespace):
+    # Plotting
+    fig, axs = plt.subplots(4, figsize=(10, 15))
 
-for i, (lhs, in_between, occupied, available) in enumerate(zip(lhs_fragmentation, in_between_fragmentation, occupied_memory, available_space)):
-    axs[i].bar(index - 2 * bar_width, available, width=bar_width, label='available_space')
-    axs[i].bar(index - bar_width, occupied, width=bar_width, label='occupied_memory')
-    axs[i].bar(index, lhs, width=bar_width, label='lhs_fragmentation')
-    axs[i].bar(index + bar_width, in_between, width=bar_width, label='in_between_fragmentation')
+    bar_width = 0.5
+    index = np.arange(len(data[0]["lhs_fragmentation_per_slab"]))
 
-    axs[i].set_title(f"Memory slab status after {idxs[i]} alloc/dealloc operations")
-    axs[i].set_xlabel("Slab")
-    axs[i].set_ylabel("Memory")
-    axs[i].legend()
+    for i, row in enumerate(data):
+        (lhs, in_between, occupied, available) = row["lhs_fragmentation_per_slab"], row["in_between_fragmentation_per_slab"], row["occupied_memory_per_slab"], row["available_space_per_slab"]
+        axs[i].bar(index, available, width=bar_width, label='available_space', color='tab:brown')
+        axs[i].bar(index, occupied, width=bar_width, label='occupied_memory', color='tab:blue')
+        axs[i].bar(index, lhs, width=bar_width, label='lhs_fragmentation', color='tab:red')
+        axs[i].bar(index, in_between, bottom=lhs, width=bar_width, label='in_between_fragmentation', color='tab:orange')
 
-    axs[i].set_xticks(index)
-    axs[i].set_xticklabels(range(1, len(lhs)+1))
-## Plotting
-#fig, axs = plt.subplots(4, figsize=(10, 15))
-#
-#for i, (lhs, in_between, occupied, available) in enumerate(zip(lhs_fragmentation, in_between_fragmentation, occupied_memory, available_space)):
-#    axs[i].bar(range(len(lhs)), lhs, label='lhs_fragmentation')
-#    axs[i].bar(range(len(in_between)), in_between, bottom=lhs, label='in_between_fragmentation')
-#    axs[i].bar(range(len(occupied)), occupied, bottom=[lhs[j] + in_between[j] for j in range(len(lhs))], label='occupied_memory')
-#    axs[i].bar(range(len(available)), available, bottom=[lhs[j] + in_between[j] + occupied[j] for j in range(len(lhs))], label='available_space')
-#
-#    axs[i].set_title(f"Memory state at {idxs[i]} alloc/dealloc operations")
-#    axs[i].set_xlabel("Slab")
-#    axs[i].set_ylabel("Memory")
-#    axs[i].legend()
+        axs[i].set_title(f"Memory slab status after {data[i]['idx']} alloc/dealloc operations")
+        axs[i].set_xlabel("Slab")
+        axs[i].set_ylabel("Memory")
+        axs[i].legend()
 
-plt.tight_layout()
-plt.savefig('memory_state_random_alloc_1000_50_perc_chance_dealloc_seed_42.png')
-plt.show()
+        axs[i].set_yscale('log', base=2)
+        axs[i].set_xticks(index)
+        axs[i].set_xticklabels(range(1, len(lhs)+1))
+        print(f"Best fit: No. failed UntypedRetype invocations: {data[i]['untyped_too_small']}, Out of Memory thrown: {data[i]['oom']}")
+    plt.tight_layout()
+    plt.savefig(f"{Path(args.best_fit_log_file).name.split('.')[-2]}.png")
+    plt.savefig('memory_state_random_alloc_1000_50_perc_chance_dealloc_seed_42.png')
+    plt.show()
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+            description="Process results for memory stats at 25th,50th,75th,100th percentiles for an eval run."
+            )
+
+    parser.add_argument(
+            "--best_fit_log_file",
+            type=str,
+            required=True,
+            help="Path to the log file produced by the robot script, running the workload on CantripOS using Best Fit allocation strategy.",
+            )
+
+    parser.add_argument(
+            "--next_fit_log_file",
+            type=str,
+            required=True,
+            help="Path to the log file produced by the robot script, running the workload on CantripOS using Next Fit allocation strategy.",
+            )
+    args = parser.parse_args()
+
+    return args
+
+if __name__ == "__main__":
+    args = parse_args()
+    file_path_best_fit = args.best_fit_log_file
+    file_path_next_fit = args.next_fit_log_file
+
+    # TODO: also plot for next fit, next to best fit
+    data = process_lines_from_file(file_path_best_fit)
+    print("plotting...")
+    plot_metrics(data, args)
 

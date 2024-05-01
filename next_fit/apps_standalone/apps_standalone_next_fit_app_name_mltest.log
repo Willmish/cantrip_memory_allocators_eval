@@ -1,0 +1,668 @@
+01:28:16.5303 [INFO] uart5: [output] CANTRIP> [sreplay_app mltest next_fit
+01:28:16.5304 [INFO] uart5: [virt:  4.43s (+8.2ms)] CANTRIP> [sreplay_app mltest next_fit
+01:28:16.5395 [INFO] uart5: [output] {'bytes in-use': 4096, 'bytes free': 2719488, 'bytes requested': 4096, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 1}
+01:28:16.5396 [INFO] uart5: [virt:  4.43s (+2.1ms)] {'bytes in-use': 4096, 'bytes free': 2719488, 'bytes requested': 4096, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 1}
+01:28:16.5479 [INFO] uart5: [output] {'bytes in-use': 8192, 'bytes free': 2715392, 'bytes requested': 8192, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 2}
+01:28:16.5479 [INFO] uart5: [virt:  4.43s (+1.2ms)] {'bytes in-use': 8192, 'bytes free': 2715392, 'bytes requested': 8192, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 2}
+01:28:16.5584 [INFO] uart5: [output] {'bytes in-use': 12288, 'bytes free': 2711296, 'bytes requested': 12288, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 3}
+01:28:16.5585 [INFO] uart5: [virt:  4.43s (+1.3ms)] {'bytes in-use': 12288, 'bytes free': 2711296, 'bytes requested': 12288, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 3}
+01:28:16.5688 [INFO] uart5: [output] {'bytes in-use': 16384, 'bytes free': 2707200, 'bytes requested': 16384, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 4}
+01:28:16.5689 [INFO] uart5: [virt:  4.44s (+1.2ms)] {'bytes in-use': 16384, 'bytes free': 2707200, 'bytes requested': 16384, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 4}
+01:28:16.5780 [INFO] uart5: [output] {'bytes in-use': 20480, 'bytes free': 2703104, 'bytes requested': 20480, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 5}
+01:28:16.5781 [INFO] uart5: [virt:  4.44s (+1.2ms)] {'bytes in-use': 20480, 'bytes free': 2703104, 'bytes requested': 20480, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 5}
+01:28:16.5880 [INFO] uart5: [output] {'bytes in-use': 24576, 'bytes free': 2699008, 'bytes requested': 24576, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 6}
+01:28:16.5881 [INFO] uart5: [virt:  4.44s (+1.2ms)] {'bytes in-use': 24576, 'bytes free': 2699008, 'bytes requested': 24576, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 6}
+01:28:16.5983 [INFO] uart5: [output] {'bytes in-use': 28672, 'bytes free': 2694912, 'bytes requested': 28672, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 7}
+01:28:16.5984 [INFO] uart5: [virt:  4.44s (+1.2ms)] {'bytes in-use': 28672, 'bytes free': 2694912, 'bytes requested': 28672, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 7}
+01:28:16.6082 [INFO] uart5: [output] {'bytes in-use': 32768, 'bytes free': 2690816, 'bytes requested': 32768, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 8}
+01:28:16.6084 [INFO] uart5: [virt:  4.44s (+1.2ms)] {'bytes in-use': 32768, 'bytes free': 2690816, 'bytes requested': 32768, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 8}
+01:28:16.6189 [INFO] uart5: [output] {'bytes in-use': 33280, 'bytes free': 2690304, 'bytes requested': 33280, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 9}
+01:28:16.6190 [INFO] uart5: [virt:  4.44s (+1.3ms)] {'bytes in-use': 33280, 'bytes free': 2690304, 'bytes requested': 33280, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 9}
+01:28:16.6291 [INFO] uart5: [output] {'bytes in-use': 33792, 'bytes free': 2689792, 'bytes requested': 33792, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 10}
+01:28:16.6292 [INFO] uart5: [virt:  4.44s (+1.2ms)] {'bytes in-use': 33792, 'bytes free': 2689792, 'bytes requested': 33792, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 10}
+01:28:16.6426 [INFO] uart5: [output] {'bytes in-use': 34048, 'bytes free': 2689536, 'bytes requested': 34048, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 11}
+01:28:16.6428 [INFO] uart5: [virt:  4.44s (+1.2ms)] {'bytes in-use': 34048, 'bytes free': 2689536, 'bytes requested': 34048, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 11}
+01:28:16.6532 [INFO] uart5: [output] {'bytes in-use': 38144, 'bytes free': 2685440, 'bytes requested': 38144, 'lhs fragmentation': 0, 'in-between fragmentation': 2816, 'objs in-use': 12}
+01:28:16.6532 [INFO] uart5: [virt:  4.45s (+1.3ms)] {'bytes in-use': 38144, 'bytes free': 2685440, 'bytes requested': 38144, 'lhs fragmentation': 0, 'in-between fragmentation': 2816, 'objs in-use': 12}
+01:28:16.6602 [INFO] uart5: [output] {'bytes in-use': 42240, 'bytes free': 2681344, 'bytes requested': 42240, 'lhs fragmentation': 0, 'in-between fragmentation': 2816, 'objs in-use': 13}
+01:28:16.6603 [INFO] uart5: [virt:  4.45s (+1.2ms)] {'bytes in-use': 42240, 'bytes free': 2681344, 'bytes requested': 42240, 'lhs fragmentation': 0, 'in-between fragmentation': 2816, 'objs in-use': 13}
+01:28:16.6717 [INFO] uart5: [output] {'bytes in-use': 58624, 'bytes free': 2664960, 'bytes requested': 58624, 'lhs fragmentation': 0, 'in-between fragmentation': 2816, 'objs in-use': 17}
+01:28:16.6718 [INFO] uart5: [virt:  4.45s (+1.3ms)] {'bytes in-use': 58624, 'bytes free': 2664960, 'bytes requested': 58624, 'lhs fragmentation': 0, 'in-between fragmentation': 2816, 'objs in-use': 17}
+01:28:16.6853 [INFO] uart5: [output] {'bytes in-use': 103680, 'bytes free': 2619904, 'bytes requested': 103680, 'lhs fragmentation': 0, 'in-between fragmentation': 2816, 'objs in-use': 28}
+01:28:16.6854 [INFO] uart5: [virt:  4.45s (+1.3ms)] {'bytes in-use': 103680, 'bytes free': 2619904, 'bytes requested': 103680, 'lhs fragmentation': 0, 'in-between fragmentation': 2816, 'objs in-use': 28}
+01:28:16.6903 [INFO] uart5: [output] {'bytes in-use': 107776, 'bytes free': 2615808, 'bytes requested': 107776, 'lhs fragmentation': 0, 'in-between fragmentation': 2816, 'objs in-use': 29}
+01:28:16.6903 [INFO] uart5: [virt:  4.45s (+1.2ms)] {'bytes in-use': 107776, 'bytes free': 2615808, 'bytes requested': 107776, 'lhs fragmentation': 0, 'in-between fragmentation': 2816, 'objs in-use': 29}
+01:28:16.6981 [INFO] uart5: [output] {'bytes in-use': 111872, 'bytes free': 2611712, 'bytes requested': 111872, 'lhs fragmentation': 0, 'in-between fragmentation': 2816, 'objs in-use': 30}
+01:28:16.6981 [INFO] uart5: [virt:  4.45s (+1.3ms)] {'bytes in-use': 111872, 'bytes free': 2611712, 'bytes requested': 111872, 'lhs fragmentation': 0, 'in-between fragmentation': 2816, 'objs in-use': 30}
+01:28:16.7058 [INFO] uart5: [output] {'bytes in-use': 112896, 'bytes free': 2610688, 'bytes requested': 112896, 'lhs fragmentation': 0, 'in-between fragmentation': 2816, 'objs in-use': 31}
+01:28:16.7058 [INFO] uart5: [virt:  4.45s (+1.2ms)] {'bytes in-use': 112896, 'bytes free': 2610688, 'bytes requested': 112896, 'lhs fragmentation': 0, 'in-between fragmentation': 2816, 'objs in-use': 31}
+01:28:16.7142 [INFO] uart5: [output] {'bytes in-use': 116992, 'bytes free': 2606592, 'bytes requested': 116992, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 32}
+01:28:16.7143 [INFO] uart5: [virt:  4.45s (+1.2ms)] {'bytes in-use': 116992, 'bytes free': 2606592, 'bytes requested': 116992, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 32}
+01:28:16.7237 [INFO] uart5: [output] {'bytes in-use': 121088, 'bytes free': 2602496, 'bytes requested': 121088, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 33}
+01:28:16.7238 [INFO] uart5: [virt:  4.46s (+1.2ms)] {'bytes in-use': 121088, 'bytes free': 2602496, 'bytes requested': 121088, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 33}
+01:28:16.7327 [INFO] uart5: [output] {'bytes in-use': 125184, 'bytes free': 2598400, 'bytes requested': 125184, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 34}
+01:28:16.7328 [INFO] uart5: [virt:  4.46s (+1.3ms)] {'bytes in-use': 125184, 'bytes free': 2598400, 'bytes requested': 125184, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 34}
+01:28:16.7415 [INFO] uart5: [output] {'bytes in-use': 129280, 'bytes free': 2594304, 'bytes requested': 129280, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 35}
+01:28:16.7415 [INFO] uart5: [virt:  4.46s (+1.2ms)] {'bytes in-use': 129280, 'bytes free': 2594304, 'bytes requested': 129280, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 35}
+01:28:16.7497 [INFO] uart5: [output] {'bytes in-use': 133376, 'bytes free': 2590208, 'bytes requested': 133376, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 36}
+01:28:16.7498 [INFO] uart5: [virt:  4.46s (+1.2ms)] {'bytes in-use': 133376, 'bytes free': 2590208, 'bytes requested': 133376, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 36}
+01:28:16.7578 [INFO] uart5: [output] {'bytes in-use': 137472, 'bytes free': 2586112, 'bytes requested': 137472, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 37}
+01:28:16.7580 [INFO] uart5: [virt:  4.46s (+1.2ms)] {'bytes in-use': 137472, 'bytes free': 2586112, 'bytes requested': 137472, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 37}
+01:28:16.7677 [INFO] uart5: [output] {'bytes in-use': 141568, 'bytes free': 2582016, 'bytes requested': 141568, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 38}
+01:28:16.7677 [INFO] uart5: [virt:  4.46s (+1.3ms)] {'bytes in-use': 141568, 'bytes free': 2582016, 'bytes requested': 141568, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 38}
+01:28:16.7760 [INFO] uart5: [output] {'bytes in-use': 145664, 'bytes free': 2577920, 'bytes requested': 145664, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 39}
+01:28:16.7761 [INFO] uart5: [virt:  4.46s (+1.2ms)] {'bytes in-use': 145664, 'bytes free': 2577920, 'bytes requested': 145664, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 39}
+01:28:16.7859 [INFO] uart5: [output] {'bytes in-use': 149760, 'bytes free': 2573824, 'bytes requested': 149760, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 40}
+01:28:16.7860 [INFO] uart5: [virt:  4.46s (+1.2ms)] {'bytes in-use': 149760, 'bytes free': 2573824, 'bytes requested': 149760, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 40}
+01:28:16.7954 [INFO] uart5: [output] {'bytes in-use': 153856, 'bytes free': 2569728, 'bytes requested': 153856, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 41}
+01:28:16.7954 [INFO] uart5: [virt:  4.46s (+1.2ms)] {'bytes in-use': 153856, 'bytes free': 2569728, 'bytes requested': 153856, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 41}
+01:28:16.8056 [INFO] uart5: [output] {'bytes in-use': 157952, 'bytes free': 2565632, 'bytes requested': 157952, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 42}
+01:28:16.8057 [INFO] uart5: [virt:  4.47s (+1.3ms)] {'bytes in-use': 157952, 'bytes free': 2565632, 'bytes requested': 157952, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 42}
+01:28:16.8184 [INFO] uart5: [output] {'bytes in-use': 162048, 'bytes free': 2561536, 'bytes requested': 162048, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 43}
+01:28:16.8185 [INFO] uart5: [virt:  4.47s (+1.2ms)] {'bytes in-use': 162048, 'bytes free': 2561536, 'bytes requested': 162048, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 43}
+01:28:16.8305 [INFO] uart5: [output] {'bytes in-use': 166144, 'bytes free': 2557440, 'bytes requested': 166144, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 44}
+01:28:16.8307 [INFO] uart5: [virt:  4.47s (+1.2ms)] {'bytes in-use': 166144, 'bytes free': 2557440, 'bytes requested': 166144, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 44}
+01:28:16.8456 [INFO] uart5: [output] {'bytes in-use': 170240, 'bytes free': 2553344, 'bytes requested': 170240, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 45}
+01:28:16.8457 [INFO] uart5: [virt:  4.47s (+1.3ms)] {'bytes in-use': 170240, 'bytes free': 2553344, 'bytes requested': 170240, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 45}
+01:28:16.8530 [INFO] uart5: [output] {'bytes in-use': 174336, 'bytes free': 2549248, 'bytes requested': 174336, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 46}
+01:28:16.8531 [INFO] uart5: [virt:  4.47s (+1.2ms)] {'bytes in-use': 174336, 'bytes free': 2549248, 'bytes requested': 174336, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 46}
+01:28:16.8650 [INFO] uart5: [output] {'bytes in-use': 178432, 'bytes free': 2545152, 'bytes requested': 178432, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 47}
+01:28:16.8651 [INFO] uart5: [virt:  4.47s (+1.2ms)] {'bytes in-use': 178432, 'bytes free': 2545152, 'bytes requested': 178432, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 47}
+01:28:16.8755 [INFO] uart5: [output] {'bytes in-use': 182528, 'bytes free': 2541056, 'bytes requested': 182528, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 48}
+01:28:16.8755 [INFO] uart5: [virt:  4.47s (+1.3ms)] {'bytes in-use': 182528, 'bytes free': 2541056, 'bytes requested': 182528, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 48}
+01:28:16.8845 [INFO] uart5: [output] {'bytes in-use': 186624, 'bytes free': 2536960, 'bytes requested': 186624, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 49}
+01:28:16.8846 [INFO] uart5: [virt:  4.47s (+1.2ms)] {'bytes in-use': 186624, 'bytes free': 2536960, 'bytes requested': 186624, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 49}
+01:28:16.8943 [INFO] uart5: [output] {'bytes in-use': 190720, 'bytes free': 2532864, 'bytes requested': 190720, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 50}
+01:28:16.8944 [INFO] uart5: [virt:  4.48s (+1.2ms)] {'bytes in-use': 190720, 'bytes free': 2532864, 'bytes requested': 190720, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 50}
+01:28:16.9045 [INFO] uart5: [output] {'bytes in-use': 194816, 'bytes free': 2528768, 'bytes requested': 194816, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 51}
+01:28:16.9046 [INFO] uart5: [virt:  4.48s (+1.2ms)] {'bytes in-use': 194816, 'bytes free': 2528768, 'bytes requested': 194816, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 51}
+01:28:16.9152 [INFO] uart5: [output] {'bytes in-use': 198912, 'bytes free': 2524672, 'bytes requested': 198912, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 52}
+01:28:16.9152 [INFO] uart5: [virt:  4.48s (+1.3ms)] {'bytes in-use': 198912, 'bytes free': 2524672, 'bytes requested': 198912, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 52}
+01:28:16.9253 [INFO] uart5: [output] {'bytes in-use': 203008, 'bytes free': 2520576, 'bytes requested': 203008, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 53}
+01:28:16.9254 [INFO] uart5: [virt:  4.48s (+1.2ms)] {'bytes in-use': 203008, 'bytes free': 2520576, 'bytes requested': 203008, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 53}
+01:28:16.9351 [INFO] uart5: [output] {'bytes in-use': 207104, 'bytes free': 2516480, 'bytes requested': 207104, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 54}
+01:28:16.9353 [INFO] uart5: [virt:  4.48s (+1.2ms)] {'bytes in-use': 207104, 'bytes free': 2516480, 'bytes requested': 207104, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 54}
+01:28:16.9472 [INFO] uart5: [output] {'bytes in-use': 211200, 'bytes free': 2512384, 'bytes requested': 211200, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 55}
+01:28:16.9473 [INFO] uart5: [virt:  4.48s (+1.2ms)] {'bytes in-use': 211200, 'bytes free': 2512384, 'bytes requested': 211200, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 55}
+01:28:16.9621 [INFO] uart5: [output] {'bytes in-use': 215296, 'bytes free': 2508288, 'bytes requested': 215296, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 56}
+01:28:16.9622 [INFO] uart5: [virt:  4.48s (+1.3ms)] {'bytes in-use': 215296, 'bytes free': 2508288, 'bytes requested': 215296, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 56}
+01:28:16.9716 [INFO] uart5: [output] {'bytes in-use': 219392, 'bytes free': 2504192, 'bytes requested': 219392, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 57}
+01:28:16.9717 [INFO] uart5: [virt:  4.48s (+1.2ms)] {'bytes in-use': 219392, 'bytes free': 2504192, 'bytes requested': 219392, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 57}
+01:28:16.9863 [INFO] uart5: [output] {'bytes in-use': 223488, 'bytes free': 2500096, 'bytes requested': 223488, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 58}
+01:28:16.9864 [INFO] uart5: [virt:  4.49s (+1.2ms)] {'bytes in-use': 223488, 'bytes free': 2500096, 'bytes requested': 223488, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 58}
+01:28:16.9974 [INFO] uart5: [output] {'bytes in-use': 227584, 'bytes free': 2496000, 'bytes requested': 227584, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 59}
+01:28:16.9974 [INFO] uart5: [virt:  4.49s (+1.2ms)] {'bytes in-use': 227584, 'bytes free': 2496000, 'bytes requested': 227584, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 59}
+01:28:17.0063 [INFO] uart5: [output] {'bytes in-use': 231680, 'bytes free': 2491904, 'bytes requested': 231680, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 60}
+01:28:17.0064 [INFO] uart5: [virt:  4.49s (+1.3ms)] {'bytes in-use': 231680, 'bytes free': 2491904, 'bytes requested': 231680, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 60}
+01:28:17.0155 [INFO] uart5: [output] {'bytes in-use': 235776, 'bytes free': 2487808, 'bytes requested': 235776, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 61}
+01:28:17.0156 [INFO] uart5: [virt:  4.49s (+1.2ms)] {'bytes in-use': 235776, 'bytes free': 2487808, 'bytes requested': 235776, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 61}
+01:28:17.0246 [INFO] uart5: [output] {'bytes in-use': 239872, 'bytes free': 2483712, 'bytes requested': 239872, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 62}
+01:28:17.0247 [INFO] uart5: [virt:  4.49s (+1.2ms)] {'bytes in-use': 239872, 'bytes free': 2483712, 'bytes requested': 239872, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 62}
+01:28:17.0337 [INFO] uart5: [output] {'bytes in-use': 243968, 'bytes free': 2479616, 'bytes requested': 243968, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 63}
+01:28:17.0338 [INFO] uart5: [virt:  4.49s (+1.2ms)] {'bytes in-use': 243968, 'bytes free': 2479616, 'bytes requested': 243968, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 63}
+01:28:17.0457 [INFO] uart5: [output] {'bytes in-use': 248064, 'bytes free': 2475520, 'bytes requested': 248064, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 64}
+01:28:17.0458 [INFO] uart5: [virt:  4.49s (+1.3ms)] {'bytes in-use': 248064, 'bytes free': 2475520, 'bytes requested': 248064, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 64}
+01:28:17.0586 [INFO] uart5: [output] {'bytes in-use': 252160, 'bytes free': 2471424, 'bytes requested': 252160, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 65}
+01:28:17.0586 [INFO] uart5: [virt:  4.49s (+1.3ms)] {'bytes in-use': 252160, 'bytes free': 2471424, 'bytes requested': 252160, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 65}
+01:28:17.0700 [INFO] uart5: [output] {'bytes in-use': 256256, 'bytes free': 2467328, 'bytes requested': 256256, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 66}
+01:28:17.0701 [INFO] uart5: [virt:   4.5s (+1.2ms)] {'bytes in-use': 256256, 'bytes free': 2467328, 'bytes requested': 256256, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 66}
+01:28:17.0832 [INFO] uart5: [output] {'bytes in-use': 260352, 'bytes free': 2463232, 'bytes requested': 260352, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 67}
+01:28:17.0832 [INFO] uart5: [virt:   4.5s (+1.2ms)] {'bytes in-use': 260352, 'bytes free': 2463232, 'bytes requested': 260352, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 67}
+01:28:17.0947 [INFO] uart5: [output] {'bytes in-use': 264448, 'bytes free': 2459136, 'bytes requested': 264448, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 68}
+01:28:17.0948 [INFO] uart5: [virt:   4.5s (+1.3ms)] {'bytes in-use': 264448, 'bytes free': 2459136, 'bytes requested': 264448, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 68}
+01:28:17.1116 [INFO] uart5: [output] {'bytes in-use': 268544, 'bytes free': 2455040, 'bytes requested': 268544, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 69}
+01:28:17.1117 [INFO] uart5: [virt:   4.5s (+1.2ms)] {'bytes in-use': 268544, 'bytes free': 2455040, 'bytes requested': 268544, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 69}
+01:28:17.1226 [INFO] uart5: [output] {'bytes in-use': 272640, 'bytes free': 2450944, 'bytes requested': 272640, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 70}
+01:28:17.1226 [INFO] uart5: [virt:   4.5s (+1.2ms)] {'bytes in-use': 272640, 'bytes free': 2450944, 'bytes requested': 272640, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 70}
+01:28:17.1343 [INFO] uart5: [output] {'bytes in-use': 276736, 'bytes free': 2446848, 'bytes requested': 276736, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 71}
+01:28:17.1344 [INFO] uart5: [virt:   4.5s (+1.2ms)] {'bytes in-use': 276736, 'bytes free': 2446848, 'bytes requested': 276736, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 71}
+01:28:17.1477 [INFO] uart5: [output] {'bytes in-use': 280832, 'bytes free': 2442752, 'bytes requested': 280832, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 72}
+01:28:17.1477 [INFO] uart5: [virt:   4.5s (+1.3ms)] {'bytes in-use': 280832, 'bytes free': 2442752, 'bytes requested': 280832, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 72}
+01:28:17.1595 [INFO] uart5: [output] {'bytes in-use': 284928, 'bytes free': 2438656, 'bytes requested': 284928, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 73}
+01:28:17.1596 [INFO] uart5: [virt:   4.5s (+1.2ms)] {'bytes in-use': 284928, 'bytes free': 2438656, 'bytes requested': 284928, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 73}
+01:28:17.1746 [INFO] uart5: [output] {'bytes in-use': 289024, 'bytes free': 2434560, 'bytes requested': 289024, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 74}
+01:28:17.1747 [INFO] uart5: [virt:  4.51s (+1.2ms)] {'bytes in-use': 289024, 'bytes free': 2434560, 'bytes requested': 289024, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 74}
+01:28:17.1874 [INFO] uart5: [output] {'bytes in-use': 293120, 'bytes free': 2430464, 'bytes requested': 293120, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 75}
+01:28:17.1875 [INFO] uart5: [virt:  4.51s (+1.2ms)] {'bytes in-use': 293120, 'bytes free': 2430464, 'bytes requested': 293120, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 75}
+01:28:17.2012 [INFO] uart5: [output] {'bytes in-use': 297216, 'bytes free': 2426368, 'bytes requested': 297216, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 76}
+01:28:17.2013 [INFO] uart5: [virt:  4.51s (+1.3ms)] {'bytes in-use': 297216, 'bytes free': 2426368, 'bytes requested': 297216, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 76}
+01:28:17.2141 [INFO] uart5: [output] {'bytes in-use': 301312, 'bytes free': 2422272, 'bytes requested': 301312, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 77}
+01:28:17.2142 [INFO] uart5: [virt:  4.51s (+1.2ms)] {'bytes in-use': 301312, 'bytes free': 2422272, 'bytes requested': 301312, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 77}
+01:28:17.2262 [INFO] uart5: [output] {'bytes in-use': 305408, 'bytes free': 2418176, 'bytes requested': 305408, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 78}
+01:28:17.2263 [INFO] uart5: [virt:  4.51s (+1.2ms)] {'bytes in-use': 305408, 'bytes free': 2418176, 'bytes requested': 305408, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 78}
+01:28:17.2361 [INFO] uart5: [output] {'bytes in-use': 309504, 'bytes free': 2414080, 'bytes requested': 309504, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 79}
+01:28:17.2389 [INFO] uart5: [virt:  4.51s (+1.2ms)] {'bytes in-use': 309504, 'bytes free': 2414080, 'bytes requested': 309504, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 79}
+01:28:17.2459 [INFO] uart5: [output] {'bytes in-use': 313600, 'bytes free': 2409984, 'bytes requested': 313600, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 80}
+01:28:17.2460 [INFO] uart5: [virt:  4.51s (+1.3ms)] {'bytes in-use': 313600, 'bytes free': 2409984, 'bytes requested': 313600, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 80}
+01:28:17.2560 [INFO] uart5: [output] {'bytes in-use': 317696, 'bytes free': 2405888, 'bytes requested': 317696, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 81}
+01:28:17.2561 [INFO] uart5: [virt:  4.51s (+1.2ms)] {'bytes in-use': 317696, 'bytes free': 2405888, 'bytes requested': 317696, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 81}
+01:28:17.2657 [INFO] uart5: [output] {'bytes in-use': 321792, 'bytes free': 2401792, 'bytes requested': 321792, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 82}
+01:28:17.2658 [INFO] uart5: [virt:  4.52s (+1.2ms)] {'bytes in-use': 321792, 'bytes free': 2401792, 'bytes requested': 321792, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 82}
+01:28:17.2780 [INFO] uart5: [output] {'bytes in-use': 325888, 'bytes free': 2397696, 'bytes requested': 325888, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 83}
+01:28:17.2780 [INFO] uart5: [virt:  4.52s (+1.3ms)] {'bytes in-use': 325888, 'bytes free': 2397696, 'bytes requested': 325888, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 83}
+01:28:17.2927 [INFO] uart5: [output] {'bytes in-use': 329984, 'bytes free': 2393600, 'bytes requested': 329984, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 84}
+01:28:17.2928 [INFO] uart5: [virt:  4.52s (+1.2ms)] {'bytes in-use': 329984, 'bytes free': 2393600, 'bytes requested': 329984, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 84}
+01:28:17.3050 [INFO] uart5: [output] {'bytes in-use': 334080, 'bytes free': 2389504, 'bytes requested': 334080, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 85}
+01:28:17.3051 [INFO] uart5: [virt:  4.52s (+1.2ms)] {'bytes in-use': 334080, 'bytes free': 2389504, 'bytes requested': 334080, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 85}
+01:28:17.3162 [INFO] uart5: [output] {'bytes in-use': 338176, 'bytes free': 2385408, 'bytes requested': 338176, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 86}
+01:28:17.3163 [INFO] uart5: [virt:  4.52s (+1.2ms)] {'bytes in-use': 338176, 'bytes free': 2385408, 'bytes requested': 338176, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 86}
+01:28:17.3279 [INFO] uart5: [output] {'bytes in-use': 342272, 'bytes free': 2381312, 'bytes requested': 342272, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 87}
+01:28:17.3279 [INFO] uart5: [virt:  4.52s (+1.3ms)] {'bytes in-use': 342272, 'bytes free': 2381312, 'bytes requested': 342272, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 87}
+01:28:17.3436 [INFO] uart5: [output] {'bytes in-use': 346368, 'bytes free': 2377216, 'bytes requested': 346368, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 88}
+01:28:17.3436 [INFO] uart5: [virt:  4.52s (+1.2ms)] {'bytes in-use': 346368, 'bytes free': 2377216, 'bytes requested': 346368, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 88}
+01:28:17.3580 [INFO] uart5: [output] {'bytes in-use': 350464, 'bytes free': 2373120, 'bytes requested': 350464, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 89}
+01:28:17.3582 [INFO] uart5: [virt:  4.52s (+1.2ms)] {'bytes in-use': 350464, 'bytes free': 2373120, 'bytes requested': 350464, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 89}
+01:28:17.3730 [INFO] uart5: [output] {'bytes in-use': 354560, 'bytes free': 2369024, 'bytes requested': 354560, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 90}
+01:28:17.3732 [INFO] uart5: [virt:  4.53s (+1.3ms)] {'bytes in-use': 354560, 'bytes free': 2369024, 'bytes requested': 354560, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 90}
+01:28:17.3867 [INFO] uart5: [output] {'bytes in-use': 358656, 'bytes free': 2364928, 'bytes requested': 358656, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 91}
+01:28:17.3868 [INFO] uart5: [virt:  4.53s (+1.2ms)] {'bytes in-use': 358656, 'bytes free': 2364928, 'bytes requested': 358656, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 91}
+01:28:17.3987 [INFO] uart5: [output] {'bytes in-use': 362752, 'bytes free': 2360832, 'bytes requested': 362752, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 92}
+01:28:17.3988 [INFO] uart5: [virt:  4.53s (+1.2ms)] {'bytes in-use': 362752, 'bytes free': 2360832, 'bytes requested': 362752, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 92}
+01:28:17.4097 [INFO] uart5: [output] {'bytes in-use': 366848, 'bytes free': 2356736, 'bytes requested': 366848, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 93}
+01:28:17.4098 [INFO] uart5: [virt:  4.53s (+1.2ms)] {'bytes in-use': 366848, 'bytes free': 2356736, 'bytes requested': 366848, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 93}
+01:28:17.4246 [INFO] uart5: [output] {'bytes in-use': 370944, 'bytes free': 2352640, 'bytes requested': 370944, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 94}
+01:28:17.4246 [INFO] uart5: [virt:  4.53s (+1.3ms)] {'bytes in-use': 370944, 'bytes free': 2352640, 'bytes requested': 370944, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 94}
+01:28:17.4360 [INFO] uart5: [output] {'bytes in-use': 375040, 'bytes free': 2348544, 'bytes requested': 375040, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 95}
+01:28:17.4361 [INFO] uart5: [virt:  4.53s (+1.2ms)] {'bytes in-use': 375040, 'bytes free': 2348544, 'bytes requested': 375040, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 95}
+01:28:17.4471 [INFO] uart5: [output] {'bytes in-use': 379136, 'bytes free': 2344448, 'bytes requested': 379136, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 96}
+01:28:17.4471 [INFO] uart5: [virt:  4.53s (+1.2ms)] {'bytes in-use': 379136, 'bytes free': 2344448, 'bytes requested': 379136, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 96}
+01:28:17.4590 [INFO] uart5: [output] {'bytes in-use': 383232, 'bytes free': 2340352, 'bytes requested': 383232, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 97}
+01:28:17.4591 [INFO] uart5: [virt:  4.53s (+1.3ms)] {'bytes in-use': 383232, 'bytes free': 2340352, 'bytes requested': 383232, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 97}
+01:28:17.4741 [INFO] uart5: [output] {'bytes in-use': 387328, 'bytes free': 2336256, 'bytes requested': 387328, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 98}
+01:28:17.4742 [INFO] uart5: [virt:  4.53s (+1.2ms)] {'bytes in-use': 387328, 'bytes free': 2336256, 'bytes requested': 387328, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 98}
+01:28:17.4860 [INFO] uart5: [output] {'bytes in-use': 391424, 'bytes free': 2332160, 'bytes requested': 391424, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 99}
+01:28:17.4861 [INFO] uart5: [virt:  4.54s (+1.2ms)] {'bytes in-use': 391424, 'bytes free': 2332160, 'bytes requested': 391424, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 99}
+01:28:17.5008 [INFO] uart5: [output] {'bytes in-use': 395520, 'bytes free': 2328064, 'bytes requested': 395520, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 100}
+01:28:17.5009 [INFO] uart5: [virt:  4.54s (+1.2ms)] {'bytes in-use': 395520, 'bytes free': 2328064, 'bytes requested': 395520, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 100}
+01:28:17.5162 [INFO] uart5: [output] {'bytes in-use': 399616, 'bytes free': 2323968, 'bytes requested': 399616, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 101}
+01:28:17.5163 [INFO] uart5: [virt:  4.54s (+1.3ms)] {'bytes in-use': 399616, 'bytes free': 2323968, 'bytes requested': 399616, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 101}
+01:28:17.5290 [INFO] uart5: [output] {'bytes in-use': 403712, 'bytes free': 2319872, 'bytes requested': 403712, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 102}
+01:28:17.5291 [INFO] uart5: [virt:  4.54s (+1.2ms)] {'bytes in-use': 403712, 'bytes free': 2319872, 'bytes requested': 403712, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 102}
+01:28:17.5425 [INFO] uart5: [output] {'bytes in-use': 407808, 'bytes free': 2315776, 'bytes requested': 407808, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 103}
+01:28:17.5426 [INFO] uart5: [virt:  4.54s (+1.3ms)] {'bytes in-use': 407808, 'bytes free': 2315776, 'bytes requested': 407808, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 103}
+01:28:17.5547 [INFO] uart5: [output] {'bytes in-use': 411904, 'bytes free': 2311680, 'bytes requested': 411904, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 104}
+01:28:17.5547 [INFO] uart5: [virt:  4.54s (+1.2ms)] {'bytes in-use': 411904, 'bytes free': 2311680, 'bytes requested': 411904, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 104}
+01:28:17.5677 [INFO] uart5: [output] {'bytes in-use': 416000, 'bytes free': 2307584, 'bytes requested': 416000, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 105}
+01:28:17.5677 [INFO] uart5: [virt:  4.54s (+1.2ms)] {'bytes in-use': 416000, 'bytes free': 2307584, 'bytes requested': 416000, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 105}
+01:28:17.5803 [INFO] uart5: [output] {'bytes in-use': 420096, 'bytes free': 2303488, 'bytes requested': 420096, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 106}
+01:28:17.5804 [INFO] uart5: [virt:  4.54s (+1.3ms)] {'bytes in-use': 420096, 'bytes free': 2303488, 'bytes requested': 420096, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 106}
+01:28:17.5943 [INFO] uart5: [output] {'bytes in-use': 424192, 'bytes free': 2299392, 'bytes requested': 424192, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 107}
+01:28:17.5944 [INFO] uart5: [virt:  4.55s (+1.2ms)] {'bytes in-use': 424192, 'bytes free': 2299392, 'bytes requested': 424192, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 107}
+01:28:17.6101 [INFO] uart5: [output] {'bytes in-use': 428288, 'bytes free': 2295296, 'bytes requested': 428288, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 108}
+01:28:17.6102 [INFO] uart5: [virt:  4.55s (+1.2ms)] {'bytes in-use': 428288, 'bytes free': 2295296, 'bytes requested': 428288, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 108}
+01:28:17.6229 [INFO] uart5: [output] {'bytes in-use': 432384, 'bytes free': 2291200, 'bytes requested': 432384, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 109}
+01:28:17.6230 [INFO] uart5: [virt:  4.55s (+1.2ms)] {'bytes in-use': 432384, 'bytes free': 2291200, 'bytes requested': 432384, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 109}
+01:28:17.6348 [INFO] uart5: [output] {'bytes in-use': 436480, 'bytes free': 2287104, 'bytes requested': 436480, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 110}
+01:28:17.6349 [INFO] uart5: [virt:  4.55s (+1.3ms)] {'bytes in-use': 436480, 'bytes free': 2287104, 'bytes requested': 436480, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 110}
+01:28:17.6623 [INFO] uart5: [output] {'bytes in-use': 440576, 'bytes free': 2283008, 'bytes requested': 440576, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 111}
+01:28:17.6624 [INFO] uart5: [virt: 4.56s (+11.2ms)] {'bytes in-use': 440576, 'bytes free': 2283008, 'bytes requested': 440576, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 111}
+01:28:17.6751 [INFO] uart5: [output] {'bytes in-use': 444672, 'bytes free': 2278912, 'bytes requested': 444672, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 112}
+01:28:17.6751 [INFO] uart5: [virt:  4.56s (+1.2ms)] {'bytes in-use': 444672, 'bytes free': 2278912, 'bytes requested': 444672, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 112}
+01:28:17.6939 [INFO] uart5: [output] {'bytes in-use': 448768, 'bytes free': 2274816, 'bytes requested': 448768, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 113}
+01:28:17.6940 [INFO] uart5: [virt:  4.56s (+1.3ms)] {'bytes in-use': 448768, 'bytes free': 2274816, 'bytes requested': 448768, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 113}
+01:28:17.7093 [INFO] uart5: [output] {'bytes in-use': 452864, 'bytes free': 2270720, 'bytes requested': 452864, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 114}
+01:28:17.7095 [INFO] uart5: [virt:  4.56s (+1.2ms)] {'bytes in-use': 452864, 'bytes free': 2270720, 'bytes requested': 452864, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 114}
+01:28:17.7286 [INFO] uart5: [output] {'bytes in-use': 456960, 'bytes free': 2266624, 'bytes requested': 456960, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 115}
+01:28:17.7287 [INFO] uart5: [virt:  4.57s (+1.2ms)] {'bytes in-use': 456960, 'bytes free': 2266624, 'bytes requested': 456960, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 115}
+01:28:17.7472 [INFO] uart5: [output] {'bytes in-use': 461056, 'bytes free': 2262528, 'bytes requested': 461056, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 116}
+01:28:17.7473 [INFO] uart5: [virt:  4.57s (+1.2ms)] {'bytes in-use': 461056, 'bytes free': 2262528, 'bytes requested': 461056, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 116}
+01:28:17.7657 [INFO] uart5: [output] {'bytes in-use': 465152, 'bytes free': 2258432, 'bytes requested': 465152, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 117}
+01:28:17.7658 [INFO] uart5: [virt:  4.57s (+1.3ms)] {'bytes in-use': 465152, 'bytes free': 2258432, 'bytes requested': 465152, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 117}
+01:28:17.7845 [INFO] uart5: [output] {'bytes in-use': 469248, 'bytes free': 2254336, 'bytes requested': 469248, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 118}
+01:28:17.7846 [INFO] uart5: [virt:  4.57s (+1.2ms)] {'bytes in-use': 469248, 'bytes free': 2254336, 'bytes requested': 469248, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 118}
+01:28:17.7992 [INFO] uart5: [output] {'bytes in-use': 473344, 'bytes free': 2250240, 'bytes requested': 473344, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 119}
+01:28:17.7993 [INFO] uart5: [virt:  4.57s (+1.2ms)] {'bytes in-use': 473344, 'bytes free': 2250240, 'bytes requested': 473344, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 119}
+01:28:17.8182 [INFO] uart5: [output] {'bytes in-use': 477440, 'bytes free': 2246144, 'bytes requested': 477440, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 120}
+01:28:17.8183 [INFO] uart5: [virt:  4.57s (+1.2ms)] {'bytes in-use': 477440, 'bytes free': 2246144, 'bytes requested': 477440, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 120}
+01:28:17.8379 [INFO] uart5: [output] {'bytes in-use': 481536, 'bytes free': 2242048, 'bytes requested': 481536, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 121}
+01:28:17.8381 [INFO] uart5: [virt:  4.57s (+1.3ms)] {'bytes in-use': 481536, 'bytes free': 2242048, 'bytes requested': 481536, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 121}
+01:28:17.8541 [INFO] uart5: [output] {'bytes in-use': 485632, 'bytes free': 2237952, 'bytes requested': 485632, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 122}
+01:28:17.8543 [INFO] uart5: [virt:  4.57s (+1.2ms)] {'bytes in-use': 485632, 'bytes free': 2237952, 'bytes requested': 485632, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 122}
+01:28:17.8695 [INFO] uart5: [output] {'bytes in-use': 489728, 'bytes free': 2233856, 'bytes requested': 489728, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 123}
+01:28:17.8696 [INFO] uart5: [virt:  4.58s (+1.3ms)] {'bytes in-use': 489728, 'bytes free': 2233856, 'bytes requested': 489728, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 123}
+01:28:17.8786 [INFO] uart5: [output] {'bytes in-use': 493824, 'bytes free': 2229760, 'bytes requested': 493824, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 124}
+01:28:17.8787 [INFO] uart5: [virt:  4.58s (+1.2ms)] {'bytes in-use': 493824, 'bytes free': 2229760, 'bytes requested': 493824, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 124}
+01:28:17.8953 [INFO] uart5: [output] {'bytes in-use': 497920, 'bytes free': 2225664, 'bytes requested': 497920, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 125}
+01:28:17.8954 [INFO] uart5: [virt:  4.58s (+1.2ms)] {'bytes in-use': 497920, 'bytes free': 2225664, 'bytes requested': 497920, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 125}
+01:28:17.9071 [INFO] uart5: [output] {'bytes in-use': 502016, 'bytes free': 2221568, 'bytes requested': 502016, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 126}
+01:28:17.9072 [INFO] uart5: [virt:  4.58s (+1.2ms)] {'bytes in-use': 502016, 'bytes free': 2221568, 'bytes requested': 502016, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 126}
+01:28:17.9236 [INFO] uart5: [output] {'bytes in-use': 506112, 'bytes free': 2217472, 'bytes requested': 506112, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 127}
+01:28:17.9236 [INFO] uart5: [virt:  4.58s (+1.3ms)] {'bytes in-use': 506112, 'bytes free': 2217472, 'bytes requested': 506112, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 127}
+01:28:17.9364 [INFO] uart5: [output] {'bytes in-use': 510208, 'bytes free': 2213376, 'bytes requested': 510208, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 128}
+01:28:17.9365 [INFO] uart5: [virt:  4.58s (+1.2ms)] {'bytes in-use': 510208, 'bytes free': 2213376, 'bytes requested': 510208, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 128}
+01:28:17.9527 [INFO] uart5: [output] {'bytes in-use': 514304, 'bytes free': 2209280, 'bytes requested': 514304, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 129}
+01:28:17.9527 [INFO] uart5: [virt:  4.58s (+1.2ms)] {'bytes in-use': 514304, 'bytes free': 2209280, 'bytes requested': 514304, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 129}
+01:28:17.9684 [INFO] uart5: [output] {'bytes in-use': 518400, 'bytes free': 2205184, 'bytes requested': 518400, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 130}
+01:28:17.9685 [INFO] uart5: [virt:  4.58s (+1.2ms)] {'bytes in-use': 518400, 'bytes free': 2205184, 'bytes requested': 518400, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 130}
+01:28:17.9856 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+01:28:17.9858 [INFO] uart5: [virt:  4.58s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+01:28:18.0057 [INFO] uart5: [output] {'bytes in-use': 522496, 'bytes free': 2201088, 'bytes requested': 522496, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 131}
+01:28:18.0059 [INFO] uart5: [virt:  4.59s (+5.5ms)] {'bytes in-use': 522496, 'bytes free': 2201088, 'bytes requested': 522496, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 131}
+01:28:18.0248 [INFO] uart5: [output] {'bytes in-use': 526592, 'bytes free': 2196992, 'bytes requested': 526592, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 132}
+01:28:18.0249 [INFO] uart5: [virt:  4.59s (+1.2ms)] {'bytes in-use': 526592, 'bytes free': 2196992, 'bytes requested': 526592, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 132}
+01:28:18.0403 [INFO] uart5: [output] {'bytes in-use': 530688, 'bytes free': 2192896, 'bytes requested': 530688, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 133}
+01:28:18.0405 [INFO] uart5: [virt:  4.59s (+1.3ms)] {'bytes in-use': 530688, 'bytes free': 2192896, 'bytes requested': 530688, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 133}
+01:28:18.0536 [INFO] uart5: [output] {'bytes in-use': 534784, 'bytes free': 2188800, 'bytes requested': 534784, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 134}
+01:28:18.0537 [INFO] uart5: [virt:  4.59s (+1.2ms)] {'bytes in-use': 534784, 'bytes free': 2188800, 'bytes requested': 534784, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 134}
+01:28:18.0680 [INFO] uart5: [output] {'bytes in-use': 538880, 'bytes free': 2184704, 'bytes requested': 538880, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 135}
+01:28:18.0681 [INFO] uart5: [virt:  4.59s (+1.2ms)] {'bytes in-use': 538880, 'bytes free': 2184704, 'bytes requested': 538880, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 135}
+01:28:18.0810 [INFO] uart5: [output] {'bytes in-use': 542976, 'bytes free': 2180608, 'bytes requested': 542976, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 136}
+01:28:18.0812 [INFO] uart5: [virt:   4.6s (+1.2ms)] {'bytes in-use': 542976, 'bytes free': 2180608, 'bytes requested': 542976, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 136}
+01:28:18.0977 [INFO] uart5: [output] {'bytes in-use': 547072, 'bytes free': 2176512, 'bytes requested': 547072, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 137}
+01:28:18.0978 [INFO] uart5: [virt:   4.6s (+1.3ms)] {'bytes in-use': 547072, 'bytes free': 2176512, 'bytes requested': 547072, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 137}
+01:28:18.1112 [INFO] uart5: [output] {'bytes in-use': 551168, 'bytes free': 2172416, 'bytes requested': 551168, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 138}
+01:28:18.1113 [INFO] uart5: [virt:   4.6s (+1.2ms)] {'bytes in-use': 551168, 'bytes free': 2172416, 'bytes requested': 551168, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 138}
+01:28:18.1293 [INFO] uart5: [output] {'bytes in-use': 555264, 'bytes free': 2168320, 'bytes requested': 555264, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 139}
+01:28:18.1294 [INFO] uart5: [virt:   4.6s (+1.2ms)] {'bytes in-use': 555264, 'bytes free': 2168320, 'bytes requested': 555264, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 139}
+01:28:18.1416 [INFO] uart5: [output] {'bytes in-use': 559360, 'bytes free': 2164224, 'bytes requested': 559360, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 140}
+01:28:18.1418 [INFO] uart5: [virt:   4.6s (+1.2ms)] {'bytes in-use': 559360, 'bytes free': 2164224, 'bytes requested': 559360, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 140}
+01:28:18.1612 [INFO] uart5: [output] {'bytes in-use': 563456, 'bytes free': 2160128, 'bytes requested': 563456, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 141}
+01:28:18.1613 [INFO] uart5: [virt:   4.6s (+1.3ms)] {'bytes in-use': 563456, 'bytes free': 2160128, 'bytes requested': 563456, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 141}
+01:28:18.1755 [INFO] uart5: [output] {'bytes in-use': 567552, 'bytes free': 2156032, 'bytes requested': 567552, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 142}
+01:28:18.1756 [INFO] uart5: [virt:   4.6s (+1.2ms)] {'bytes in-use': 567552, 'bytes free': 2156032, 'bytes requested': 567552, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 142}
+01:28:18.1937 [INFO] uart5: [output] {'bytes in-use': 571648, 'bytes free': 2151936, 'bytes requested': 571648, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 143}
+01:28:18.1938 [INFO] uart5: [virt:   4.6s (+1.3ms)] {'bytes in-use': 571648, 'bytes free': 2151936, 'bytes requested': 571648, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 143}
+01:28:18.2114 [INFO] uart5: [output] {'bytes in-use': 575744, 'bytes free': 2147840, 'bytes requested': 575744, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 144}
+01:28:18.2115 [INFO] uart5: [virt:  4.61s (+1.2ms)] {'bytes in-use': 575744, 'bytes free': 2147840, 'bytes requested': 575744, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 144}
+01:28:18.2275 [INFO] uart5: [output] {'bytes in-use': 579840, 'bytes free': 2143744, 'bytes requested': 579840, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 145}
+01:28:18.2276 [INFO] uart5: [virt:  4.61s (+1.2ms)] {'bytes in-use': 579840, 'bytes free': 2143744, 'bytes requested': 579840, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 145}
+01:28:18.2469 [INFO] uart5: [output] {'bytes in-use': 583936, 'bytes free': 2139648, 'bytes requested': 583936, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 146}
+01:28:18.2470 [INFO] uart5: [virt:  4.61s (+1.2ms)] {'bytes in-use': 583936, 'bytes free': 2139648, 'bytes requested': 583936, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 146}
+01:28:18.2666 [INFO] uart5: [output] {'bytes in-use': 588032, 'bytes free': 2135552, 'bytes requested': 588032, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 147}
+01:28:18.2667 [INFO] uart5: [virt:  4.61s (+1.3ms)] {'bytes in-use': 588032, 'bytes free': 2135552, 'bytes requested': 588032, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 147}
+01:28:18.2819 [INFO] uart5: [output] {'bytes in-use': 592128, 'bytes free': 2131456, 'bytes requested': 592128, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 148}
+01:28:18.2820 [INFO] uart5: [virt:  4.61s (+1.2ms)] {'bytes in-use': 592128, 'bytes free': 2131456, 'bytes requested': 592128, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 148}
+01:28:18.2979 [INFO] uart5: [output] {'bytes in-use': 596224, 'bytes free': 2127360, 'bytes requested': 596224, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 149}
+01:28:18.2980 [INFO] uart5: [virt:  4.61s (+1.2ms)] {'bytes in-use': 596224, 'bytes free': 2127360, 'bytes requested': 596224, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 149}
+01:28:18.3124 [INFO] uart5: [output] {'bytes in-use': 600320, 'bytes free': 2123264, 'bytes requested': 600320, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 150}
+01:28:18.3125 [INFO] uart5: [virt:  4.61s (+1.3ms)] {'bytes in-use': 600320, 'bytes free': 2123264, 'bytes requested': 600320, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 150}
+01:28:18.3307 [INFO] uart5: [output] {'bytes in-use': 604416, 'bytes free': 2119168, 'bytes requested': 604416, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 151}
+01:28:18.3308 [INFO] uart5: [virt:  4.61s (+1.2ms)] {'bytes in-use': 604416, 'bytes free': 2119168, 'bytes requested': 604416, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 151}
+01:28:18.3480 [INFO] uart5: [output] {'bytes in-use': 608512, 'bytes free': 2115072, 'bytes requested': 608512, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 152}
+01:28:18.3481 [INFO] uart5: [virt:  4.62s (+1.2ms)] {'bytes in-use': 608512, 'bytes free': 2115072, 'bytes requested': 608512, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 152}
+01:28:18.3619 [INFO] uart5: [output] {'bytes in-use': 612608, 'bytes free': 2110976, 'bytes requested': 612608, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 153}
+01:28:18.3620 [INFO] uart5: [virt:  4.62s (+1.2ms)] {'bytes in-use': 612608, 'bytes free': 2110976, 'bytes requested': 612608, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 153}
+01:28:18.3820 [INFO] uart5: [output] {'bytes in-use': 616704, 'bytes free': 2106880, 'bytes requested': 616704, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 154}
+01:28:18.3821 [INFO] uart5: [virt:  4.62s (+1.3ms)] {'bytes in-use': 616704, 'bytes free': 2106880, 'bytes requested': 616704, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 154}
+01:28:18.4037 [INFO] uart5: [output] {'bytes in-use': 620800, 'bytes free': 2102784, 'bytes requested': 620800, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 155}
+01:28:18.4038 [INFO] uart5: [virt:  4.62s (+1.2ms)] {'bytes in-use': 620800, 'bytes free': 2102784, 'bytes requested': 620800, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 155}
+01:28:18.4247 [INFO] uart5: [output] {'bytes in-use': 624896, 'bytes free': 2098688, 'bytes requested': 624896, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 156}
+01:28:18.4248 [INFO] uart5: [virt:  4.62s (+1.3ms)] {'bytes in-use': 624896, 'bytes free': 2098688, 'bytes requested': 624896, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 156}
+01:28:18.4446 [INFO] uart5: [output] {'bytes in-use': 628992, 'bytes free': 2094592, 'bytes requested': 628992, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 157}
+01:28:18.4447 [INFO] uart5: [virt:  4.62s (+1.2ms)] {'bytes in-use': 628992, 'bytes free': 2094592, 'bytes requested': 628992, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 157}
+01:28:18.4657 [INFO] uart5: [output] {'bytes in-use': 633088, 'bytes free': 2090496, 'bytes requested': 633088, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 158}
+01:28:18.4658 [INFO] uart5: [virt:  4.62s (+1.2ms)] {'bytes in-use': 633088, 'bytes free': 2090496, 'bytes requested': 633088, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 158}
+01:28:18.4813 [INFO] uart5: [output] {'bytes in-use': 637184, 'bytes free': 2086400, 'bytes requested': 637184, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 159}
+01:28:18.4814 [INFO] uart5: [virt:  4.62s (+1.2ms)] {'bytes in-use': 637184, 'bytes free': 2086400, 'bytes requested': 637184, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 159}
+01:28:18.4967 [INFO] uart5: [output] {'bytes in-use': 641280, 'bytes free': 2082304, 'bytes requested': 641280, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 160}
+01:28:18.4968 [INFO] uart5: [virt:  4.63s (+1.3ms)] {'bytes in-use': 641280, 'bytes free': 2082304, 'bytes requested': 641280, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 160}
+01:28:18.5111 [INFO] uart5: [output] {'bytes in-use': 645376, 'bytes free': 2078208, 'bytes requested': 645376, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 161}
+01:28:18.5113 [INFO] uart5: [virt:  4.63s (+1.2ms)] {'bytes in-use': 645376, 'bytes free': 2078208, 'bytes requested': 645376, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 161}
+01:28:18.5258 [INFO] uart5: [output] {'bytes in-use': 649472, 'bytes free': 2074112, 'bytes requested': 649472, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 162}
+01:28:18.5259 [INFO] uart5: [virt:  4.63s (+1.2ms)] {'bytes in-use': 649472, 'bytes free': 2074112, 'bytes requested': 649472, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 162}
+01:28:18.5442 [INFO] uart5: [output] {'bytes in-use': 653568, 'bytes free': 2070016, 'bytes requested': 653568, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 163}
+01:28:18.5443 [INFO] uart5: [virt:  4.63s (+1.3ms)] {'bytes in-use': 653568, 'bytes free': 2070016, 'bytes requested': 653568, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 163}
+01:28:18.5596 [INFO] uart5: [output] {'bytes in-use': 657664, 'bytes free': 2065920, 'bytes requested': 657664, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 164}
+01:28:18.5596 [INFO] uart5: [virt:  4.63s (+1.2ms)] {'bytes in-use': 657664, 'bytes free': 2065920, 'bytes requested': 657664, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 164}
+01:28:18.5771 [INFO] uart5: [output] {'bytes in-use': 661760, 'bytes free': 2061824, 'bytes requested': 661760, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 165}
+01:28:18.5772 [INFO] uart5: [virt:  4.63s (+1.3ms)] {'bytes in-use': 661760, 'bytes free': 2061824, 'bytes requested': 661760, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 165}
+01:28:18.5922 [INFO] uart5: [output] {'bytes in-use': 665856, 'bytes free': 2057728, 'bytes requested': 665856, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 166}
+01:28:18.5924 [INFO] uart5: [virt:  4.63s (+1.2ms)] {'bytes in-use': 665856, 'bytes free': 2057728, 'bytes requested': 665856, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 166}
+01:28:18.6071 [INFO] uart5: [output] {'bytes in-use': 669952, 'bytes free': 2053632, 'bytes requested': 669952, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 167}
+01:28:18.6072 [INFO] uart5: [virt:  4.63s (+1.2ms)] {'bytes in-use': 669952, 'bytes free': 2053632, 'bytes requested': 669952, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 167}
+01:28:18.6212 [INFO] uart5: [output] {'bytes in-use': 674048, 'bytes free': 2049536, 'bytes requested': 674048, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 168}
+01:28:18.6213 [INFO] uart5: [virt:  4.64s (+1.2ms)] {'bytes in-use': 674048, 'bytes free': 2049536, 'bytes requested': 674048, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 168}
+01:28:18.6359 [INFO] uart5: [output] {'bytes in-use': 678144, 'bytes free': 2045440, 'bytes requested': 678144, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 169}
+01:28:18.6360 [INFO] uart5: [virt:  4.64s (+1.3ms)] {'bytes in-use': 678144, 'bytes free': 2045440, 'bytes requested': 678144, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 169}
+01:28:18.6514 [INFO] uart5: [output] {'bytes in-use': 682240, 'bytes free': 2041344, 'bytes requested': 682240, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 170}
+01:28:18.6515 [INFO] uart5: [virt:  4.64s (+1.2ms)] {'bytes in-use': 682240, 'bytes free': 2041344, 'bytes requested': 682240, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 170}
+01:28:18.6718 [INFO] uart5: [output] {'bytes in-use': 686336, 'bytes free': 2037248, 'bytes requested': 686336, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 171}
+01:28:18.6720 [INFO] uart5: [virt:  4.64s (+1.2ms)] {'bytes in-use': 686336, 'bytes free': 2037248, 'bytes requested': 686336, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 171}
+01:28:18.6932 [INFO] uart5: [output] {'bytes in-use': 690432, 'bytes free': 2033152, 'bytes requested': 690432, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 172}
+01:28:18.6933 [INFO] uart5: [virt:  4.64s (+1.3ms)] {'bytes in-use': 690432, 'bytes free': 2033152, 'bytes requested': 690432, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 172}
+01:28:18.7121 [INFO] uart5: [output] {'bytes in-use': 694528, 'bytes free': 2029056, 'bytes requested': 694528, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 173}
+01:28:18.7121 [INFO] uart5: [virt:  4.64s (+1.2ms)] {'bytes in-use': 694528, 'bytes free': 2029056, 'bytes requested': 694528, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 173}
+01:28:18.7259 [INFO] uart5: [output] {'bytes in-use': 698624, 'bytes free': 2024960, 'bytes requested': 698624, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 174}
+01:28:18.7260 [INFO] uart5: [virt:  4.64s (+1.2ms)] {'bytes in-use': 698624, 'bytes free': 2024960, 'bytes requested': 698624, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 174}
+01:28:18.7424 [INFO] uart5: [output] {'bytes in-use': 702720, 'bytes free': 2020864, 'bytes requested': 702720, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 175}
+01:28:18.7425 [INFO] uart5: [virt:  4.64s (+1.2ms)] {'bytes in-use': 702720, 'bytes free': 2020864, 'bytes requested': 702720, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 175}
+01:28:18.7572 [INFO] uart5: [output] {'bytes in-use': 706816, 'bytes free': 2016768, 'bytes requested': 706816, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 176}
+01:28:18.7573 [INFO] uart5: [virt:  4.65s (+1.3ms)] {'bytes in-use': 706816, 'bytes free': 2016768, 'bytes requested': 706816, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 176}
+01:28:18.7718 [INFO] uart5: [output] {'bytes in-use': 710912, 'bytes free': 2012672, 'bytes requested': 710912, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 177}
+01:28:18.7719 [INFO] uart5: [virt:  4.65s (+1.2ms)] {'bytes in-use': 710912, 'bytes free': 2012672, 'bytes requested': 710912, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 177}
+01:28:18.7890 [INFO] uart5: [output] {'bytes in-use': 715008, 'bytes free': 2008576, 'bytes requested': 715008, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 178}
+01:28:18.7891 [INFO] uart5: [virt:  4.65s (+1.3ms)] {'bytes in-use': 715008, 'bytes free': 2008576, 'bytes requested': 715008, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 178}
+01:28:18.8034 [INFO] uart5: [output] {'bytes in-use': 719104, 'bytes free': 2004480, 'bytes requested': 719104, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 179}
+01:28:18.8035 [INFO] uart5: [virt:  4.65s (+1.2ms)] {'bytes in-use': 719104, 'bytes free': 2004480, 'bytes requested': 719104, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 179}
+01:28:18.8204 [INFO] uart5: [output] {'bytes in-use': 723200, 'bytes free': 2000384, 'bytes requested': 723200, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 180}
+01:28:18.8205 [INFO] uart5: [virt:  4.65s (+1.2ms)] {'bytes in-use': 723200, 'bytes free': 2000384, 'bytes requested': 723200, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 180}
+01:28:18.8350 [INFO] uart5: [output] {'bytes in-use': 727296, 'bytes free': 1996288, 'bytes requested': 727296, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 181}
+01:28:18.8351 [INFO] uart5: [virt:  4.65s (+1.3ms)] {'bytes in-use': 727296, 'bytes free': 1996288, 'bytes requested': 727296, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 181}
+01:28:18.8531 [INFO] uart5: [output] {'bytes in-use': 731392, 'bytes free': 1992192, 'bytes requested': 731392, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 182}
+01:28:18.8532 [INFO] uart5: [virt:  4.65s (+1.2ms)] {'bytes in-use': 731392, 'bytes free': 1992192, 'bytes requested': 731392, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 182}
+01:28:18.8687 [INFO] uart5: [output] {'bytes in-use': 735488, 'bytes free': 1988096, 'bytes requested': 735488, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 183}
+01:28:18.8688 [INFO] uart5: [virt:  4.65s (+1.2ms)] {'bytes in-use': 735488, 'bytes free': 1988096, 'bytes requested': 735488, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 183}
+01:28:18.8865 [INFO] uart5: [output] {'bytes in-use': 739584, 'bytes free': 1984000, 'bytes requested': 739584, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 184}
+01:28:18.8866 [INFO] uart5: [virt:  4.66s (+1.3ms)] {'bytes in-use': 739584, 'bytes free': 1984000, 'bytes requested': 739584, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 184}
+01:28:18.9014 [INFO] uart5: [output] {'bytes in-use': 743680, 'bytes free': 1979904, 'bytes requested': 743680, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 185}
+01:28:18.9015 [INFO] uart5: [virt:  4.66s (+1.2ms)] {'bytes in-use': 743680, 'bytes free': 1979904, 'bytes requested': 743680, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 185}
+01:28:18.9195 [INFO] uart5: [output] {'bytes in-use': 747776, 'bytes free': 1975808, 'bytes requested': 747776, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 186}
+01:28:18.9196 [INFO] uart5: [virt:  4.66s (+1.2ms)] {'bytes in-use': 747776, 'bytes free': 1975808, 'bytes requested': 747776, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 186}
+01:28:18.9382 [INFO] uart5: [output] {'bytes in-use': 751872, 'bytes free': 1971712, 'bytes requested': 751872, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 187}
+01:28:18.9382 [INFO] uart5: [virt:  4.66s (+1.2ms)] {'bytes in-use': 751872, 'bytes free': 1971712, 'bytes requested': 751872, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 187}
+01:28:18.9553 [INFO] uart5: [output] {'bytes in-use': 755968, 'bytes free': 1967616, 'bytes requested': 755968, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 188}
+01:28:18.9553 [INFO] uart5: [virt:  4.66s (+1.3ms)] {'bytes in-use': 755968, 'bytes free': 1967616, 'bytes requested': 755968, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 188}
+01:28:18.9708 [INFO] uart5: [output] {'bytes in-use': 760064, 'bytes free': 1963520, 'bytes requested': 760064, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 189}
+01:28:18.9709 [INFO] uart5: [virt:  4.66s (+1.2ms)] {'bytes in-use': 760064, 'bytes free': 1963520, 'bytes requested': 760064, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 189}
+01:28:18.9857 [INFO] uart5: [output] {'bytes in-use': 764160, 'bytes free': 1959424, 'bytes requested': 764160, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 190}
+01:28:18.9858 [INFO] uart5: [virt:  4.66s (+1.2ms)] {'bytes in-use': 764160, 'bytes free': 1959424, 'bytes requested': 764160, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 190}
+01:28:19.0020 [INFO] uart5: [output] {'bytes in-use': 768256, 'bytes free': 1955328, 'bytes requested': 768256, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 191}
+01:28:19.0020 [INFO] uart5: [virt:  4.66s (+1.3ms)] {'bytes in-use': 768256, 'bytes free': 1955328, 'bytes requested': 768256, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 191}
+01:28:19.0161 [INFO] uart5: [output] {'bytes in-use': 772352, 'bytes free': 1951232, 'bytes requested': 772352, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 192}
+01:28:19.0162 [INFO] uart5: [virt:  4.67s (+1.2ms)] {'bytes in-use': 772352, 'bytes free': 1951232, 'bytes requested': 772352, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 192}
+01:28:19.0347 [INFO] uart5: [output] {'bytes in-use': 776448, 'bytes free': 1947136, 'bytes requested': 776448, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 193}
+01:28:19.0348 [INFO] uart5: [virt:  4.67s (+1.2ms)] {'bytes in-use': 776448, 'bytes free': 1947136, 'bytes requested': 776448, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 193}
+01:28:19.0528 [INFO] uart5: [output] {'bytes in-use': 780544, 'bytes free': 1943040, 'bytes requested': 780544, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 194}
+01:28:19.0530 [INFO] uart5: [virt:  4.67s (+1.2ms)] {'bytes in-use': 780544, 'bytes free': 1943040, 'bytes requested': 780544, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 194}
+01:28:19.0717 [INFO] uart5: [output] {'bytes in-use': 784640, 'bytes free': 1938944, 'bytes requested': 784640, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 195}
+01:28:19.0719 [INFO] uart5: [virt:  4.67s (+1.3ms)] {'bytes in-use': 784640, 'bytes free': 1938944, 'bytes requested': 784640, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 195}
+01:28:19.0865 [INFO] uart5: [output] {'bytes in-use': 788736, 'bytes free': 1934848, 'bytes requested': 788736, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 196}
+01:28:19.0866 [INFO] uart5: [virt:  4.67s (+1.2ms)] {'bytes in-use': 788736, 'bytes free': 1934848, 'bytes requested': 788736, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 196}
+01:28:19.1038 [INFO] uart5: [output] {'bytes in-use': 792832, 'bytes free': 1930752, 'bytes requested': 792832, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 197}
+01:28:19.1040 [INFO] uart5: [virt:  4.67s (+1.2ms)] {'bytes in-use': 792832, 'bytes free': 1930752, 'bytes requested': 792832, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 197}
+01:28:19.1213 [INFO] uart5: [output] {'bytes in-use': 796928, 'bytes free': 1926656, 'bytes requested': 796928, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 198}
+01:28:19.1213 [INFO] uart5: [virt:  4.67s (+1.3ms)] {'bytes in-use': 796928, 'bytes free': 1926656, 'bytes requested': 796928, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 198}
+01:28:19.1391 [INFO] uart5: [output] {'bytes in-use': 801024, 'bytes free': 1922560, 'bytes requested': 801024, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 199}
+01:28:19.1392 [INFO] uart5: [virt:  4.67s (+1.2ms)] {'bytes in-use': 801024, 'bytes free': 1922560, 'bytes requested': 801024, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 199}
+01:28:19.1557 [INFO] uart5: [output] {'bytes in-use': 805120, 'bytes free': 1918464, 'bytes requested': 805120, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 200}
+01:28:19.1558 [INFO] uart5: [virt:  4.68s (+1.3ms)] {'bytes in-use': 805120, 'bytes free': 1918464, 'bytes requested': 805120, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 200}
+01:28:19.1719 [INFO] uart5: [output] {'bytes in-use': 809216, 'bytes free': 1914368, 'bytes requested': 809216, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 201}
+01:28:19.1756 [INFO] uart5: [virt:  4.68s (+1.2ms)] {'bytes in-use': 809216, 'bytes free': 1914368, 'bytes requested': 809216, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 201}
+01:28:19.1881 [INFO] uart5: [output] {'bytes in-use': 813312, 'bytes free': 1910272, 'bytes requested': 813312, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 202}
+01:28:19.1882 [INFO] uart5: [virt:  4.68s (+1.3ms)] {'bytes in-use': 813312, 'bytes free': 1910272, 'bytes requested': 813312, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 202}
+01:28:19.2131 [INFO] uart5: [output] {'bytes in-use': 817408, 'bytes free': 1906176, 'bytes requested': 817408, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 203}
+01:28:19.2133 [INFO] uart5: [virt:  4.68s (+1.2ms)] {'bytes in-use': 817408, 'bytes free': 1906176, 'bytes requested': 817408, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 203}
+01:28:19.2348 [INFO] uart5: [output] {'bytes in-use': 821504, 'bytes free': 1902080, 'bytes requested': 821504, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 204}
+01:28:19.2349 [INFO] uart5: [virt:  4.68s (+1.2ms)] {'bytes in-use': 821504, 'bytes free': 1902080, 'bytes requested': 821504, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 204}
+01:28:19.2563 [INFO] uart5: [output] {'bytes in-use': 825600, 'bytes free': 1897984, 'bytes requested': 825600, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 205}
+01:28:19.2564 [INFO] uart5: [virt:  4.68s (+1.2ms)] {'bytes in-use': 825600, 'bytes free': 1897984, 'bytes requested': 825600, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 205}
+01:28:19.2713 [INFO] uart5: [output] {'bytes in-use': 829696, 'bytes free': 1893888, 'bytes requested': 829696, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 206}
+01:28:19.2714 [INFO] uart5: [virt:  4.68s (+1.3ms)] {'bytes in-use': 829696, 'bytes free': 1893888, 'bytes requested': 829696, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 206}
+01:28:19.2888 [INFO] uart5: [output] {'bytes in-use': 833792, 'bytes free': 1889792, 'bytes requested': 833792, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 207}
+01:28:19.2889 [INFO] uart5: [virt:  4.68s (+1.2ms)] {'bytes in-use': 833792, 'bytes free': 1889792, 'bytes requested': 833792, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 207}
+01:28:19.3039 [INFO] uart5: [output] {'bytes in-use': 837888, 'bytes free': 1885696, 'bytes requested': 837888, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 208}
+01:28:19.3040 [INFO] uart5: [virt:  4.68s (+1.2ms)] {'bytes in-use': 837888, 'bytes free': 1885696, 'bytes requested': 837888, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 208}
+01:28:19.3248 [INFO] uart5: [output] {'bytes in-use': 841984, 'bytes free': 1881600, 'bytes requested': 841984, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 209}
+01:28:19.3249 [INFO] uart5: [virt:  4.69s (+1.3ms)] {'bytes in-use': 841984, 'bytes free': 1881600, 'bytes requested': 841984, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 209}
+01:28:19.3434 [INFO] uart5: [output] {'bytes in-use': 846080, 'bytes free': 1877504, 'bytes requested': 846080, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 210}
+01:28:19.3435 [INFO] uart5: [virt:  4.69s (+1.2ms)] {'bytes in-use': 846080, 'bytes free': 1877504, 'bytes requested': 846080, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 210}
+01:28:19.3587 [INFO] uart5: [output] {'bytes in-use': 850176, 'bytes free': 1873408, 'bytes requested': 850176, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 211}
+01:28:19.3588 [INFO] uart5: [virt:  4.69s (+1.2ms)] {'bytes in-use': 850176, 'bytes free': 1873408, 'bytes requested': 850176, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 211}
+01:28:19.3772 [INFO] uart5: [output] {'bytes in-use': 854272, 'bytes free': 1869312, 'bytes requested': 854272, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 212}
+01:28:19.3772 [INFO] uart5: [virt:  4.69s (+1.2ms)] {'bytes in-use': 854272, 'bytes free': 1869312, 'bytes requested': 854272, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 212}
+01:28:19.3935 [INFO] uart5: [output] {'bytes in-use': 858368, 'bytes free': 1865216, 'bytes requested': 858368, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 213}
+01:28:19.3936 [INFO] uart5: [virt:  4.69s (+1.3ms)] {'bytes in-use': 858368, 'bytes free': 1865216, 'bytes requested': 858368, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 213}
+01:28:19.4151 [INFO] uart5: [output] {'bytes in-use': 862464, 'bytes free': 1861120, 'bytes requested': 862464, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 214}
+01:28:19.4152 [INFO] uart5: [virt:  4.69s (+1.2ms)] {'bytes in-use': 862464, 'bytes free': 1861120, 'bytes requested': 862464, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 214}
+01:28:19.4339 [INFO] uart5: [output] {'bytes in-use': 866560, 'bytes free': 1857024, 'bytes requested': 866560, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 215}
+01:28:19.4339 [INFO] uart5: [virt:  4.69s (+1.2ms)] {'bytes in-use': 866560, 'bytes free': 1857024, 'bytes requested': 866560, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 215}
+01:28:19.4493 [INFO] uart5: [output] {'bytes in-use': 870656, 'bytes free': 1852928, 'bytes requested': 870656, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 216}
+01:28:19.4494 [INFO] uart5: [virt:  4.69s (+1.3ms)] {'bytes in-use': 870656, 'bytes free': 1852928, 'bytes requested': 870656, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 216}
+01:28:19.4672 [INFO] uart5: [output] {'bytes in-use': 874752, 'bytes free': 1848832, 'bytes requested': 874752, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 217}
+01:28:19.4672 [INFO] uart5: [virt:   4.7s (+1.2ms)] {'bytes in-use': 874752, 'bytes free': 1848832, 'bytes requested': 874752, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 217}
+01:28:19.4829 [INFO] uart5: [output] {'bytes in-use': 878848, 'bytes free': 1844736, 'bytes requested': 878848, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 218}
+01:28:19.4829 [INFO] uart5: [virt:   4.7s (+1.2ms)] {'bytes in-use': 878848, 'bytes free': 1844736, 'bytes requested': 878848, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 218}
+01:28:19.5018 [INFO] uart5: [output] {'bytes in-use': 882944, 'bytes free': 1840640, 'bytes requested': 882944, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 219}
+01:28:19.5019 [INFO] uart5: [virt:   4.7s (+1.3ms)] {'bytes in-use': 882944, 'bytes free': 1840640, 'bytes requested': 882944, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 219}
+01:28:19.5182 [INFO] uart5: [output] {'bytes in-use': 887040, 'bytes free': 1836544, 'bytes requested': 887040, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 220}
+01:28:19.5183 [INFO] uart5: [virt:   4.7s (+1.2ms)] {'bytes in-use': 887040, 'bytes free': 1836544, 'bytes requested': 887040, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 220}
+01:28:19.5392 [INFO] uart5: [output] {'bytes in-use': 891136, 'bytes free': 1832448, 'bytes requested': 891136, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 221}
+01:28:19.5393 [INFO] uart5: [virt:   4.7s (+1.3ms)] {'bytes in-use': 891136, 'bytes free': 1832448, 'bytes requested': 891136, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 221}
+01:28:19.5553 [INFO] uart5: [output] {'bytes in-use': 895232, 'bytes free': 1828352, 'bytes requested': 895232, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 222}
+01:28:19.5554 [INFO] uart5: [virt:   4.7s (+1.2ms)] {'bytes in-use': 895232, 'bytes free': 1828352, 'bytes requested': 895232, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 222}
+01:28:19.5715 [INFO] uart5: [output] {'bytes in-use': 899328, 'bytes free': 1824256, 'bytes requested': 899328, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 223}
+01:28:19.5716 [INFO] uart5: [virt:   4.7s (+1.2ms)] {'bytes in-use': 899328, 'bytes free': 1824256, 'bytes requested': 899328, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 223}
+01:28:19.5916 [INFO] uart5: [output] {'bytes in-use': 903424, 'bytes free': 1820160, 'bytes requested': 903424, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 224}
+01:28:19.5917 [INFO] uart5: [virt:   4.7s (+1.3ms)] {'bytes in-use': 903424, 'bytes free': 1820160, 'bytes requested': 903424, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 224}
+01:28:19.6098 [INFO] uart5: [output] {'bytes in-use': 907520, 'bytes free': 1816064, 'bytes requested': 907520, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 225}
+01:28:19.6099 [INFO] uart5: [virt:  4.71s (+1.2ms)] {'bytes in-use': 907520, 'bytes free': 1816064, 'bytes requested': 907520, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 225}
+01:28:19.6308 [INFO] uart5: [output] {'bytes in-use': 911616, 'bytes free': 1811968, 'bytes requested': 911616, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 226}
+01:28:19.6310 [INFO] uart5: [virt:  4.71s (+1.2ms)] {'bytes in-use': 911616, 'bytes free': 1811968, 'bytes requested': 911616, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 226}
+01:28:19.6555 [INFO] uart5: [output] {'bytes in-use': 915712, 'bytes free': 1807872, 'bytes requested': 915712, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 227}
+01:28:19.6556 [INFO] uart5: [virt:  4.71s (+1.2ms)] {'bytes in-use': 915712, 'bytes free': 1807872, 'bytes requested': 915712, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 227}
+01:28:19.6750 [INFO] uart5: [output] {'bytes in-use': 919808, 'bytes free': 1803776, 'bytes requested': 919808, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 228}
+01:28:19.6750 [INFO] uart5: [virt:  4.71s (+1.3ms)] {'bytes in-use': 919808, 'bytes free': 1803776, 'bytes requested': 919808, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 228}
+01:28:19.6956 [INFO] uart5: [output] {'bytes in-use': 923904, 'bytes free': 1799680, 'bytes requested': 923904, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 229}
+01:28:19.6958 [INFO] uart5: [virt:  4.71s (+1.2ms)] {'bytes in-use': 923904, 'bytes free': 1799680, 'bytes requested': 923904, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 229}
+01:28:19.7167 [INFO] uart5: [output] {'bytes in-use': 928000, 'bytes free': 1795584, 'bytes requested': 928000, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 230}
+01:28:19.7168 [INFO] uart5: [virt:  4.71s (+1.2ms)] {'bytes in-use': 928000, 'bytes free': 1795584, 'bytes requested': 928000, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 230}
+01:28:19.7358 [INFO] uart5: [output] {'bytes in-use': 932096, 'bytes free': 1791488, 'bytes requested': 932096, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 231}
+01:28:19.7359 [INFO] uart5: [virt:  4.71s (+1.3ms)] {'bytes in-use': 932096, 'bytes free': 1791488, 'bytes requested': 932096, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 231}
+01:28:19.7549 [INFO] uart5: [output] {'bytes in-use': 936192, 'bytes free': 1787392, 'bytes requested': 936192, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 232}
+01:28:19.7550 [INFO] uart5: [virt:  4.71s (+1.2ms)] {'bytes in-use': 936192, 'bytes free': 1787392, 'bytes requested': 936192, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 232}
+01:28:19.7711 [INFO] uart5: [output] {'bytes in-use': 940288, 'bytes free': 1783296, 'bytes requested': 940288, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 233}
+01:28:19.7712 [INFO] uart5: [virt:  4.72s (+1.2ms)] {'bytes in-use': 940288, 'bytes free': 1783296, 'bytes requested': 940288, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 233}
+01:28:19.7928 [INFO] uart5: [output] {'bytes in-use': 944384, 'bytes free': 1779200, 'bytes requested': 944384, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 234}
+01:28:19.7930 [INFO] uart5: [virt:  4.72s (+1.2ms)] {'bytes in-use': 944384, 'bytes free': 1779200, 'bytes requested': 944384, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 234}
+01:28:19.8096 [INFO] uart5: [output] {'bytes in-use': 948480, 'bytes free': 1775104, 'bytes requested': 948480, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 235}
+01:28:19.8097 [INFO] uart5: [virt:  4.72s (+1.3ms)] {'bytes in-use': 948480, 'bytes free': 1775104, 'bytes requested': 948480, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 235}
+01:28:19.8259 [INFO] uart5: [output] {'bytes in-use': 952576, 'bytes free': 1771008, 'bytes requested': 952576, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 236}
+01:28:19.8260 [INFO] uart5: [virt:  4.72s (+1.2ms)] {'bytes in-use': 952576, 'bytes free': 1771008, 'bytes requested': 952576, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 236}
+01:28:19.8461 [INFO] uart5: [output] {'bytes in-use': 956672, 'bytes free': 1766912, 'bytes requested': 956672, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 237}
+01:28:19.8462 [INFO] uart5: [virt:  4.72s (+1.2ms)] {'bytes in-use': 956672, 'bytes free': 1766912, 'bytes requested': 956672, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 237}
+01:28:19.8667 [INFO] uart5: [output] {'bytes in-use': 960768, 'bytes free': 1762816, 'bytes requested': 960768, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 238}
+01:28:19.8668 [INFO] uart5: [virt:  4.72s (+1.3ms)] {'bytes in-use': 960768, 'bytes free': 1762816, 'bytes requested': 960768, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 238}
+01:28:19.8908 [INFO] uart5: [output] {'bytes in-use': 964864, 'bytes free': 1758720, 'bytes requested': 964864, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 239}
+01:28:19.8910 [INFO] uart5: [virt:  4.72s (+1.2ms)] {'bytes in-use': 964864, 'bytes free': 1758720, 'bytes requested': 964864, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 239}
+01:28:19.9084 [INFO] uart5: [output] {'bytes in-use': 968960, 'bytes free': 1754624, 'bytes requested': 968960, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 240}
+01:28:19.9085 [INFO] uart5: [virt:  4.72s (+1.3ms)] {'bytes in-use': 968960, 'bytes free': 1754624, 'bytes requested': 968960, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 240}
+01:28:19.9255 [INFO] uart5: [output] {'bytes in-use': 973056, 'bytes free': 1750528, 'bytes requested': 973056, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 241}
+01:28:19.9256 [INFO] uart5: [virt:  4.73s (+1.2ms)] {'bytes in-use': 973056, 'bytes free': 1750528, 'bytes requested': 973056, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 241}
+01:28:19.9476 [INFO] uart5: [output] {'bytes in-use': 977152, 'bytes free': 1746432, 'bytes requested': 977152, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 242}
+01:28:19.9477 [INFO] uart5: [virt:  4.73s (+1.2ms)] {'bytes in-use': 977152, 'bytes free': 1746432, 'bytes requested': 977152, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 242}
+01:28:19.9700 [INFO] uart5: [output] {'bytes in-use': 981248, 'bytes free': 1742336, 'bytes requested': 981248, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 243}
+01:28:19.9702 [INFO] uart5: [virt:  4.73s (+1.3ms)] {'bytes in-use': 981248, 'bytes free': 1742336, 'bytes requested': 981248, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 243}
+01:28:19.9926 [INFO] uart5: [output] {'bytes in-use': 985344, 'bytes free': 1738240, 'bytes requested': 985344, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 244}
+01:28:19.9927 [INFO] uart5: [virt:  4.73s (+1.2ms)] {'bytes in-use': 985344, 'bytes free': 1738240, 'bytes requested': 985344, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 244}
+01:28:20.0098 [INFO] uart5: [output] {'bytes in-use': 989440, 'bytes free': 1734144, 'bytes requested': 989440, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 245}
+01:28:20.0099 [INFO] uart5: [virt:  4.73s (+1.3ms)] {'bytes in-use': 989440, 'bytes free': 1734144, 'bytes requested': 989440, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 245}
+01:28:20.0269 [INFO] uart5: [output] {'bytes in-use': 993536, 'bytes free': 1730048, 'bytes requested': 993536, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 246}
+01:28:20.0270 [INFO] uart5: [virt:  4.73s (+1.2ms)] {'bytes in-use': 993536, 'bytes free': 1730048, 'bytes requested': 993536, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 246}
+01:28:20.0443 [INFO] uart5: [output] {'bytes in-use': 997632, 'bytes free': 1725952, 'bytes requested': 997632, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 247}
+01:28:20.0444 [INFO] uart5: [virt:  4.73s (+1.2ms)] {'bytes in-use': 997632, 'bytes free': 1725952, 'bytes requested': 997632, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 247}
+01:28:20.0618 [INFO] uart5: [output] {'bytes in-use': 1001728, 'bytes free': 1721856, 'bytes requested': 1001728, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 248}
+01:28:20.0619 [INFO] uart5: [virt:  4.73s (+1.2ms)] {'bytes in-use': 1001728, 'bytes free': 1721856, 'bytes requested': 1001728, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 248}
+01:28:20.0858 [INFO] uart5: [output] {'bytes in-use': 1005824, 'bytes free': 1717760, 'bytes requested': 1005824, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 249}
+01:28:20.0858 [INFO] uart5: [virt:  4.74s (+1.3ms)] {'bytes in-use': 1005824, 'bytes free': 1717760, 'bytes requested': 1005824, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 249}
+01:28:20.1051 [INFO] uart5: [output] {'bytes in-use': 1009920, 'bytes free': 1713664, 'bytes requested': 1009920, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 250}
+01:28:20.1052 [INFO] uart5: [virt:  4.74s (+1.2ms)] {'bytes in-use': 1009920, 'bytes free': 1713664, 'bytes requested': 1009920, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 250}
+01:28:20.1290 [INFO] uart5: [output] {'bytes in-use': 1014016, 'bytes free': 1709568, 'bytes requested': 1014016, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 251}
+01:28:20.1290 [INFO] uart5: [virt:  4.74s (+1.2ms)] {'bytes in-use': 1014016, 'bytes free': 1709568, 'bytes requested': 1014016, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 251}
+01:28:20.1537 [INFO] uart5: [output] {'bytes in-use': 1018112, 'bytes free': 1705472, 'bytes requested': 1018112, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 252}
+01:28:20.1538 [INFO] uart5: [virt:  4.74s (+1.3ms)] {'bytes in-use': 1018112, 'bytes free': 1705472, 'bytes requested': 1018112, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 252}
+01:28:20.1786 [INFO] uart5: [output] {'bytes in-use': 1022208, 'bytes free': 1701376, 'bytes requested': 1022208, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 253}
+01:28:20.1788 [INFO] uart5: [virt:  4.74s (+1.2ms)] {'bytes in-use': 1022208, 'bytes free': 1701376, 'bytes requested': 1022208, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 253}
+01:28:20.1965 [INFO] uart5: [output] {'bytes in-use': 1026304, 'bytes free': 1697280, 'bytes requested': 1026304, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 254}
+01:28:20.1993 [INFO] uart5: [virt:  4.74s (+1.2ms)] {'bytes in-use': 1026304, 'bytes free': 1697280, 'bytes requested': 1026304, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 254}
+01:28:20.2180 [INFO] uart5: [output] {'bytes in-use': 1030400, 'bytes free': 1693184, 'bytes requested': 1030400, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 255}
+01:28:20.2181 [INFO] uart5: [virt:  4.74s (+1.3ms)] {'bytes in-use': 1030400, 'bytes free': 1693184, 'bytes requested': 1030400, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 255}
+01:28:20.2396 [INFO] uart5: [output] {'bytes in-use': 1034496, 'bytes free': 1689088, 'bytes requested': 1034496, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 256}
+01:28:20.2397 [INFO] uart5: [virt:  4.74s (+1.2ms)] {'bytes in-use': 1034496, 'bytes free': 1689088, 'bytes requested': 1034496, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 256}
+01:28:20.2586 [INFO] uart5: [output] {'bytes in-use': 1038592, 'bytes free': 1684992, 'bytes requested': 1038592, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 257}
+01:28:20.2587 [INFO] uart5: [virt:  4.75s (+1.3ms)] {'bytes in-use': 1038592, 'bytes free': 1684992, 'bytes requested': 1038592, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 257}
+01:28:20.2765 [INFO] uart5: [output] {'bytes in-use': 1042688, 'bytes free': 1680896, 'bytes requested': 1042688, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 258}
+01:28:20.2766 [INFO] uart5: [virt:  4.75s (+1.2ms)] {'bytes in-use': 1042688, 'bytes free': 1680896, 'bytes requested': 1042688, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 258}
+01:28:20.2970 [INFO] uart5: [output] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+01:28:20.2971 [INFO] uart5: [virt:  4.75s (+0.3ms)] [0m[30;1m<<[0m[32mseL4(CPU 0)[0m[30;1m [decodeUntypedInvocation/209 T0x801bd700 "" @15dee]: Untyped Retype: Insufficient memory (1 * 4096 bytes needed, 0 bytes available).>>[0m
+01:28:20.3229 [INFO] uart5: [output] {'bytes in-use': 1046784, 'bytes free': 1676800, 'bytes requested': 1046784, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 259}
+01:28:20.3230 [INFO] uart5: [virt:  4.75s (+3.3ms)] {'bytes in-use': 1046784, 'bytes free': 1676800, 'bytes requested': 1046784, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 259}
+01:28:20.3444 [INFO] uart5: [output] {'bytes in-use': 1050880, 'bytes free': 1672704, 'bytes requested': 1050880, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 260}
+01:28:20.3445 [INFO] uart5: [virt:  4.75s (+1.2ms)] {'bytes in-use': 1050880, 'bytes free': 1672704, 'bytes requested': 1050880, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 260}
+01:28:20.3665 [INFO] uart5: [output] {'bytes in-use': 1054976, 'bytes free': 1668608, 'bytes requested': 1054976, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 261}
+01:28:20.3666 [INFO] uart5: [virt:  4.75s (+1.2ms)] {'bytes in-use': 1054976, 'bytes free': 1668608, 'bytes requested': 1054976, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 261}
+01:28:20.3889 [INFO] uart5: [output] {'bytes in-use': 1059072, 'bytes free': 1664512, 'bytes requested': 1059072, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 262}
+01:28:20.3890 [INFO] uart5: [virt:  4.75s (+1.3ms)] {'bytes in-use': 1059072, 'bytes free': 1664512, 'bytes requested': 1059072, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 262}
+01:28:20.4100 [INFO] uart5: [output] {'bytes in-use': 1063168, 'bytes free': 1660416, 'bytes requested': 1063168, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 263}
+01:28:20.4101 [INFO] uart5: [virt:  4.76s (+1.2ms)] {'bytes in-use': 1063168, 'bytes free': 1660416, 'bytes requested': 1063168, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 263}
+01:28:20.4324 [INFO] uart5: [output] {'bytes in-use': 1067264, 'bytes free': 1656320, 'bytes requested': 1067264, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 264}
+01:28:20.4325 [INFO] uart5: [virt:  4.76s (+1.3ms)] {'bytes in-use': 1067264, 'bytes free': 1656320, 'bytes requested': 1067264, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 264}
+01:28:20.4541 [INFO] uart5: [output] {'bytes in-use': 1071360, 'bytes free': 1652224, 'bytes requested': 1071360, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 265}
+01:28:20.4542 [INFO] uart5: [virt:  4.76s (+1.2ms)] {'bytes in-use': 1071360, 'bytes free': 1652224, 'bytes requested': 1071360, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 265}
+01:28:20.4744 [INFO] uart5: [output] {'bytes in-use': 1075456, 'bytes free': 1648128, 'bytes requested': 1075456, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 266}
+01:28:20.4745 [INFO] uart5: [virt:  4.76s (+1.2ms)] {'bytes in-use': 1075456, 'bytes free': 1648128, 'bytes requested': 1075456, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 266}
+01:28:20.4954 [INFO] uart5: [output] {'bytes in-use': 1079552, 'bytes free': 1644032, 'bytes requested': 1079552, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 267}
+01:28:20.4955 [INFO] uart5: [virt:  4.76s (+1.3ms)] {'bytes in-use': 1079552, 'bytes free': 1644032, 'bytes requested': 1079552, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 267}
+01:28:20.5206 [INFO] uart5: [output] {'bytes in-use': 1083648, 'bytes free': 1639936, 'bytes requested': 1083648, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 268}
+01:28:20.5207 [INFO] uart5: [virt:  4.76s (+1.2ms)] {'bytes in-use': 1083648, 'bytes free': 1639936, 'bytes requested': 1083648, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 268}
+01:28:20.5494 [INFO] uart5: [output] {'bytes in-use': 1087744, 'bytes free': 1635840, 'bytes requested': 1087744, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 269}
+01:28:20.5495 [INFO] uart5: [virt:  4.76s (+1.3ms)] {'bytes in-use': 1087744, 'bytes free': 1635840, 'bytes requested': 1087744, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 269}
+01:28:20.5746 [INFO] uart5: [output] {'bytes in-use': 1091840, 'bytes free': 1631744, 'bytes requested': 1091840, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 270}
+01:28:20.5747 [INFO] uart5: [virt:  4.76s (+1.2ms)] {'bytes in-use': 1091840, 'bytes free': 1631744, 'bytes requested': 1091840, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 270}
+01:28:20.6029 [INFO] uart5: [output] {'bytes in-use': 1095936, 'bytes free': 1627648, 'bytes requested': 1095936, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 271}
+01:28:20.6031 [INFO] uart5: [virt:  4.76s (+1.2ms)] {'bytes in-use': 1095936, 'bytes free': 1627648, 'bytes requested': 1095936, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 271}
+01:28:20.6307 [INFO] uart5: [output] {'bytes in-use': 1100032, 'bytes free': 1623552, 'bytes requested': 1100032, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 272}
+01:28:20.6308 [INFO] uart5: [virt:  4.77s (+1.3ms)] {'bytes in-use': 1100032, 'bytes free': 1623552, 'bytes requested': 1100032, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 272}
+01:28:20.6517 [INFO] uart5: [output] {'bytes in-use': 1104128, 'bytes free': 1619456, 'bytes requested': 1104128, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 273}
+01:28:20.6518 [INFO] uart5: [virt:  4.77s (+1.2ms)] {'bytes in-use': 1104128, 'bytes free': 1619456, 'bytes requested': 1104128, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 273}
+01:28:20.6737 [INFO] uart5: [output] {'bytes in-use': 1108224, 'bytes free': 1615360, 'bytes requested': 1108224, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 274}
+01:28:20.6739 [INFO] uart5: [virt:  4.77s (+1.2ms)] {'bytes in-use': 1108224, 'bytes free': 1615360, 'bytes requested': 1108224, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 274}
+01:28:20.7024 [INFO] uart5: [output] {'bytes in-use': 1112320, 'bytes free': 1611264, 'bytes requested': 1112320, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 275}
+01:28:20.7025 [INFO] uart5: [virt:  4.77s (+1.3ms)] {'bytes in-use': 1112320, 'bytes free': 1611264, 'bytes requested': 1112320, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 275}
+01:28:20.7315 [INFO] uart5: [output] {'bytes in-use': 1116416, 'bytes free': 1607168, 'bytes requested': 1116416, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 276}
+01:28:20.7316 [INFO] uart5: [virt:  4.77s (+1.2ms)] {'bytes in-use': 1116416, 'bytes free': 1607168, 'bytes requested': 1116416, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 276}
+01:28:20.7561 [INFO] uart5: [output] {'bytes in-use': 1120512, 'bytes free': 1603072, 'bytes requested': 1120512, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 277}
+01:28:20.7563 [INFO] uart5: [virt:  4.77s (+1.2ms)] {'bytes in-use': 1120512, 'bytes free': 1603072, 'bytes requested': 1120512, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 277}
+01:28:20.7841 [INFO] uart5: [output] {'bytes in-use': 1124608, 'bytes free': 1598976, 'bytes requested': 1124608, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 278}
+01:28:20.7843 [INFO] uart5: [virt:  4.77s (+1.3ms)] {'bytes in-use': 1124608, 'bytes free': 1598976, 'bytes requested': 1124608, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 278}
+01:28:20.8093 [INFO] uart5: [output] {'bytes in-use': 1128704, 'bytes free': 1594880, 'bytes requested': 1128704, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 279}
+01:28:20.8095 [INFO] uart5: [virt:  4.77s (+1.2ms)] {'bytes in-use': 1128704, 'bytes free': 1594880, 'bytes requested': 1128704, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 279}
+01:28:20.8378 [INFO] uart5: [output] {'bytes in-use': 1132800, 'bytes free': 1590784, 'bytes requested': 1132800, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 280}
+01:28:20.8379 [INFO] uart5: [virt:  4.78s (+1.2ms)] {'bytes in-use': 1132800, 'bytes free': 1590784, 'bytes requested': 1132800, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 280}
+01:28:20.8669 [INFO] uart5: [output] {'bytes in-use': 1136896, 'bytes free': 1586688, 'bytes requested': 1136896, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 281}
+01:28:20.8670 [INFO] uart5: [virt:  4.78s (+1.3ms)] {'bytes in-use': 1136896, 'bytes free': 1586688, 'bytes requested': 1136896, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 281}
+01:28:20.8857 [INFO] uart5: [output] {'bytes in-use': 1140992, 'bytes free': 1582592, 'bytes requested': 1140992, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 282}
+01:28:20.8858 [INFO] uart5: [virt:  4.78s (+1.2ms)] {'bytes in-use': 1140992, 'bytes free': 1582592, 'bytes requested': 1140992, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 282}
+01:28:20.9051 [INFO] uart5: [output] {'bytes in-use': 1145088, 'bytes free': 1578496, 'bytes requested': 1145088, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 283}
+01:28:20.9078 [INFO] uart5: [virt:  4.78s (+1.2ms)] {'bytes in-use': 1145088, 'bytes free': 1578496, 'bytes requested': 1145088, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 283}
+01:28:20.9335 [INFO] uart5: [output] {'bytes in-use': 1149184, 'bytes free': 1574400, 'bytes requested': 1149184, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 284}
+01:28:20.9337 [INFO] uart5: [virt:  4.78s (+1.3ms)] {'bytes in-use': 1149184, 'bytes free': 1574400, 'bytes requested': 1149184, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 284}
+01:28:20.9578 [INFO] uart5: [output] {'bytes in-use': 1157376, 'bytes free': 1566208, 'bytes requested': 1157376, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 285}
+01:28:20.9579 [INFO] uart5: [virt:  4.78s (+1.2ms)] {'bytes in-use': 1157376, 'bytes free': 1566208, 'bytes requested': 1157376, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 285}
+01:28:20.9852 [INFO] uart5: [output] Found match!: od: ObjDesc { type_: seL4_RISCV_4K_Page, count: 253, cptr: 0 } matched ObjDesc { type_: seL4_RISCV_4K_Page, count: 253, cptr: 55 }
+01:28:20.9854 [INFO] uart5: [virt:  4.78s (+1.5ms)] Found match!: od: ObjDesc { type_: seL4_RISCV_4K_Page, count: 253, cptr: 0 } matched ObjDesc { type_: seL4_RISCV_4K_Page, count: 253, cptr: 55 }
+01:28:21.0224 [INFO] uart5: [output] {'bytes in-use': 121088, 'bytes free': 2602496, 'bytes requested': 1157376, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 32}
+01:28:21.0226 [INFO] uart5: [virt:  4.79s (+6.9ms)] {'bytes in-use': 121088, 'bytes free': 2602496, 'bytes requested': 1157376, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 32}
+01:28:21.0488 [INFO] uart5: [output] Found match!: od: ObjDesc { type_: seL4_CapTableObject, count: 9, cptr: 0 } matched ObjDesc { type_: seL4_CapTableObject, count: 9, cptr: 308 }
+01:28:21.0490 [INFO] uart5: [virt:  4.79s (+1.4ms)] Found match!: od: ObjDesc { type_: seL4_CapTableObject, count: 9, cptr: 0 } matched ObjDesc { type_: seL4_CapTableObject, count: 9, cptr: 308 }
+01:28:21.0727 [INFO] uart5: [output] {'bytes in-use': 112896, 'bytes free': 2610688, 'bytes requested': 1157376, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 31}
+01:28:21.0728 [INFO] uart5: [virt:  4.79s (+2.5ms)] {'bytes in-use': 112896, 'bytes free': 2610688, 'bytes requested': 1157376, 'lhs fragmentation': 0, 'in-between fragmentation': 5888, 'objs in-use': 31}
+01:28:21.0905 [INFO] uart5: [output]  ::[58, bits 19] watermark   524288 available 0, max_size_bytes 524288, allocated_bytes: 524288, allocated_objects: 31
+01:28:21.0906 [INFO] uart5: [virt:  4.79s (+0.4ms)]  ::[58, bits 19] watermark   524288 available 0, max_size_bytes 524288, allocated_bytes: 524288, allocated_objects: 31
+01:28:21.1053 [INFO] uart5: [output]  ::[65, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+01:28:21.1054 [INFO] uart5: [virt:   4.8s (+0.3ms)]  ::[65, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+01:28:21.1231 [INFO] uart5: [output] *::[57, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+01:28:21.1232 [INFO] uart5: [virt:   4.8s (+0.4ms)] *::[57, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+01:28:21.1399 [INFO] uart5: [output]  ::[66, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+01:28:21.1400 [INFO] uart5: [virt:   4.8s (+0.4ms)]  ::[66, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+01:28:21.1587 [INFO] uart5: [output]  ::[62, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+01:28:21.1588 [INFO] uart5: [virt:   4.8s (+0.3ms)]  ::[62, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+01:28:21.1743 [INFO] uart5: [output]  ::[80, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.1744 [INFO] uart5: [virt:   4.8s (+0.4ms)]  ::[80, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.1887 [INFO] uart5: [output]  ::[56, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.1888 [INFO] uart5: [virt:   4.8s (+0.4ms)]  ::[56, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.2061 [INFO] uart5: [output]  ::[67, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.2062 [INFO] uart5: [virt:   4.8s (+0.3ms)]  ::[67, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.2222 [INFO] uart5: [output]  ::[61, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.2223 [INFO] uart5: [virt:   4.8s (+0.4ms)]  ::[61, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.2408 [INFO] uart5: [output]  ::[60, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.2409 [INFO] uart5: [virt:   4.8s (+0.4ms)]  ::[60, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.2542 [INFO] uart5: [output]  ::[79, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.2543 [INFO] uart5: [virt:   4.8s (+0.3ms)]  ::[79, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.2648 [INFO] uart5: [output]  ::[59, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.2649 [INFO] uart5: [virt:   4.8s (+0.4ms)]  ::[59, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.2816 [INFO] uart5: [output]  ::[68, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.2817 [INFO] uart5: [virt:   4.8s (+0.3ms)]  ::[68, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.2960 [INFO] uart5: [output]  ::[78, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+01:28:21.2960 [INFO] uart5: [virt:   4.8s (+0.4ms)]  ::[78, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+01:28:21.3122 [INFO] uart5: [output]  ::[75, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+01:28:21.3123 [INFO] uart5: [virt:   4.8s (+0.4ms)]  ::[75, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+01:28:21.3277 [INFO] uart5: [output]  ::[74, bits 14] watermark        0 available 16384, max_size_bytes 16384, allocated_bytes: 0, allocated_objects: 0
+01:28:21.3278 [INFO] uart5: [virt:   4.8s (+0.3ms)]  ::[74, bits 14] watermark        0 available 16384, max_size_bytes 16384, allocated_bytes: 0, allocated_objects: 0
+01:28:21.3416 [INFO] uart5: [output]  ::[76, bits 13] watermark        0 available 8192, max_size_bytes 8192, allocated_bytes: 0, allocated_objects: 0
+01:28:21.3417 [INFO] uart5: [virt:   4.8s (+0.4ms)]  ::[76, bits 13] watermark        0 available 8192, max_size_bytes 8192, allocated_bytes: 0, allocated_objects: 0
+01:28:21.3588 [INFO] uart5: [output]  ::[55, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+01:28:21.3589 [INFO] uart5: [virt:   4.8s (+0.3ms)]  ::[55, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+01:28:21.3741 [INFO] uart5: [output]  ::[73, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+01:28:21.3743 [INFO] uart5: [virt:   4.8s (+0.4ms)]  ::[73, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+01:28:21.3920 [INFO] uart5: [output]  ::[72, bits 11] watermark        0 available 2048, max_size_bytes 2048, allocated_bytes: 0, allocated_objects: 0
+01:28:21.3921 [INFO] uart5: [virt:   4.8s (+0.3ms)]  ::[72, bits 11] watermark        0 available 2048, max_size_bytes 2048, allocated_bytes: 0, allocated_objects: 0
+01:28:21.4056 [INFO] uart5: [output]  ::[71, bits 10] watermark        0 available 1024, max_size_bytes 1024, allocated_bytes: 0, allocated_objects: 0
+01:28:21.4057 [INFO] uart5: [virt:   4.8s (+0.4ms)]  ::[71, bits 10] watermark        0 available 1024, max_size_bytes 1024, allocated_bytes: 0, allocated_objects: 0
+01:28:21.4222 [INFO] uart5: [output]  ::[70, bits  9] watermark        0 available 512, max_size_bytes 512, allocated_bytes: 0, allocated_objects: 0
+01:28:21.4223 [INFO] uart5: [virt:   4.8s (+0.3ms)]  ::[70, bits  9] watermark        0 available 512, max_size_bytes 512, allocated_bytes: 0, allocated_objects: 0
+01:28:21.4313 [INFO] uart5: [output] !::[69, bits  8] watermark       32 available 224
+01:28:21.4314 [INFO] uart5: [virt:   4.8s (+0.3ms)] !::[69, bits  8] watermark       32 available 224
+01:28:21.4466 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Allocation failed on a slab: 2 times. Out of memory thrown 0 times.
+01:28:21.4467 [INFO] uart5: [virt:   4.8s (+0.3ms)] cantrip_memory_manager::memory_manager::Allocation failed on a slab: 2 times. Out of memory thrown 0 times.
+01:28:21.4722 [INFO] uart5: [output] {'bytes in-use': 0, 'bytes free': 2723584, 'bytes requested': 1157376, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 0}
+01:28:21.4723 [INFO] uart5: [virt:  4.81s (+2.3ms)] {'bytes in-use': 0, 'bytes free': 2723584, 'bytes requested': 1157376, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 0}
+01:28:21.4734 [INFO] uart5: [output] Done :)
+01:28:21.4735 [INFO] uart5: [virt:     4.81s (+0s)] Done :)
+01:28:21.4831 [INFO] uart5: [output] CANTRIP> [smstats
+01:28:21.4832 [INFO] uart5: [virt:    4.81s (+4ms)] CANTRIP> [smstats
+01:28:21.4910 [INFO] uart5: [output] 0 bytes in-use, 2723584 bytes free, 1157376 bytes requested, 1343488 overhead
+01:28:21.4911 [INFO] uart5: [virt:  4.81s (+0.8ms)] 0 bytes in-use, 2723584 bytes free, 1157376 bytes requested, 1343488 overhead
+01:28:21.4930 [INFO] uart5: [output] 0 lhs fragmentation, 0 in-between fragmentation
+01:28:21.4930 [INFO] uart5: [virt:  4.81s (+0.2ms)] 0 lhs fragmentation, 0 in-between fragmentation
+01:28:21.4948 [INFO] uart5: [output] 0 objs in-use, 285 objs requested
+01:28:21.4949 [INFO] uart5: [virt:  4.81s (+0.2ms)] 0 objs in-use, 285 objs requested
+01:28:21.4987 [INFO] uart5: [output] CANTRIP> [smdebug
+01:28:21.4988 [INFO] uart5: [virt:  4.81s (+0.5ms)] CANTRIP> [smdebug
+01:28:21.5046 [INFO] uart5: [output]  ::[58, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5047 [INFO] uart5: [virt:  4.81s (+0.4ms)]  ::[58, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5073 [INFO] uart5: [output]  ::[65, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5074 [INFO] uart5: [virt:  4.81s (+0.4ms)]  ::[65, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5100 [INFO] uart5: [output] *::[57, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5101 [INFO] uart5: [virt:  4.81s (+0.3ms)] *::[57, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5129 [INFO] uart5: [output]  ::[66, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5131 [INFO] uart5: [virt:  4.81s (+0.4ms)]  ::[66, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5187 [INFO] uart5: [output]  ::[62, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5188 [INFO] uart5: [virt:  4.81s (+0.4ms)]  ::[62, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5217 [INFO] uart5: [output]  ::[80, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5218 [INFO] uart5: [virt:  4.81s (+0.3ms)]  ::[80, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5275 [INFO] uart5: [output]  ::[56, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5275 [INFO] uart5: [virt:  4.81s (+0.4ms)]  ::[56, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5295 [INFO] uart5: [output]  ::[67, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5295 [INFO] uart5: [virt:  4.81s (+0.3ms)]  ::[67, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5315 [INFO] uart5: [output]  ::[61, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5316 [INFO] uart5: [virt:  4.81s (+0.4ms)]  ::[61, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5368 [INFO] uart5: [output]  ::[60, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5369 [INFO] uart5: [virt:  4.81s (+0.4ms)]  ::[60, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5388 [INFO] uart5: [output]  ::[79, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5389 [INFO] uart5: [virt:  4.82s (+0.3ms)]  ::[79, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5410 [INFO] uart5: [output]  ::[59, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5410 [INFO] uart5: [virt:  4.82s (+0.4ms)]  ::[59, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5464 [INFO] uart5: [output]  ::[68, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5465 [INFO] uart5: [virt:  4.82s (+0.3ms)]  ::[68, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5618 [INFO] uart5: [output]  ::[78, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5619 [INFO] uart5: [virt: 4.83s (+10.4ms)]  ::[78, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5640 [INFO] uart5: [output]  ::[75, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5641 [INFO] uart5: [virt:  4.83s (+0.4ms)]  ::[75, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5661 [INFO] uart5: [output]  ::[74, bits 14] watermark        0 available 16384, max_size_bytes 16384, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5662 [INFO] uart5: [virt:  4.83s (+0.3ms)]  ::[74, bits 14] watermark        0 available 16384, max_size_bytes 16384, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5713 [INFO] uart5: [output]  ::[76, bits 13] watermark        0 available 8192, max_size_bytes 8192, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5713 [INFO] uart5: [virt:  4.83s (+0.4ms)]  ::[76, bits 13] watermark        0 available 8192, max_size_bytes 8192, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5734 [INFO] uart5: [output]  ::[55, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5734 [INFO] uart5: [virt:  4.83s (+0.3ms)]  ::[55, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5756 [INFO] uart5: [output]  ::[73, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5756 [INFO] uart5: [virt:  4.83s (+0.4ms)]  ::[73, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5804 [INFO] uart5: [output]  ::[72, bits 11] watermark        0 available 2048, max_size_bytes 2048, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5805 [INFO] uart5: [virt:  4.83s (+0.3ms)]  ::[72, bits 11] watermark        0 available 2048, max_size_bytes 2048, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5829 [INFO] uart5: [output]  ::[71, bits 10] watermark        0 available 1024, max_size_bytes 1024, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5829 [INFO] uart5: [virt:  4.83s (+0.4ms)]  ::[71, bits 10] watermark        0 available 1024, max_size_bytes 1024, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5853 [INFO] uart5: [output]  ::[70, bits  9] watermark        0 available 512, max_size_bytes 512, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5854 [INFO] uart5: [virt:  4.83s (+0.4ms)]  ::[70, bits  9] watermark        0 available 512, max_size_bytes 512, allocated_bytes: 0, allocated_objects: 0
+01:28:21.5874 [INFO] uart5: [output] !::[69, bits  8] watermark       32 available 224
+01:28:21.5875 [INFO] uart5: [virt:  4.83s (+0.2ms)] !::[69, bits  8] watermark       32 available 224
+01:28:21.5922 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Allocation failed on a slab: 2 times. Out of memory thrown 0 times.
+01:28:21.5923 [INFO] uart5: [virt:  4.83s (+0.3ms)] cantrip_memory_manager::memory_manager::Allocation failed on a slab: 2 times. Out of memory thrown 0 times.
