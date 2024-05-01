@@ -65,7 +65,6 @@ def plot_metrics(data, args: argparse.Namespace):
         print(f"Best fit: No. failed UntypedRetype invocations: {data[i]['untyped_too_small']}, Out of Memory thrown: {data[i]['oom']}")
     plt.tight_layout()
     plt.savefig(f"{Path(args.best_fit_log_file).name.split('.')[-2]}.png")
-    plt.savefig('memory_state_random_alloc_1000_50_perc_chance_dealloc_seed_42.png')
     plt.show()
 
 def parse_args() -> argparse.Namespace:
