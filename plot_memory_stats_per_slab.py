@@ -1,9 +1,11 @@
 import matplotlib.pyplot as plt
+import matplotlib
 import numpy as np
 import json
 import argparse
 from pathlib import Path
 from os import makedirs
+import seaborn as sns
 
 def process_lines_from_file(file_path: str):
     with open(file_path, 'r') as file:
@@ -43,6 +45,30 @@ def process_lines_from_file(file_path: str):
     return data
 
 def plot_metrics(best_data, next_data, args: argparse.Namespace):
+    # Configure for PGF plots
+    matplotlib.rcParams.update(
+        {
+            "pgf.texsystem": "pdflatex",
+            "font.family": "serif",
+            "text.usetex": True,
+        }
+    )
+    matplotlib.use("pgf")
+    sns.set(style="whitegrid", font_scale=1.0)
+    plt.rcParams.update(
+    {
+        "text.color": "black",
+        "axes.edgecolor": "black",
+        "axes.labelcolor": "black",
+        "xtick.color": "black",
+        "ytick.color": "black",
+        "axes.linewidth": 1.5,
+        "xtick.major.size": 5,
+        "xtick.minor.size": 3,
+        "ytick.major.size": 5,
+        "ytick.minor.size": 3,
+    }
+    )
     # Plotting
     fig, axs = plt.subplots(4, figsize=(10, 15))
 
@@ -57,15 +83,13 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
 
     for i in range(4):
         row_best, row_next = best_data[i], next_data[i]
-        print(row_best)
-        print(row_next)
         for metric_idx, metric in enumerate(metrics):
             if metric == 'in_between_fragmentation_per_slab':
-                axs[i].bar(index-bar_width/2, row_best[metric], bottom=row_best["lhs_fragmentation_per_slab"] , width=bar_width, label=f"Best Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[0])
-                axs[i].bar(index+bar_width/2, row_next[metric], bottom=row_next["lhs_fragmentation_per_slab"], width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1], alpha=next_fit_alpha)
+                axs[i].bar(index-bar_width/2, row_best[metric], bottom=row_best["lhs_fragmentation_per_slab"] , linewidth=0, width=bar_width, label=f"Best Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[0])
+                axs[i].bar(index+bar_width/2, row_next[metric], bottom=row_next["lhs_fragmentation_per_slab"], linewidth=0, width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1], alpha=next_fit_alpha)
             else:
-                axs[i].bar(index-bar_width/2, row_best[metric], width=bar_width, label=f"Best Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[0])
-                axs[i].bar(index+bar_width/2, row_next[metric], width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1], alpha=next_fit_alpha)
+                axs[i].bar(index-bar_width/2, row_best[metric], linewidth=0, width=bar_width, label=f"Best Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[0])
+                axs[i].bar(index+bar_width/2, row_next[metric], linewidth=0, width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1], alpha=next_fit_alpha)
         axs[i].set_title(f"Memory slab status after {best_data[i]['idx']} alloc/dealloc operations")
         axs[i].set_xlabel("Slab")
         axs[i].set_ylabel("Memory")
@@ -90,12 +114,12 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
         )  
         for metric_idx, metric in enumerate(metrics):
             if metric == 'in_between_fragmentation_per_slab':
-                axins.bar(zoom_indices-bar_width/2, row_best[metric][zoom_start_idx:], bottom=row_best["lhs_fragmentation_per_slab"][zoom_start_idx:] , width=bar_width, label=f"Best Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[0])
-                axins.bar(zoom_indices+bar_width/2, row_next[metric][zoom_start_idx:], bottom=row_next["lhs_fragmentation_per_slab"][zoom_start_idx:], width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1], alpha=next_fit_alpha)
+                axins.bar(zoom_indices-bar_width/2, row_best[metric][zoom_start_idx:], bottom=row_best["lhs_fragmentation_per_slab"][zoom_start_idx:] , linewidth=0, width=bar_width, label=f"Best Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[0])
+                axins.bar(zoom_indices+bar_width/2, row_next[metric][zoom_start_idx:], bottom=row_next["lhs_fragmentation_per_slab"][zoom_start_idx:], linewidth=0, width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1], alpha=next_fit_alpha)
             else:
-                axins.bar(zoom_indices-bar_width/2, row_best[metric][zoom_start_idx:], width=bar_width, label=f"Best Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[0])
-                axins.bar(zoom_indices+bar_width/2, row_next[metric][zoom_start_idx:], width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1], alpha=next_fit_alpha)
-
+                axins.bar(zoom_indices-bar_width/2, row_best[metric][zoom_start_idx:], linewidth=0, width=bar_width, label=f"Best Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[0])
+                axins.bar(zoom_indices+bar_width/2, row_next[metric][zoom_start_idx:], linewidth=0, width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1], alpha=next_fit_alpha)
+        #axins.set_xticks(range(zoom_start_idx, zoom_end_idx+1))
         axins.set_xticklabels(range(zoom_start_idx+1, zoom_end_idx+2))
         axins.set_yticks(np.linspace(0, zoom_end_y, num=5))
         axins.set_yticklabels(np.linspace(0, zoom_end_y, num=5, dtype=int))
@@ -107,7 +131,7 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
     axs[3].legend(loc="upper center",
         # to avoid cutting into the text
         borderpad=1,
-        bbox_to_anchor=(0.5, -0.130),
+        bbox_to_anchor=(0.5, -0.160),
         ncol=2,
         frameon=True,
         fancybox=True,
@@ -116,6 +140,7 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
     plt.tight_layout()
     makedirs(args.output_dir, exist_ok=True)
     plt.savefig(Path(args.output_dir) / Path(f"{Path(args.best_fit_log_file).name.split('.')[-2]}.png"))
+    plt.savefig(Path(args.output_dir) / Path(f"{Path(args.best_fit_log_file).name.split('.')[-2]}.pgf"), bbox_inches="tight")
     plt.show()
 
 def parse_args() -> argparse.Namespace:

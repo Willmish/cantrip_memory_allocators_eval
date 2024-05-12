@@ -55,6 +55,7 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
         }
     )
     matplotlib.use("pgf")
+    # NOTE: Changing font scale can drastically change plot size!
     sns.set(style="whitegrid", font_scale=2)
     plt.rcParams.update(
     {
@@ -69,7 +70,7 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
         "ytick.major.size": 5,
         "ytick.minor.size": 3,
     }
-)
+    )
     # Extracting data for plotting
     best_bytes_requested = [entry["bytes_requested"] for entry in best_data]
     best_bytes_in_use = [entry["bytes_in_use"] for entry in best_data]
