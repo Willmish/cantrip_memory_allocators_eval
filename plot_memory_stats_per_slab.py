@@ -48,6 +48,7 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
 
     bar_width = 0.4
     patterns = ['', 'XX']
+    next_fit_alpha = 0.8
     metrics = ["available_space_per_slab", "occupied_memory_per_slab", "in_between_fragmentation_per_slab", "lhs_fragmentation_per_slab"]
     colors = ["tab:brown", "tab:blue", "tab:orange", "tab:red"]
     plot_titles = ["Available space", "Used memory", "Alignment cons. fragmentation", "Watermarking cons. fragmentation"]
@@ -61,23 +62,10 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
         for metric_idx, metric in enumerate(metrics):
             if metric == 'in_between_fragmentation_per_slab':
                 axs[i].bar(index-bar_width/2, row_best[metric], bottom=row_best["lhs_fragmentation_per_slab"] , width=bar_width, label=f"Best Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[0])
-                axs[i].bar(index+bar_width/2, row_next[metric], bottom=row_next["lhs_fragmentation_per_slab"], width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1])
+                axs[i].bar(index+bar_width/2, row_next[metric], bottom=row_next["lhs_fragmentation_per_slab"], width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1], alpha=next_fit_alpha)
             else:
                 axs[i].bar(index-bar_width/2, row_best[metric], width=bar_width, label=f"Best Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[0])
-                axs[i].bar(index+bar_width/2, row_next[metric], width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1])
-
-        #(best_lhs, best_in_between, best_occupied, best_available) = row_best["lhs_fragmentation_per_slab"], row_best["in_between_fragmentation_per_slab"], row_best["occupied_memory_per_slab"], row_best["available_space_per_slab"]
-        #(next_lhs, next_in_between, next_occupied, next_available) = row_next["lhs_fragmentation_per_slab"], row_next["in_between_fragmentation_per_slab"], row_next["occupied_memory_per_slab"], row_next["available_space_per_slab"]
-        
-        #axs[i].bar(index-bar_width/2, best_available, width=bar_width, label='Best Fit - available space', color='tab:brown', hatch=patterns[0])
-        #axs[i].bar(index-bar_width/2, best_occupied, width=bar_width, label='Best Fit - occupied_memory', color='tab:blue', hatch=patterns[0])
-        #axs[i].bar(index-bar_width/2, best_lhs, width=bar_width, label='Best Fit - lhs_fragmentation', color='tab:red',hatch=patterns[0])
-        #axs[i].bar(index-bar_width/2, best_in_between, bottom=best_lhs, width=bar_width, label='Best Fit - in_between_fragmentation', color='tab:orange', hatch=patterns[0])
-
-        #axs[i].bar(index+bar_width/2, next_available, width=bar_width, label='Next Fit - available space', color='tab:brown', hatch=patterns[1])
-        #axs[i].bar(index+bar_width/2, next_occupied, width=bar_width, label='Next Fit - occupied_memory', color='tab:blue', hatch=patterns[1])
-        #axs[i].bar(index+bar_width/2, next_lhs, width=bar_width, label='Next Fit - lhs_fragmentation', color='tab:red',hatch=patterns[1])
-        #axs[i].bar(index+bar_width/2, next_in_between, bottom=next_lhs, width=bar_width, label='Next Fit - in_between_fragmentation', color='tab:orange', hatch=patterns[1])
+                axs[i].bar(index+bar_width/2, row_next[metric], width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1], alpha=next_fit_alpha)
         axs[i].set_title(f"Memory slab status after {best_data[i]['idx']} alloc/dealloc operations")
         axs[i].set_xlabel("Slab")
         axs[i].set_ylabel("Memory")
@@ -87,16 +75,31 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
         axs[i].set_xticklabels(range(1, len(row_best[metrics[0]])+1))
 
         # Add zoomed-in inset
-        zoom_start_idx = 12
+        zoom_start_idx = 14
         zoom_end_idx = 21
+        zoom_start_y = 0
+        zoom_end_y = 17500#35000
+        zoom_indices = index[zoom_start_idx:]
         axins = axs[i].inset_axes(
             [0.5, 0.4, 0.47, 0.47], # x, y, width, height as fractions of parent's bbox
-            xlim=(zoom_start_idx+0.5, zoom_end_idx + 0.5), ylim=(0,65536), xticklabels=[], yticklabels=[],
+            #65536
+            xlim=(zoom_start_idx+0.5, zoom_end_idx + 0.5),
+            ylim=(zoom_start_y,zoom_end_y),
+            xticklabels=[],
+            yticklabels=[],
         )  
-        #axins.bar(indices[zoom_start_idx:] - bar_width/2, values_best[zoom_start_idx:], bar_width, label='Best Fit (Zoomed)', color=colors[i], hatch=hatch_patterns[i])
-        #axins.bar(indices[zoom_start_idx:] + bar_width/2, values_next[zoom_start_idx:], bar_width, label='Next Fit (Zoomed)', color=colors[i], alpha=0.5, hatch=hatch_patterns[i])
-        #axins.set_xlim(indices[zoom_start_idx] - 1, indices[-1] + 1)  # Adjust zoom range
-        #axins.set_title('Zoomed View (Slab >= 15)')
+        for metric_idx, metric in enumerate(metrics):
+            if metric == 'in_between_fragmentation_per_slab':
+                axins.bar(zoom_indices-bar_width/2, row_best[metric][zoom_start_idx:], bottom=row_best["lhs_fragmentation_per_slab"][zoom_start_idx:] , width=bar_width, label=f"Best Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[0])
+                axins.bar(zoom_indices+bar_width/2, row_next[metric][zoom_start_idx:], bottom=row_next["lhs_fragmentation_per_slab"][zoom_start_idx:], width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1], alpha=next_fit_alpha)
+            else:
+                axins.bar(zoom_indices-bar_width/2, row_best[metric][zoom_start_idx:], width=bar_width, label=f"Best Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[0])
+                axins.bar(zoom_indices+bar_width/2, row_next[metric][zoom_start_idx:], width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1], alpha=next_fit_alpha)
+
+        axins.set_xticklabels(range(zoom_start_idx+1, zoom_end_idx+2))
+        axins.set_yticks(np.linspace(0, zoom_end_y, num=5))
+        axins.set_yticklabels(np.linspace(0, zoom_end_y, num=5, dtype=int))
+
         axs[i].indicate_inset_zoom(axins, edgecolor="black")
 
         print(f"Best fit: Slab resets: {best_data[i]['slab_resets']} No. failed UntypedRetype invocations: {best_data[i]['untyped_too_small']}, Out of Memory thrown: {best_data[i]['oom']}")
@@ -104,7 +107,7 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
     axs[3].legend(loc="upper center",
         # to avoid cutting into the text
         borderpad=1,
-        bbox_to_anchor=(0.5, -0.120),
+        bbox_to_anchor=(0.5, -0.130),
         ncol=2,
         frameon=True,
         fancybox=True,
