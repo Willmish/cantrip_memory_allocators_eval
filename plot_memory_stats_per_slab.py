@@ -22,13 +22,14 @@ def process_lines_from_file(file_path: str):
             json_str_corrected = json_str.replace("'", '"')  # Correcting for single-quote JSON-like format
             json_data = json.loads(json_str_corrected)
 
-            if all(key in json_data for key in ["idx", "untyped_too_small", "oom", "lhs_fragmentation_per_slab", "in_between_fragmentation_per_slab", "occupied_memory_per_slab", "available_space_per_slab"]):
+            if all(key in json_data for key in ["idx", "slab_resets", "untyped_too_small", "oom", "lhs_fragmentation_per_slab", "in_between_fragmentation_per_slab", "occupied_memory_per_slab", "available_space_per_slab"]):
                 print(json_data["idx"])
                 if json_data['idx'] == 0:
                     # skip state for idx 0 - not interesting
                     continue
                 data.append({
                     "idx": json_data["idx"],
+                    "slab_resets": json_data["slab_resets"],
                     "untyped_too_small": json_data["untyped_too_small"],
                     "oom": json_data["oom"],
                     "lhs_fragmentation_per_slab": json_data["lhs_fragmentation_per_slab"],
@@ -46,34 +47,69 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
     fig, axs = plt.subplots(4, figsize=(10, 15))
 
     bar_width = 0.4
-    patterns = ['/', '\\']
+    patterns = ['', 'XX']
+    metrics = ["available_space_per_slab", "occupied_memory_per_slab", "in_between_fragmentation_per_slab", "lhs_fragmentation_per_slab"]
+    colors = ["tab:brown", "tab:blue", "tab:orange", "tab:red"]
+    plot_titles = ["Available space", "Used memory", "Alignment cons. fragmentation", "Watermarking cons. fragmentation"]
+
     index = np.arange(len(best_data[0]["lhs_fragmentation_per_slab"]))
 
     for i in range(4):
         row_best, row_next = best_data[i], next_data[i]
-        (best_lhs, best_in_between, best_occupied, best_available) = row_best["lhs_fragmentation_per_slab"], row_best["in_between_fragmentation_per_slab"], row_best["occupied_memory_per_slab"], row_best["available_space_per_slab"]
-        (next_lhs, next_in_between, next_occupied, next_available) = row_next["lhs_fragmentation_per_slab"], row_next["in_between_fragmentation_per_slab"], row_next["occupied_memory_per_slab"], row_next["available_space_per_slab"]
-        
-        axs[i].bar(index-bar_width/2, best_available, width=bar_width, label='Best Fit - available space', color='tab:brown', hatch=patterns[0])
-        axs[i].bar(index-bar_width/2, best_occupied, width=bar_width, label='Best Fit - occupied_memory', color='tab:blue', hatch=patterns[0])
-        axs[i].bar(index-bar_width/2, best_lhs, width=bar_width, label='Best Fit - lhs_fragmentation', color='tab:red',hatch=patterns[0])
-        axs[i].bar(index-bar_width/2, best_in_between, bottom=best_lhs, width=bar_width, label='Best Fit - in_between_fragmentation', color='tab:orange', hatch=patterns[0])
+        print(row_best)
+        print(row_next)
+        for metric_idx, metric in enumerate(metrics):
+            if metric == 'in_between_fragmentation_per_slab':
+                axs[i].bar(index-bar_width/2, row_best[metric], bottom=row_best["lhs_fragmentation_per_slab"] , width=bar_width, label=f"Best Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[0])
+                axs[i].bar(index+bar_width/2, row_next[metric], bottom=row_next["lhs_fragmentation_per_slab"], width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1])
+            else:
+                axs[i].bar(index-bar_width/2, row_best[metric], width=bar_width, label=f"Best Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[0])
+                axs[i].bar(index+bar_width/2, row_next[metric], width=bar_width, label=f"Next Fit - {plot_titles[metric_idx]}", color=colors[metric_idx], hatch=patterns[1])
 
-        axs[i].bar(index+bar_width/2, next_available, width=bar_width, label='Next Fit - available space', color='tab:brown', hatch=patterns[1])
-        axs[i].bar(index+bar_width/2, next_occupied, width=bar_width, label='Next Fit - occupied_memory', color='tab:blue', hatch=patterns[1])
-        axs[i].bar(index+bar_width/2, next_lhs, width=bar_width, label='Next Fit - lhs_fragmentation', color='tab:red',hatch=patterns[1])
-        axs[i].bar(index+bar_width/2, next_in_between, bottom=next_lhs, width=bar_width, label='Next Fit - in_between_fragmentation', color='tab:orange', hatch=patterns[1])
+        #(best_lhs, best_in_between, best_occupied, best_available) = row_best["lhs_fragmentation_per_slab"], row_best["in_between_fragmentation_per_slab"], row_best["occupied_memory_per_slab"], row_best["available_space_per_slab"]
+        #(next_lhs, next_in_between, next_occupied, next_available) = row_next["lhs_fragmentation_per_slab"], row_next["in_between_fragmentation_per_slab"], row_next["occupied_memory_per_slab"], row_next["available_space_per_slab"]
+        
+        #axs[i].bar(index-bar_width/2, best_available, width=bar_width, label='Best Fit - available space', color='tab:brown', hatch=patterns[0])
+        #axs[i].bar(index-bar_width/2, best_occupied, width=bar_width, label='Best Fit - occupied_memory', color='tab:blue', hatch=patterns[0])
+        #axs[i].bar(index-bar_width/2, best_lhs, width=bar_width, label='Best Fit - lhs_fragmentation', color='tab:red',hatch=patterns[0])
+        #axs[i].bar(index-bar_width/2, best_in_between, bottom=best_lhs, width=bar_width, label='Best Fit - in_between_fragmentation', color='tab:orange', hatch=patterns[0])
+
+        #axs[i].bar(index+bar_width/2, next_available, width=bar_width, label='Next Fit - available space', color='tab:brown', hatch=patterns[1])
+        #axs[i].bar(index+bar_width/2, next_occupied, width=bar_width, label='Next Fit - occupied_memory', color='tab:blue', hatch=patterns[1])
+        #axs[i].bar(index+bar_width/2, next_lhs, width=bar_width, label='Next Fit - lhs_fragmentation', color='tab:red',hatch=patterns[1])
+        #axs[i].bar(index+bar_width/2, next_in_between, bottom=next_lhs, width=bar_width, label='Next Fit - in_between_fragmentation', color='tab:orange', hatch=patterns[1])
         axs[i].set_title(f"Memory slab status after {best_data[i]['idx']} alloc/dealloc operations")
         axs[i].set_xlabel("Slab")
         axs[i].set_ylabel("Memory")
-        axs[i].legend()
 
-        axs[i].set_yscale('log', base=2)
+        #axs[i].set_yscale('log', base=2)
         axs[i].set_xticks(index)
-        axs[i].set_xticklabels(range(1, len(best_lhs)+1))
+        axs[i].set_xticklabels(range(1, len(row_best[metrics[0]])+1))
 
-        print(f"Best fit: No. failed UntypedRetype invocations: {best_data[i]['untyped_too_small']}, Out of Memory thrown: {best_data[i]['oom']}")
-        print(f"Next fit: No. failed UntypedRetype invocations: {next_data[i]['untyped_too_small']}, Out of Memory thrown: {next_data[i]['oom']}")
+        # Add zoomed-in inset
+        zoom_start_idx = 12
+        zoom_end_idx = 21
+        axins = axs[i].inset_axes(
+            [0.5, 0.4, 0.47, 0.47], # x, y, width, height as fractions of parent's bbox
+            xlim=(zoom_start_idx+0.5, zoom_end_idx + 0.5), ylim=(0,65536), xticklabels=[], yticklabels=[],
+        )  
+        #axins.bar(indices[zoom_start_idx:] - bar_width/2, values_best[zoom_start_idx:], bar_width, label='Best Fit (Zoomed)', color=colors[i], hatch=hatch_patterns[i])
+        #axins.bar(indices[zoom_start_idx:] + bar_width/2, values_next[zoom_start_idx:], bar_width, label='Next Fit (Zoomed)', color=colors[i], alpha=0.5, hatch=hatch_patterns[i])
+        #axins.set_xlim(indices[zoom_start_idx] - 1, indices[-1] + 1)  # Adjust zoom range
+        #axins.set_title('Zoomed View (Slab >= 15)')
+        axs[i].indicate_inset_zoom(axins, edgecolor="black")
+
+        print(f"Best fit: Slab resets: {best_data[i]['slab_resets']} No. failed UntypedRetype invocations: {best_data[i]['untyped_too_small']}, Out of Memory thrown: {best_data[i]['oom']}")
+        print(f"Next fit: Slab resets: {next_data[i]['slab_resets']} No. failed UntypedRetype invocations: {next_data[i]['untyped_too_small']}, Out of Memory thrown: {next_data[i]['oom']}")
+    axs[3].legend(loc="upper center",
+        # to avoid cutting into the text
+        borderpad=1,
+        bbox_to_anchor=(0.5, -0.120),
+        ncol=2,
+        frameon=True,
+        fancybox=True,
+        edgecolor="black",
+        )
     plt.tight_layout()
     makedirs(args.output_dir, exist_ok=True)
     plt.savefig(Path(args.output_dir) / Path(f"{Path(args.best_fit_log_file).name.split('.')[-2]}.png"))
