@@ -140,7 +140,7 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
     plt.tight_layout()
     makedirs(args.output_dir, exist_ok=True)
     plt.savefig(Path(args.output_dir) / Path(f"{Path(args.best_fit_log_file).name.split('.')[-2]}.png"))
-    plt.savefig(Path(args.output_dir) / Path(f"{Path(args.best_fit_log_file).name.split('.')[-2]}.pgf"), bbox_inches="tight")
+    plt.savefig(Path(args.output_dir) / Path(f"{Path(args.best_fit_log_file).name.split('.')[-2]}.pdf"), bbox_inches="tight")
     plt.show()
 
 def parse_args() -> argparse.Namespace:
