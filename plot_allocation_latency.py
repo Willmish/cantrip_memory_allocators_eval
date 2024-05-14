@@ -34,9 +34,12 @@ def process_lines_from_file(file_path):
             json_str_corrected = json_str.replace("'", '"')  # Correcting for single-quote JSON-like format
             json_data = json.loads(json_str_corrected)
 
-            if all(key in json_data for key in ["bytes requested", "bytes in-use", "instruction count", "allocation"]):
+            if all(key in json_data for key in ["bytes requested", "slab resets", "untyped_too_small", "oom", "bytes in-use", "instruction count", "allocation"]):
                 data.append({
                     "bytes_requested": json_data["bytes requested"],
+                    "slab_resets":  json_data["slab resets"],
+                    "untyped_too_small":  json_data["untyped_too_small"],
+                    "oom":  json_data["oom"],
                     "bytes_in_use": json_data["bytes in-use"],
                     "instruction_count": json_data["instruction count"],
                     "allocation": json_data["allocation"],
@@ -74,11 +77,19 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
     )
     # Extracting data for plotting
     best_bytes_requested = np.array([entry["bytes_requested"] for entry in best_data])
+    best_slab_resets = np.array([entry["slab_resets"] for entry in best_data])
+    best_oom = [entry["oom"] for entry in best_data]
+    # process oom: mask of True where oom actually ocurred
+    best_oom = np.diff(best_oom, prepend=0) > 0 # prepend a 0 to match dimension (if there was oom on first call, will also catch that)
     best_bytes_in_use = np.array([entry["bytes_in_use"] for entry in best_data])
     best_instruction_count = np.array([entry["instruction_count"] for entry in best_data])
     best_is_allocation = np.array([entry["allocation"] for entry in best_data])
 
     next_bytes_requested = np.array([entry["bytes_requested"] for entry in next_data])
+    next_slab_resets = np.array([entry["slab_resets"] for entry in next_data])
+    next_oom = [entry["oom"] for entry in next_data]
+    # process oom: mask of True where oom actually ocurred
+    next_oom = np.diff(next_oom, prepend=0) > 0 # prepend a 0 to match dimension (if there was oom on first call, will also catch that)
     next_bytes_in_use = np.array([entry["bytes_in_use"] for entry in next_data])
     next_instruction_count = np.array([entry["instruction_count"] for entry in next_data])
     next_is_allocation = np.array([entry["allocation"] for entry in next_data])
@@ -95,23 +106,29 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
     axs[0].grid(True)
 
     # Plot for Allocation latency
-    axs[1].plot(best_bytes_requested[best_is_allocation == True], best_instruction_count[best_is_allocation == True], label="Best Fit - Instruction Count per Allocation", marker=',', color='tab:green', linewidth=3)
+    axs[1].plot(best_bytes_requested[best_is_allocation == True], best_instruction_count[best_is_allocation == True], label="Best Fit - Instruction Count per Allocation", marker=',', color='tab:brown', linewidth=3)
+    if np.sum(best_oom) > 0: # only plot if there are points
+        axs[1].scatter(best_bytes_requested[best_oom], best_instruction_count[best_oom], s=[225]*np.sum(best_oom), label="Best Fit - Out of Memory", marker='x', color="tab:red", linewidth=2)
     if args.separate_axis:
         ax2 = axs[1].twinx()
         color="tab:blue"
         ax2.tick_params(axis="y", labelcolor=color)
         ax2.set_ylabel('Next Fit - Instruction Count per Alloc')
-        ax2.plot(next_bytes_requested[next_is_allocation == True], next_instruction_count[next_is_allocation == True], label="Next Fit - Instruction Count per Allocation", marker=',', color='tab:green', linestyle="dotted", linewidth=3)
+        ax2.plot(next_bytes_requested[next_is_allocation == True], next_instruction_count[next_is_allocation == True], label="Next Fit - Instruction Count per Allocation", marker=',', color='tab:brown', linestyle="dotted", linewidth=3)
+        if np.sum(next_oom) > 0: # only plot if there are points
+            ax2.scatter(next_bytes_requested[next_oom], next_instruction_count[next_oom], s=[225]*np.sum(next_oom), label="Next Fit - Out of Memory", marker='+', color="tab:red", linewidth=2)
         axs[1].set_ylabel('Best Fit - Instruction Count per Alloc')
     else:
-        axs[1].plot(next_bytes_requested[next_is_allocation == True], next_instruction_count[next_is_allocation == True], label="Next Fit - Instruction Count per Allocation", marker=',', color='tab:green', linestyle="dotted", linewidth=3)
+        axs[1].plot(next_bytes_requested[next_is_allocation == True], next_instruction_count[next_is_allocation == True], label="Next Fit - Instruction Count per Allocation", marker=',', color='tab:purple', linestyle="dotted", linewidth=3)
+        if np.sum(next_oom) > 0: # only plot if there are points
+            axs[1].scatter(next_bytes_requested[next_oom], next_instruction_count[next_oom], s=[225]*np.sum(next_oom), label="Next Fit - Out of Memory", marker='+', color="tab:red", linewidth=2)
         axs[1].set_ylabel('Instruction Count per Alloc')
     axs[1].set_xlabel('Bytes Requested')
     axs[1].set_title('Instruction Count per Allocation vs. Bytes Requested')
     axs[1].grid(True)
 
     # Plot for Freeing latency (should be constant?)
-    axs[2].plot(best_bytes_requested[best_is_allocation == False], best_instruction_count[best_is_allocation == False], label="Best Fit - Instruction count per Free", marker=',', color='tab:orange', linewidth=3)
+    axs[2].plot(best_bytes_requested[best_is_allocation == False], best_instruction_count[best_is_allocation == False], label="Best Fit - Instruction count per Free", marker=',', color='tab:grey', linewidth=3)
     if args.separate_axis:
         ax2 = axs[2].twinx()
         color="tab:blue"
@@ -130,6 +147,9 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
     handles0, labels0 = axs[0].get_legend_handles_labels()
     handles1, labels1 = axs[1].get_legend_handles_labels()
     handles2, labels2 = axs[2].get_legend_handles_labels()
+    #axs[0].set_yscale('log')#, base=2)
+    axs[1].set_yscale('log')#, base=2)
+    axs[2].set_yscale('log')#, base=2)
     plt.legend(
         handles0 + handles1 + handles2,
         labels0 + labels1 + labels2,
@@ -156,6 +176,14 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
     plt.show()
     print(f"Avg. latency Alloc: Best Fit: {np.sum(best_instruction_count[best_is_allocation == True]) / np.sum(best_is_allocation == True)}; Next Fit: {np.sum(next_instruction_count[next_is_allocation == True]) / np.sum(next_is_allocation == True)}")
     print(f"Avg. latency Free: Best Fit: {np.sum(best_instruction_count[best_is_allocation == False]) / np.sum(best_is_allocation == False)}; Next Fit: {np.sum(next_instruction_count[next_is_allocation == False]) / np.sum(next_is_allocation == False)}")
+    print(f"Excluding latencies when OOM ocurred:")
+    print("Avg. latency Alloc: Best Fit: ",
+    np.sum(best_instruction_count[(best_is_allocation == True) & (best_oom != True)]) / np.sum((best_is_allocation == True) & (best_oom != True)),
+    "; Next Fit: ",
+    np.sum(next_instruction_count[(next_is_allocation == True) & (next_oom != True)]) / np.sum((next_is_allocation == True) & (next_oom != True)))
+    print(f"Avg. latency Free: Best Fit: ",
+    np.sum(best_instruction_count[(best_is_allocation == False) & (best_oom != True)]) / np.sum((best_is_allocation == False) & (best_oom != True)),
+    f"; Next Fit: {np.sum(next_instruction_count[(next_is_allocation == False) & (next_oom != True)]) / np.sum((next_is_allocation == False) & (next_oom != True))}")
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(

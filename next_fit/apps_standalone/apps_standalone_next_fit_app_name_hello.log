@@ -1,134 +1,136 @@
-01:28:15.7559 [INFO] uart5: [output] CANTRIP> [sreplay_app hello next_fit
-01:28:15.7560 [INFO] uart5: [virt: 4.31s (+10.3ms)] CANTRIP> [sreplay_app hello next_fit
-01:28:15.7716 [INFO] uart5: [output] {'bytes in-use': 4096, 'bytes free': 2719488, 'bytes requested': 4096, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 1}
-01:28:15.7717 [INFO] uart5: [virt:  4.32s (+5.5ms)] {'bytes in-use': 4096, 'bytes free': 2719488, 'bytes requested': 4096, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 1}
-01:28:15.7788 [INFO] uart5: [output] {'bytes in-use': 4160, 'bytes free': 2719424, 'bytes requested': 4160, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 2}
-01:28:15.7789 [INFO] uart5: [virt:  4.32s (+1.2ms)] {'bytes in-use': 4160, 'bytes free': 2719424, 'bytes requested': 4160, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 2}
-01:28:15.7902 [INFO] uart5: [output] {'bytes in-use': 4672, 'bytes free': 2718912, 'bytes requested': 4672, 'lhs fragmentation': 0, 'in-between fragmentation': 448, 'objs in-use': 3}
-01:28:15.7903 [INFO] uart5: [virt:  4.32s (+1.3ms)] {'bytes in-use': 4672, 'bytes free': 2718912, 'bytes requested': 4672, 'lhs fragmentation': 0, 'in-between fragmentation': 448, 'objs in-use': 3}
-01:28:15.8015 [INFO] uart5: [output] {'bytes in-use': 4928, 'bytes free': 2718656, 'bytes requested': 4928, 'lhs fragmentation': 0, 'in-between fragmentation': 448, 'objs in-use': 4}
-01:28:15.8016 [INFO] uart5: [virt:  4.32s (+1.2ms)] {'bytes in-use': 4928, 'bytes free': 2718656, 'bytes requested': 4928, 'lhs fragmentation': 0, 'in-between fragmentation': 448, 'objs in-use': 4}
-01:28:15.8125 [INFO] uart5: [output] {'bytes in-use': 9024, 'bytes free': 2714560, 'bytes requested': 9024, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 5}
-01:28:15.8126 [INFO] uart5: [virt:  4.32s (+1.2ms)] {'bytes in-use': 9024, 'bytes free': 2714560, 'bytes requested': 9024, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 5}
-01:28:15.8239 [INFO] uart5: [output] {'bytes in-use': 13120, 'bytes free': 2710464, 'bytes requested': 13120, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 6}
-01:28:15.8240 [INFO] uart5: [virt:  4.32s (+1.2ms)] {'bytes in-use': 13120, 'bytes free': 2710464, 'bytes requested': 13120, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 6}
-01:28:15.8350 [INFO] uart5: [output] {'bytes in-use': 29504, 'bytes free': 2694080, 'bytes requested': 29504, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 10}
-01:28:15.8352 [INFO] uart5: [virt:  4.33s (+1.3ms)] {'bytes in-use': 29504, 'bytes free': 2694080, 'bytes requested': 29504, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 10}
-01:28:15.8458 [INFO] uart5: [output] {'bytes in-use': 37696, 'bytes free': 2685888, 'bytes requested': 37696, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 12}
-01:28:15.8459 [INFO] uart5: [virt:  4.33s (+1.2ms)] {'bytes in-use': 37696, 'bytes free': 2685888, 'bytes requested': 37696, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 12}
-01:28:15.8594 [INFO] uart5: [output] {'bytes in-use': 41792, 'bytes free': 2681792, 'bytes requested': 41792, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 13}
-01:28:15.8595 [INFO] uart5: [virt:  4.33s (+1.3ms)] {'bytes in-use': 41792, 'bytes free': 2681792, 'bytes requested': 41792, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 13}
-01:28:15.8707 [INFO] uart5: [output] {'bytes in-use': 45888, 'bytes free': 2677696, 'bytes requested': 45888, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 14}
-01:28:15.8707 [INFO] uart5: [virt:  4.33s (+1.2ms)] {'bytes in-use': 45888, 'bytes free': 2677696, 'bytes requested': 45888, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 14}
-01:28:15.8828 [INFO] uart5: [output] {'bytes in-use': 46400, 'bytes free': 2677184, 'bytes requested': 46400, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 15}
-01:28:15.8829 [INFO] uart5: [virt:  4.33s (+1.2ms)] {'bytes in-use': 46400, 'bytes free': 2677184, 'bytes requested': 46400, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 15}
-01:28:15.8896 [INFO] uart5: [output] *::[58, bits 19] watermark    49664 available 474624, max_size_bytes 524288, allocated_bytes: 49664, allocated_objects: 15
-01:28:15.8897 [INFO] uart5: [virt:  4.33s (+0.4ms)] *::[58, bits 19] watermark    49664 available 474624, max_size_bytes 524288, allocated_bytes: 49664, allocated_objects: 15
-01:28:15.8933 [INFO] uart5: [output]  ::[65, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
-01:28:15.8934 [INFO] uart5: [virt:  4.33s (+0.3ms)]  ::[65, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
-01:28:15.8970 [INFO] uart5: [output]  ::[57, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
-01:28:15.8972 [INFO] uart5: [virt:  4.33s (+0.4ms)]  ::[57, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9039 [INFO] uart5: [output]  ::[66, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9040 [INFO] uart5: [virt:  4.33s (+0.4ms)]  ::[66, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9073 [INFO] uart5: [output]  ::[62, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9073 [INFO] uart5: [virt:  4.33s (+0.3ms)]  ::[62, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9146 [INFO] uart5: [output]  ::[80, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9147 [INFO] uart5: [virt:  4.33s (+0.4ms)]  ::[80, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9185 [INFO] uart5: [output]  ::[56, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9186 [INFO] uart5: [virt:  4.33s (+0.3ms)]  ::[56, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9261 [INFO] uart5: [output]  ::[67, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9262 [INFO] uart5: [virt:  4.33s (+0.4ms)]  ::[67, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9338 [INFO] uart5: [output]  ::[61, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9339 [INFO] uart5: [virt:  4.33s (+0.4ms)]  ::[61, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9372 [INFO] uart5: [output]  ::[60, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9373 [INFO] uart5: [virt:  4.33s (+0.3ms)]  ::[60, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9419 [INFO] uart5: [output]  ::[79, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9420 [INFO] uart5: [virt:  4.34s (+0.4ms)]  ::[79, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9484 [INFO] uart5: [output]  ::[59, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9485 [INFO] uart5: [virt:  4.34s (+0.4ms)]  ::[59, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9525 [INFO] uart5: [output]  ::[68, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9525 [INFO] uart5: [virt:  4.34s (+0.3ms)]  ::[68, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9592 [INFO] uart5: [output]  ::[78, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9594 [INFO] uart5: [virt:  4.34s (+0.4ms)]  ::[78, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9635 [INFO] uart5: [output]  ::[75, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9636 [INFO] uart5: [virt:  4.34s (+0.4ms)]  ::[75, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9704 [INFO] uart5: [output]  ::[74, bits 14] watermark        0 available 16384, max_size_bytes 16384, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9705 [INFO] uart5: [virt:  4.34s (+0.3ms)]  ::[74, bits 14] watermark        0 available 16384, max_size_bytes 16384, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9747 [INFO] uart5: [output]  ::[76, bits 13] watermark        0 available 8192, max_size_bytes 8192, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9748 [INFO] uart5: [virt:  4.34s (+0.4ms)]  ::[76, bits 13] watermark        0 available 8192, max_size_bytes 8192, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9818 [INFO] uart5: [output]  ::[55, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9819 [INFO] uart5: [virt:  4.34s (+0.3ms)]  ::[55, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9888 [INFO] uart5: [output]  ::[73, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9889 [INFO] uart5: [virt:  4.34s (+0.4ms)]  ::[73, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9927 [INFO] uart5: [output]  ::[72, bits 11] watermark        0 available 2048, max_size_bytes 2048, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9927 [INFO] uart5: [virt:  4.34s (+0.3ms)]  ::[72, bits 11] watermark        0 available 2048, max_size_bytes 2048, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9996 [INFO] uart5: [output]  ::[71, bits 10] watermark        0 available 1024, max_size_bytes 1024, allocated_bytes: 0, allocated_objects: 0
-01:28:15.9997 [INFO] uart5: [virt:  4.34s (+0.4ms)]  ::[71, bits 10] watermark        0 available 1024, max_size_bytes 1024, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0036 [INFO] uart5: [output]  ::[70, bits  9] watermark        0 available 512, max_size_bytes 512, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0037 [INFO] uart5: [virt:  4.34s (+0.3ms)]  ::[70, bits  9] watermark        0 available 512, max_size_bytes 512, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0062 [INFO] uart5: [output] !::[69, bits  8] watermark       32 available 224
-01:28:16.0063 [INFO] uart5: [virt:  4.34s (+0.3ms)] !::[69, bits  8] watermark       32 available 224
-01:28:16.0139 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Allocation failed on a slab: 0 times. Out of memory thrown 0 times.
-01:28:16.0140 [INFO] uart5: [virt:  4.34s (+0.3ms)] cantrip_memory_manager::memory_manager::Allocation failed on a slab: 0 times. Out of memory thrown 0 times.
-01:28:16.0214 [INFO] uart5: [output] {'bytes in-use': 0, 'bytes free': 2723584, 'bytes requested': 46400, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 0}
-01:28:16.0214 [INFO] uart5: [virt:  4.34s (+1.7ms)] {'bytes in-use': 0, 'bytes free': 2723584, 'bytes requested': 46400, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 0}
-01:28:16.0219 [INFO] uart5: [output] Done :)
-01:28:16.0220 [INFO] uart5: [virt:  4.34s (+0.1ms)] Done :)
-01:28:16.0297 [INFO] uart5: [output] CANTRIP> [smstats
-01:28:16.0298 [INFO] uart5: [virt:    4.34s (+1ms)] CANTRIP> [smstats
-01:28:16.0337 [INFO] uart5: [output] 0 bytes in-use, 2723584 bytes free, 46400 bytes requested, 1343488 overhead
-01:28:16.0337 [INFO] uart5: [virt:  4.34s (+0.8ms)] 0 bytes in-use, 2723584 bytes free, 46400 bytes requested, 1343488 overhead
-01:28:16.0349 [INFO] uart5: [output] 0 lhs fragmentation, 0 in-between fragmentation
-01:28:16.0349 [INFO] uart5: [virt:  4.34s (+0.2ms)] 0 lhs fragmentation, 0 in-between fragmentation
-01:28:16.0402 [INFO] uart5: [output] 0 objs in-use, 15 objs requested
-01:28:16.0403 [INFO] uart5: [virt:  4.34s (+0.2ms)] 0 objs in-use, 15 objs requested
-01:28:16.0431 [INFO] uart5: [output] CANTRIP> [smdebug
-01:28:16.0432 [INFO] uart5: [virt:  4.34s (+0.5ms)] CANTRIP> [smdebug
-01:28:16.0454 [INFO] uart5: [output] *::[58, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0455 [INFO] uart5: [virt:  4.34s (+0.4ms)] *::[58, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0473 [INFO] uart5: [output]  ::[65, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0474 [INFO] uart5: [virt:  4.34s (+0.4ms)]  ::[65, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0529 [INFO] uart5: [output]  ::[57, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0530 [INFO] uart5: [virt:  4.35s (+0.3ms)]  ::[57, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0550 [INFO] uart5: [output]  ::[66, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0551 [INFO] uart5: [virt:  4.35s (+0.4ms)]  ::[66, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0570 [INFO] uart5: [output]  ::[62, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0571 [INFO] uart5: [virt:  4.35s (+0.4ms)]  ::[62, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0589 [INFO] uart5: [output]  ::[80, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0590 [INFO] uart5: [virt:  4.35s (+0.3ms)]  ::[80, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0650 [INFO] uart5: [output]  ::[56, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0651 [INFO] uart5: [virt:  4.35s (+0.4ms)]  ::[56, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0671 [INFO] uart5: [output]  ::[67, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0672 [INFO] uart5: [virt:  4.35s (+0.3ms)]  ::[67, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0691 [INFO] uart5: [output]  ::[61, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0692 [INFO] uart5: [virt:  4.35s (+0.4ms)]  ::[61, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0711 [INFO] uart5: [output]  ::[60, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0712 [INFO] uart5: [virt:  4.35s (+0.4ms)]  ::[60, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0731 [INFO] uart5: [output]  ::[79, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0732 [INFO] uart5: [virt:  4.35s (+0.3ms)]  ::[79, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0797 [INFO] uart5: [output]  ::[59, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0797 [INFO] uart5: [virt:  4.35s (+0.4ms)]  ::[59, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0818 [INFO] uart5: [output]  ::[68, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0819 [INFO] uart5: [virt:  4.35s (+0.3ms)]  ::[68, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0839 [INFO] uart5: [output]  ::[78, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0840 [INFO] uart5: [virt:  4.35s (+0.4ms)]  ::[78, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0860 [INFO] uart5: [output]  ::[75, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0861 [INFO] uart5: [virt:  4.35s (+0.4ms)]  ::[75, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0920 [INFO] uart5: [output]  ::[74, bits 14] watermark        0 available 16384, max_size_bytes 16384, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0921 [INFO] uart5: [virt:  4.35s (+0.3ms)]  ::[74, bits 14] watermark        0 available 16384, max_size_bytes 16384, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0943 [INFO] uart5: [output]  ::[76, bits 13] watermark        0 available 8192, max_size_bytes 8192, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0944 [INFO] uart5: [virt:  4.35s (+0.4ms)]  ::[76, bits 13] watermark        0 available 8192, max_size_bytes 8192, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0964 [INFO] uart5: [output]  ::[55, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0964 [INFO] uart5: [virt:  4.35s (+0.3ms)]  ::[55, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0986 [INFO] uart5: [output]  ::[73, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
-01:28:16.0986 [INFO] uart5: [virt:  4.35s (+0.4ms)]  ::[73, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
-01:28:16.1007 [INFO] uart5: [output]  ::[72, bits 11] watermark        0 available 2048, max_size_bytes 2048, allocated_bytes: 0, allocated_objects: 0
-01:28:16.1008 [INFO] uart5: [virt:  4.35s (+0.3ms)]  ::[72, bits 11] watermark        0 available 2048, max_size_bytes 2048, allocated_bytes: 0, allocated_objects: 0
-01:28:16.1065 [INFO] uart5: [output]  ::[71, bits 10] watermark        0 available 1024, max_size_bytes 1024, allocated_bytes: 0, allocated_objects: 0
-01:28:16.1065 [INFO] uart5: [virt:  4.35s (+0.4ms)]  ::[71, bits 10] watermark        0 available 1024, max_size_bytes 1024, allocated_bytes: 0, allocated_objects: 0
-01:28:16.1086 [INFO] uart5: [output]  ::[70, bits  9] watermark        0 available 512, max_size_bytes 512, allocated_bytes: 0, allocated_objects: 0
-01:28:16.1086 [INFO] uart5: [virt:  4.35s (+0.3ms)]  ::[70, bits  9] watermark        0 available 512, max_size_bytes 512, allocated_bytes: 0, allocated_objects: 0
-01:28:16.1100 [INFO] uart5: [output] !::[69, bits  8] watermark       32 available 224
-01:28:16.1101 [INFO] uart5: [virt:  4.35s (+0.3ms)] !::[69, bits  8] watermark       32 available 224
-01:28:16.1122 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Allocation failed on a slab: 0 times. Out of memory thrown 0 times.
-01:28:16.1123 [INFO] uart5: [virt:  4.35s (+0.3ms)] cantrip_memory_manager::memory_manager::Allocation failed on a slab: 0 times. Out of memory thrown 0 times.
+15:14:17.0881 [INFO] uart5: [output] CANTRIP> [sreplay_app hello next_fit
+15:14:17.0882 [INFO] uart5: [virt: 6.73s (+12.7ms)] CANTRIP> [sreplay_app hello next_fit
+15:14:17.1018 [INFO] uart5: [output] {'bytes in-use': 4096, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2719488, 'bytes requested': 4096, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 1}
+15:14:17.1019 [INFO] uart5: [virt:  6.74s (+2.1ms)] {'bytes in-use': 4096, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2719488, 'bytes requested': 4096, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 1}
+15:14:17.1136 [INFO] uart5: [output] {'bytes in-use': 4160, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2719424, 'bytes requested': 4160, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 2}
+15:14:17.1162 [INFO] uart5: [virt:  6.74s (+1.5ms)] {'bytes in-use': 4160, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2719424, 'bytes requested': 4160, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 2}
+15:14:17.1272 [INFO] uart5: [output] {'bytes in-use': 4672, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2718912, 'bytes requested': 4672, 'lhs fragmentation': 0, 'in-between fragmentation': 448, 'objs in-use': 3}
+15:14:17.1273 [INFO] uart5: [virt:  6.74s (+1.5ms)] {'bytes in-use': 4672, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2718912, 'bytes requested': 4672, 'lhs fragmentation': 0, 'in-between fragmentation': 448, 'objs in-use': 3}
+15:14:17.1360 [INFO] uart5: [output] {'bytes in-use': 4928, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2718656, 'bytes requested': 4928, 'lhs fragmentation': 0, 'in-between fragmentation': 448, 'objs in-use': 4}
+15:14:17.1361 [INFO] uart5: [virt:  6.74s (+1.6ms)] {'bytes in-use': 4928, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2718656, 'bytes requested': 4928, 'lhs fragmentation': 0, 'in-between fragmentation': 448, 'objs in-use': 4}
+15:14:17.1462 [INFO] uart5: [output] {'bytes in-use': 9024, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2714560, 'bytes requested': 9024, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 5}
+15:14:17.1463 [INFO] uart5: [virt:  6.74s (+1.5ms)] {'bytes in-use': 9024, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2714560, 'bytes requested': 9024, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 5}
+15:14:17.1599 [INFO] uart5: [output] {'bytes in-use': 13120, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2710464, 'bytes requested': 13120, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 6}
+15:14:17.1600 [INFO] uart5: [virt:  6.74s (+1.5ms)] {'bytes in-use': 13120, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2710464, 'bytes requested': 13120, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 6}
+15:14:17.1720 [INFO] uart5: [output] {'bytes in-use': 29504, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2694080, 'bytes requested': 29504, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 10}
+15:14:17.1721 [INFO] uart5: [virt:  6.75s (+1.6ms)] {'bytes in-use': 29504, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2694080, 'bytes requested': 29504, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 10}
+15:14:17.1870 [INFO] uart5: [output] {'bytes in-use': 37696, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2685888, 'bytes requested': 37696, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 12}
+15:14:17.1870 [INFO] uart5: [virt:  6.75s (+1.6ms)] {'bytes in-use': 37696, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2685888, 'bytes requested': 37696, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 12}
+15:14:17.1982 [INFO] uart5: [output] {'bytes in-use': 41792, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2681792, 'bytes requested': 41792, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 13}
+15:14:17.1984 [INFO] uart5: [virt:  6.75s (+1.5ms)] {'bytes in-use': 41792, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2681792, 'bytes requested': 41792, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 13}
+15:14:17.2118 [INFO] uart5: [output] {'bytes in-use': 45888, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2677696, 'bytes requested': 45888, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 14}
+15:14:17.2119 [INFO] uart5: [virt:  6.75s (+1.6ms)] {'bytes in-use': 45888, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2677696, 'bytes requested': 45888, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 14}
+15:14:17.2186 [INFO] uart5: [output] {'bytes in-use': 46400, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2677184, 'bytes requested': 46400, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 15}
+15:14:17.2187 [INFO] uart5: [virt:  6.75s (+1.5ms)] {'bytes in-use': 46400, 'slab resets': 0,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2677184, 'bytes requested': 46400, 'lhs fragmentation': 0, 'in-between fragmentation': 3264, 'objs in-use': 15}
+15:14:17.2210 [INFO] uart5: [output] *::[58, bits 19] watermark    49664 available 474624, max_size_bytes 524288, allocated_bytes: 49664, allocated_objects: 15
+15:14:17.2210 [INFO] uart5: [virt:  6.75s (+0.4ms)] *::[58, bits 19] watermark    49664 available 474624, max_size_bytes 524288, allocated_bytes: 49664, allocated_objects: 15
+15:14:17.2259 [INFO] uart5: [output]  ::[65, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2260 [INFO] uart5: [virt:  6.75s (+0.3ms)]  ::[65, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2282 [INFO] uart5: [output]  ::[57, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2282 [INFO] uart5: [virt:  6.75s (+0.4ms)]  ::[57, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2305 [INFO] uart5: [output]  ::[66, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2306 [INFO] uart5: [virt:  6.75s (+0.4ms)]  ::[66, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2327 [INFO] uart5: [output]  ::[62, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2328 [INFO] uart5: [virt:  6.75s (+0.3ms)]  ::[62, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2352 [INFO] uart5: [output]  ::[80, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2352 [INFO] uart5: [virt:  6.75s (+0.4ms)]  ::[80, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2401 [INFO] uart5: [output]  ::[56, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2401 [INFO] uart5: [virt:  6.75s (+0.3ms)]  ::[56, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2427 [INFO] uart5: [output]  ::[67, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2428 [INFO] uart5: [virt:  6.75s (+0.4ms)]  ::[67, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2451 [INFO] uart5: [output]  ::[61, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2452 [INFO] uart5: [virt:  6.75s (+0.4ms)]  ::[61, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2476 [INFO] uart5: [output]  ::[60, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2476 [INFO] uart5: [virt:  6.76s (+0.3ms)]  ::[60, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2530 [INFO] uart5: [output]  ::[79, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2531 [INFO] uart5: [virt:  6.76s (+0.4ms)]  ::[79, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2555 [INFO] uart5: [output]  ::[59, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2556 [INFO] uart5: [virt:  6.76s (+0.4ms)]  ::[59, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2580 [INFO] uart5: [output]  ::[68, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2580 [INFO] uart5: [virt:  6.76s (+0.3ms)]  ::[68, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2605 [INFO] uart5: [output]  ::[78, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2606 [INFO] uart5: [virt:  6.76s (+0.4ms)]  ::[78, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2664 [INFO] uart5: [output]  ::[75, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2664 [INFO] uart5: [virt:  6.76s (+0.3ms)]  ::[75, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2689 [INFO] uart5: [output]  ::[74, bits 14] watermark        0 available 16384, max_size_bytes 16384, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2690 [INFO] uart5: [virt:  6.76s (+0.4ms)]  ::[74, bits 14] watermark        0 available 16384, max_size_bytes 16384, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2716 [INFO] uart5: [output]  ::[76, bits 13] watermark        0 available 8192, max_size_bytes 8192, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2717 [INFO] uart5: [virt:  6.76s (+0.4ms)]  ::[76, bits 13] watermark        0 available 8192, max_size_bytes 8192, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2779 [INFO] uart5: [output]  ::[55, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2780 [INFO] uart5: [virt:  6.76s (+0.3ms)]  ::[55, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2805 [INFO] uart5: [output]  ::[73, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2806 [INFO] uart5: [virt:  6.76s (+0.4ms)]  ::[73, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2859 [INFO] uart5: [output]  ::[72, bits 11] watermark        0 available 2048, max_size_bytes 2048, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2859 [INFO] uart5: [virt:  6.76s (+0.3ms)]  ::[72, bits 11] watermark        0 available 2048, max_size_bytes 2048, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2887 [INFO] uart5: [output]  ::[71, bits 10] watermark        0 available 1024, max_size_bytes 1024, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2888 [INFO] uart5: [virt:  6.76s (+0.4ms)]  ::[71, bits 10] watermark        0 available 1024, max_size_bytes 1024, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2915 [INFO] uart5: [output]  ::[70, bits  9] watermark        0 available 512, max_size_bytes 512, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2916 [INFO] uart5: [virt:  6.76s (+0.3ms)]  ::[70, bits  9] watermark        0 available 512, max_size_bytes 512, allocated_bytes: 0, allocated_objects: 0
+15:14:17.2931 [INFO] uart5: [output] !::[69, bits  8] watermark       32 available 224
+15:14:17.2932 [INFO] uart5: [virt:  6.76s (+0.3ms)] !::[69, bits  8] watermark       32 available 224
+15:14:17.2989 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Allocation failed on a slab: 0 times. Out of memory thrown 0 times.
+15:14:17.2990 [INFO] uart5: [virt:  6.76s (+0.3ms)] cantrip_memory_manager::memory_manager::Allocation failed on a slab: 0 times. Out of memory thrown 0 times.
+15:14:17.3118 [INFO] uart5: [output] {'bytes in-use': 0, 'slab resets': 1,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2723584, 'bytes requested': 46400, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 0}
+15:14:17.3119 [INFO] uart5: [virt:    6.76s (+2ms)] {'bytes in-use': 0, 'slab resets': 1,'untyped_too_small': 0, 'oom': 0, 'bytes free': 2723584, 'bytes requested': 46400, 'lhs fragmentation': 0, 'in-between fragmentation': 0, 'objs in-use': 0}
+15:14:17.3123 [INFO] uart5: [output] Done :)
+15:14:17.3123 [INFO] uart5: [virt:  6.76s (+0.1ms)] Done :)
+15:14:17.3715 [INFO] uart5: [output] {'idx': 1, 'slab_resets': 1, 'untyped_too_small': 0, 'oom': 0, 'lhs_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'in_between_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'occupied_memory_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512]}
+15:14:17.3716 [INFO] uart5: [virt:  6.77s (+8.8ms)] {'idx': 1, 'slab_resets': 1, 'untyped_too_small': 0, 'oom': 0, 'lhs_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'in_between_fragmentation_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'occupied_memory_per_slab': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'available_space_per_slab': [524288, 524288, 262144, 262144, 262144, 131072, 131072, 131072, 131072, 65536, 65536, 65536, 65536, 32768, 32768, 16384, 8192, 4096, 4096, 2048, 1024, 512]}
+15:14:17.3740 [INFO] uart5: [output] CANTRIP> [smstats
+15:14:17.3741 [INFO] uart5: [virt:  6.77s (+0.5ms)] CANTRIP> [smstats
+15:14:17.3817 [INFO] uart5: [output] 0 bytes in-use, 2723584 bytes free, 46400 bytes requested, 1343488 overhead
+15:14:17.3818 [INFO] uart5: [virt:  6.77s (+0.8ms)] 0 bytes in-use, 2723584 bytes free, 46400 bytes requested, 1343488 overhead
+15:14:17.3843 [INFO] uart5: [output] 1 slab resets, 0 lhs fragmentation, 0 in-between fragmentation
+15:14:17.3844 [INFO] uart5: [virt:  6.77s (+0.4ms)] 1 slab resets, 0 lhs fragmentation, 0 in-between fragmentation
+15:14:17.3859 [INFO] uart5: [output] 0 objs in-use, 15 objs requested
+15:14:17.3860 [INFO] uart5: [virt:  6.77s (+0.2ms)] 0 objs in-use, 15 objs requested
+15:14:17.3895 [INFO] uart5: [output] CANTRIP> [smdebug
+15:14:17.3896 [INFO] uart5: [virt:  6.77s (+0.5ms)] CANTRIP> [smdebug
+15:14:17.3949 [INFO] uart5: [output] *::[58, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+15:14:17.3950 [INFO] uart5: [virt:  6.77s (+0.4ms)] *::[58, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+15:14:17.3971 [INFO] uart5: [output]  ::[65, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+15:14:17.3971 [INFO] uart5: [virt:  6.77s (+0.3ms)]  ::[65, bits 19] watermark        0 available 524288, max_size_bytes 524288, allocated_bytes: 0, allocated_objects: 0
+15:14:17.3991 [INFO] uart5: [output]  ::[57, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+15:14:17.3992 [INFO] uart5: [virt:  6.77s (+0.4ms)]  ::[57, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4041 [INFO] uart5: [output]  ::[66, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4042 [INFO] uart5: [virt:  6.77s (+0.3ms)]  ::[66, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4065 [INFO] uart5: [output]  ::[62, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4065 [INFO] uart5: [virt:  6.78s (+0.4ms)]  ::[62, bits 18] watermark        0 available 262144, max_size_bytes 262144, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4084 [INFO] uart5: [output]  ::[80, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4085 [INFO] uart5: [virt:  6.78s (+0.4ms)]  ::[80, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4139 [INFO] uart5: [output]  ::[56, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4140 [INFO] uart5: [virt:  6.78s (+0.3ms)]  ::[56, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4174 [INFO] uart5: [output]  ::[67, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4175 [INFO] uart5: [virt:  6.78s (+0.4ms)]  ::[67, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4196 [INFO] uart5: [output]  ::[61, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4196 [INFO] uart5: [virt:  6.78s (+0.3ms)]  ::[61, bits 17] watermark        0 available 131072, max_size_bytes 131072, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4253 [INFO] uart5: [output]  ::[60, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4254 [INFO] uart5: [virt:  6.78s (+0.4ms)]  ::[60, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4275 [INFO] uart5: [output]  ::[79, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4275 [INFO] uart5: [virt:  6.78s (+0.4ms)]  ::[79, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4296 [INFO] uart5: [output]  ::[59, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4296 [INFO] uart5: [virt:  6.78s (+0.3ms)]  ::[59, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4361 [INFO] uart5: [output]  ::[68, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4362 [INFO] uart5: [virt:  6.78s (+0.4ms)]  ::[68, bits 16] watermark        0 available 65536, max_size_bytes 65536, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4387 [INFO] uart5: [output]  ::[78, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4388 [INFO] uart5: [virt:  6.78s (+0.3ms)]  ::[78, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4409 [INFO] uart5: [output]  ::[75, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4410 [INFO] uart5: [virt:  6.78s (+0.4ms)]  ::[75, bits 15] watermark        0 available 32768, max_size_bytes 32768, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4458 [INFO] uart5: [output]  ::[74, bits 14] watermark        0 available 16384, max_size_bytes 16384, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4459 [INFO] uart5: [virt:  6.78s (+0.4ms)]  ::[74, bits 14] watermark        0 available 16384, max_size_bytes 16384, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4479 [INFO] uart5: [output]  ::[76, bits 13] watermark        0 available 8192, max_size_bytes 8192, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4480 [INFO] uart5: [virt:  6.78s (+0.3ms)]  ::[76, bits 13] watermark        0 available 8192, max_size_bytes 8192, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4501 [INFO] uart5: [output]  ::[55, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4502 [INFO] uart5: [virt:  6.78s (+0.4ms)]  ::[55, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4551 [INFO] uart5: [output]  ::[73, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4551 [INFO] uart5: [virt:  6.78s (+0.3ms)]  ::[73, bits 12] watermark        0 available 4096, max_size_bytes 4096, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4573 [INFO] uart5: [output]  ::[72, bits 11] watermark        0 available 2048, max_size_bytes 2048, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4574 [INFO] uart5: [virt:  6.78s (+0.4ms)]  ::[72, bits 11] watermark        0 available 2048, max_size_bytes 2048, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4596 [INFO] uart5: [output]  ::[71, bits 10] watermark        0 available 1024, max_size_bytes 1024, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4596 [INFO] uart5: [virt:  6.78s (+0.3ms)]  ::[71, bits 10] watermark        0 available 1024, max_size_bytes 1024, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4644 [INFO] uart5: [output]  ::[70, bits  9] watermark        0 available 512, max_size_bytes 512, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4645 [INFO] uart5: [virt:  6.78s (+0.4ms)]  ::[70, bits  9] watermark        0 available 512, max_size_bytes 512, allocated_bytes: 0, allocated_objects: 0
+15:14:17.4658 [INFO] uart5: [output] !::[69, bits  8] watermark       32 available 224
+15:14:17.4659 [INFO] uart5: [virt:  6.78s (+0.2ms)] !::[69, bits  8] watermark       32 available 224
+15:14:17.4707 [INFO] uart5: [output] cantrip_memory_manager::memory_manager::Allocation failed on a slab: 0 times. Out of memory thrown 0 times.
+15:14:17.4708 [INFO] uart5: [virt:  6.78s (+0.3ms)] cantrip_memory_manager::memory_manager::Allocation failed on a slab: 0 times. Out of memory thrown 0 times.

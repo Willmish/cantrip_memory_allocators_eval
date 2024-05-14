@@ -5,6 +5,7 @@ import argparse
 from pathlib import Path
 from os import makedirs
 import seaborn as sns
+import numpy as np
 
 def process_lines_from_file(file_path):
     with open(file_path, 'r') as file:
@@ -20,6 +21,9 @@ def process_lines_from_file(file_path):
         except StopIteration:
             print("Not a standalone application workload, chekcing if sequential application workload")
             begin_line_index = next(i for i, line in enumerate(lines) if "replay_seq_app" in line)
+        except StopIteration:
+            print("Not a sequential application workload, checking if concurrent sequential application workload")
+            begin_line_index = next(i for i, line in enumerate(lines) if "replay_concurr_app" in line)
     
     # Process lines after the synthetic workload begins, ignoring all duplicate lines containing "[virt:", and memory failures
     data = []
@@ -33,10 +37,14 @@ def process_lines_from_file(file_path):
             json_str_corrected = json_str.replace("'", '"')  # Correcting for single-quote JSON-like format
             json_data = json.loads(json_str_corrected)
 
-            if all(key in json_data for key in ["bytes requested", "bytes in-use", "lhs fragmentation", "in-between fragmentation"]):
+            if all(key in json_data for key in ["bytes in-use", "slab resets", "untyped_too_small", "oom", "bytes free", "bytes requested", "lhs fragmentation", "in-between fragmentation"]):
                 data.append({
-                    "bytes_requested": json_data["bytes requested"],
                     "bytes_in_use": json_data["bytes in-use"],
+                    "slab_resets":  json_data["slab resets"],
+                    "untyped_too_small":  json_data["untyped_too_small"],
+                    "oom":  json_data["oom"],
+                    "bytes_free": json_data["bytes free"],
+                    "bytes_requested": json_data["bytes requested"],
                     "lhs_fragmentation": json_data["lhs fragmentation"],
                     "in_between_fragmentation": json_data["in-between fragmentation"],
                 })
@@ -72,15 +80,23 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
     }
     )
     # Extracting data for plotting
-    best_bytes_requested = [entry["bytes_requested"] for entry in best_data]
-    best_bytes_in_use = [entry["bytes_in_use"] for entry in best_data]
-    best_lhs_fragmentation = [entry["lhs_fragmentation"] for entry in best_data]
-    best_in_between_fragmentation = [entry["in_between_fragmentation"] for entry in best_data]
+    best_bytes_requested = np.array([entry["bytes_requested"] for entry in best_data])
+    best_slab_resets = np.array([entry["slab_resets"] for entry in best_data])
+    best_oom = [entry["oom"] for entry in best_data]
+    # process oom: mask of True where oom actually ocurred
+    best_oom = np.diff(best_oom, prepend=0) > 0 # prepend a 0 to match dimension (if there was oom on first call, will also catch that)
+    best_bytes_in_use = np.array([entry["bytes_in_use"] for entry in best_data])
+    best_lhs_fragmentation = np.array([entry["lhs_fragmentation"] for entry in best_data])
+    best_in_between_fragmentation = np.array([entry["in_between_fragmentation"] for entry in best_data])
 
-    next_bytes_requested = [entry["bytes_requested"] for entry in next_data]
-    next_bytes_in_use = [entry["bytes_in_use"] for entry in next_data]
-    next_lhs_fragmentation = [entry["lhs_fragmentation"] for entry in next_data]
-    next_in_between_fragmentation = [entry["in_between_fragmentation"] for entry in next_data]
+    next_bytes_requested = np.array([entry["bytes_requested"] for entry in next_data])
+    next_slab_resets = np.array([entry["slab_resets"] for entry in next_data])
+    next_oom = [entry["oom"] for entry in next_data]
+    # process oom: mask of True where oom actually ocurred
+    next_oom = np.diff(next_oom, prepend=0) > 0 # prepend a 0 to match dimension (if there was oom on first call, will also catch that)
+    next_bytes_in_use = np.array([entry["bytes_in_use"] for entry in next_data])
+    next_lhs_fragmentation = np.array([entry["lhs_fragmentation"] for entry in next_data])
+    next_in_between_fragmentation = np.array([entry["in_between_fragmentation"] for entry in next_data])
 
     # Creating separate plots for each metric
     fig, axs = plt.subplots(3, 1, figsize=(14, 21))
@@ -91,7 +107,19 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
     axs[0].set_ylabel('Bytes in Use')
     axs[0].set_xlabel('Bytes Requested')
     axs[0].set_title('Bytes in Use vs. Bytes Requested')
+    # Plot slab resets on same graph, marking OOM for both Best and next fit
+    ax02 = axs[0].twinx()
+    ax02.tick_params(axis="y", labelcolor="tab:blue")
+    ax02.plot(best_bytes_requested, best_slab_resets, label="Best Fit - Slab Resets", marker=',', color="tab:orange", alpha=0.6, linewidth=3)
+    ax02.plot(next_bytes_requested, next_slab_resets, label="Next Fit - Slab Resets", marker=',', color="tab:orange", alpha=0.6, linestyle="dotted", linewidth=3)
+    # Mark OOM, s=[81] is the size for each marker (its area)
+    if np.sum(best_oom) > 0: # only plot if there are points
+        ax02.scatter(best_bytes_requested[best_oom], best_slab_resets[best_oom], s=[225]*np.sum(best_oom), label="Best Fit - Out of Memory", marker='x', color="tab:red", linewidth=2)
+    if np.sum(next_oom) > 0: # only plot if there are points
+        ax02.scatter(next_bytes_requested[next_oom], next_slab_resets[next_oom], s=[225]*np.sum(next_oom), label="Next Fit - Out of Memory", marker='+', color="tab:red", linewidth=2)
+    ax02.set_ylabel("Slab reset count")
     axs[0].grid(True)
+    ax02.grid(False)#, which='both', zorder = axs[0].get_zorder() -1)
 
     # Plot for Watermarking Cons. Fragmentation
     axs[1].plot(best_bytes_requested, best_lhs_fragmentation, label="Best Fit - Watermarking Con. Fragmentation", marker=',', color='red', linewidth=3)
@@ -127,11 +155,12 @@ def plot_metrics(best_data, next_data, args: argparse.Namespace):
 
     # Merge all legends
     handles0, labels0 = axs[0].get_legend_handles_labels()
+    handles02, labels02 = ax02.get_legend_handles_labels()
     handles1, labels1 = axs[1].get_legend_handles_labels()
     handles2, labels2 = axs[2].get_legend_handles_labels()
-    plt.legend(
-        handles0 + handles1 + handles2,
-        labels0 + labels1 + labels2,
+    axs[2].legend(
+        handles0 + handles02 + handles1 + handles2,
+        labels0 + labels02 + labels1 + labels2,
         loc="upper center",
         # to avoid cutting into the text
         borderpad=1,
